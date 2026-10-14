@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+; Enable Internet Connection Sharing (ICS)
+;   PublicProfile  = WLAN        {62201F60-D541-40D7-8EB6-54A5593990EC}  (internet uplink)
+;   PrivateProfile = Ethernet    {2FECC625-D929-47F4-81B3-0C6CBFAB6A6E}  (to Raspberry Pi)
+; Effect: Ethernet becomes 192.168.137.1 and serves DHCP to the Pi.
+; To undo: run Revert-ICS.reg.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\SharedAccess]
+"EnableSharing"=dword:00000001
+"PublicProfile"="{62201F60-D541-40D7-8EB6-54A5593990EC}"
+"PrivateProfile"="{2FECC625-D929-47F4-81B3-0C6CBFAB6A6E}"
+
+; Newer Windows builds use NS_<GUID> key names; write both for compatibility.
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\SharedAccess\NS_{62201F60-D541-40D7-8EB6-54A5593990EC}]
+"EnableSharing"=dword:00000001
+"PrivateProfile"="{2FECC625-D929-47F4-81B3-0C6CBFAB6A6E}"

@@ -1,0 +1,35 @@
+{
+  "complete": true,
+  "first_event_s": 0.07713630699799978,
+  "first_content_s": 0.07735946100001456,
+  "first_reasoning_s": null,
+  "total_s": 0.8057052299991483,
+  "completion_tokens": 32,
+  "after_first_wall_tps": 42.56220234875404,
+  "server_predicted_tps": 42.573820945495896,
+  "prompt_tokens": 51,
+  "evaluated_prompt_tokens": 1,
+  "cached_tokens": 50,
+  "finish_reason": "stop",
+  "content": "```json\n{\n  \"total\": 2 * 1899 + 18,\n  \"currency\": \"CNY\"\n}\n```",
+  "reasoning": "",
+  "usage": {
+    "completion_tokens": 32,
+    "prompt_tokens": 51,
+    "total_tokens": 83,
+    "prompt_tokens_details": {
+      "cached_tokens": 50
+    }
+  },
+  "timings": {
+    "cache_n": 50,
+    "prompt_n": 1,
+    "prompt_ms": 26.779,
+    "prompt_per_token_ms": 26.779,
+    "prompt_per_second": 37.342693901938084,
+    "predicted_n": 32,
+    "predicted_ms": 728.147,
+    "predicted_per_token_ms": 23.488612903225807,
+    "predicted_per_second": 42.573820945495896
+  }
+}

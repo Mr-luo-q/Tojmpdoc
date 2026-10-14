@@ -1,0 +1,171 @@
+{
+  "tools": {
+    "count": 12,
+    "bytes": 4551,
+    "tokens": 1137,
+    "per_tool": [
+      {
+        "name": "HassTurnOn",
+        "schema_bytes": 445,
+        "params": [
+          "name",
+          "area",
+          "floor",
+          "domain",
+          "device_class"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "HassTurnOff",
+        "schema_bytes": 445,
+        "params": [
+          "name",
+          "area",
+          "floor",
+          "domain",
+          "device_class"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "HassCancelAllTimers",
+        "schema_bytes": 62,
+        "params": [
+          "area"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "HassBroadcast",
+        "schema_bytes": 65,
+        "params": [
+          "message"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "HassClimateSetTemperature",
+        "schema_bytes": 154,
+        "params": [
+          "temperature",
+          "area",
+          "name",
+          "floor"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "HassFanSetSpeed",
+        "schema_bytes": 309,
+        "params": [
+          "name",
+          "area",
+          "floor",
+          "domain",
+          "percentage"
+        ],
+        "required": [],
+        "constrained": [
+          "percentage"
+        ]
+      },
+      {
+        "name": "HassListAddItem",
+        "schema_bytes": 90,
+        "params": [
+          "item",
+          "name"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "HassListCompleteItem",
+        "schema_bytes": 90,
+        "params": [
+          "item",
+          "name"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "HassListRemoveItem",
+        "schema_bytes": 90,
+        "params": [
+          "item",
+          "name"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "GetDateTime",
+        "schema_bytes": 36,
+        "params": [],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "todo_get_items",
+        "schema_bytes": 283,
+        "params": [
+          "todo_list",
+          "status"
+        ],
+        "required": [],
+        "constrained": [
+          "todo_list",
+          "status"
+        ]
+      },
+      {
+        "name": "GetLiveContext",
+        "schema_bytes": 417,
+        "params": [
+          "name",
+          "domain",
+          "area"
+        ],
+        "required": [],
+        "constrained": []
+      }
+    ]
+  },
+  "prompts": {
+    "count": 1,
+    "bytes": 83,
+    "tokens": 20
+  },
+  "resources": {
+    "count": 1,
+    "bytes": 259,
+    "tokens": 64
+  },
+  "calls": [
+    {
+      "tool": "GetLiveContext",
+      "note": "全屋上下文快照",
+      "is_error": false,
+      "elapsed_ms": 56,
+      "bytes": 2803,
+      "tokens": 697,
+      "head": "{\"success\": true, \"result\": \"Live Context: An overview of the areas and the devices in this smart home:\\n- names: Air Conditioner Air Conditioner\\n  domain: climate\\n  state: cool\\n  areas: living_roo"
+    },
+    {
+      "tool": "HassTurnOn",
+      "note": "不存在的名字（错误输出体量）",
+      "is_error": true,
+      "elapsed_ms": 57,
+      "bytes": 479,
+      "tokens": 119,
+      "head": "Error calling tool: <MatchFailedError result=MatchTargetsResult(is_match=False, no_match_reason=<MatchFailedReason.NAME: 1>, states=[], no_match_name=None, areas=[], floors=[]), constraints=MatchTarge"
+    }
+  ]
+}

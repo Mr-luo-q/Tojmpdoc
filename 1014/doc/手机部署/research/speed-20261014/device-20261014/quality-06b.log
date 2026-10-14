@@ -1,0 +1,159 @@
+模型: /data/data/com.termux/files/home/models/Qwen3-0.6B-Q4_K_M.gguf
+时间: 2026-10-14 14:03:52
+固定: -t 4 -ngl 0 -dev none -nkvo --no-op-offload -c 2048 -fa on -n 128 -st --reasoning off
+
+======================= kv=f16  题01 =======================
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。
+```json
+{
+  "total": "30",
+  "currency": "CNY"
+}
+```
+
+[ Prompt: 61.6 t/s | Generation: 34.3 t/s ]
+
+
+Exiting...
+
+======================= kv=f16  题02 =======================
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 提取订单信息，只输出JSON。原文：订单号A102，收件人李华，电话13800138000，商品蓝色杯子2个。字段order_id、name、phone、item、quantity。
+```json
+{
+  "order_id": "A102",
+  "name": "李华",
+  "phone": "13800138000",
+  "item": "蓝色杯子",
+  "quantity": 2
+}
+```
+
+[ Prompt: 61.2 t/s | Generation: 34.0 t/s ]
+
+
+Exiting...
+
+======================= kv=f16  题06 =======================
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 计算17乘以23，再减去19。只输出结果。
+17 × 23 = 391  
+391 − 19 = 372  
+
+**输出结果：**  
+**372**
+
+[ Prompt: 61.3 t/s | Generation: 35.0 t/s ]
+
+
+Exiting...
+
+======================= kv=q8_0  题01 =======================
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。
+```json
+{
+  "total": "36",
+  "currency": "CNY"
+}
+```
+
+[ Prompt: 60.7 t/s | Generation: 34.8 t/s ]
+
+
+Exiting...
+
+======================= kv=q8_0  题02 =======================
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 提取订单信息，只输出JSON。原文：订单号A102，收件人李华，电话13800138000，商品蓝色杯子2个。字段order_id、name、phone、item、quantity。
+```json
+{
+  "order_id": "A102",
+  "name": "李华",
+  "phone": "13800138000",
+  "item": "蓝色杯子",
+  "quantity": 2
+}
+```
+
+[ Prompt: 61.6 t/s | Generation: 34.8 t/s ]
+
+
+Exiting...
+
+======================= kv=q8_0  题06 =======================
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 计算17乘以23，再减去19。只输出结果。
+计算 17 × 23，再减去 19 的结果是：
+
+$$ 17 \times 23 = 391 $$
+$$ 391 - 19 = 372 $$
+
+所以，最终答案是：**372**。
+
+[ Prompt: 61.1 t/s | Generation: 35.1 t/s ]
+
+
+Exiting...
+
+======================= fa off + f16  题01（对照基线） =======================
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。
+```json
+{"total": 3*12 + 5, "currency": "CNY"}
+```
+
+[ Prompt: 54.2 t/s | Generation: 30.7 t/s ]
+
+
+Exiting...
+
+文件: /data/data/com.termux/files/home/quality-06b.log

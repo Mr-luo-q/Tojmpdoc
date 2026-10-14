@@ -1,0 +1,141 @@
+############ 0. 采集时间与运行身份 ############
+2026-10-14 12:29:58 +0800
+uid=10300 user=u0_a300
+termux_prefix=/data/data/com.termux/files/usr
+
+############ 1. 系统与 SoC ############
+ro.build.version.release                   = 16
+ro.build.version.sdk                       = 36
+ro.build.version.incremental               = OS3.0.305.0.WNLCNXM
+ro.soc.model                               = MT6897
+ro.soc.manufacturer                        = Mediatek
+ro.product.model                           = 2311DRK48C
+ro.product.device                          = duchamp
+ro.product.board                           = duchamp
+ro.build.version.security_patch            = 2026-08-01
+persist.sys.power.default.powermode        = enhance
+ro.thermal.iec.enable                      = true
+kernel            = 6.1.138-android14-11-g6ab8c9a86a33-ab14396278
+
+############ 2. CPU 拓扑与特性 ############
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti
+nproc = 8
+cpu0 max=2200000 kHz
+cpu1 max=2200000 kHz
+cpu2 max=2200000 kHz
+cpu3 max=2200000 kHz
+cpu4 max=3200000 kHz
+cpu5 max=3200000 kHz
+cpu6 max=3200000 kHz
+cpu7 max=3350000 kHz
+
+############ 3. 内存 ############
+MemTotal:       11595328 kB
+MemAvailable:    7128436 kB
+SwapTotal:      12582908 kB
+SwapFree:       11401468 kB
+
+############ 4. llama.cpp 与相关包版本 ############
+llama-cpp                      0.6.0
+llama-cpp-backend-vulkan       0.6.0
+llama-cpp-backend-opencl       
+python                         3.14.6-1
+libc++                         30
+clang                          21.1.8-3
+cmake                          (未安装)
+libandroid-spawn               0.3
+--- llama-bench --version ---
+load_backend: loaded CPU backend from /data/data/com.termux/files/usr/lib/libggml-cpu.so
+version: 0.6.0 (build 0, commit unknown)
+built with Clang 21.0.0 for Android aarch64
+--- 二进制哈希 ---
+cca62395789a0566a6c3577172e9cbec48784d6c4f58ce8bceb3e1157f705160  /data/data/com.termux/files/home/../usr/bin/llama-bench
+162ef501f53d9aa1aed1617f12415f16d06554ab40a156932b26681aca0d074e  /data/data/com.termux/files/home/../usr/bin/llama-cli
+9701e3bedb96945b57a2042a77cefa38dbb66c8cf89293ece3edbcab75352f91  /data/data/com.termux/files/home/../usr/bin/llama-server
+
+############ 5. llama-bench 支持的参数（决定复现脚本能否使用） ############
+load_backend: loaded CPU backend from /data/data/com.termux/files/usr/lib/libggml-cpu.so
+usage: llama-bench [options]
+
+options:
+  -h, --help
+  --version                                   show version and build info
+  --numa <distribute|isolate|numactl>         numa mode (default: disabled)
+  -r, --repetitions <n>                       number of times to repeat each test (default: 5)
+  --prio <-1|0|1|2|3>                         process/thread priority (default: 0)
+  --delay <0...N> (seconds)                   delay between each test (default: 0)
+  -o, --output <csv|json|jsonl|md|sql>        output format printed to stdout (default: md)
+  -oe, --output-err <csv|json|jsonl|md|sql>   output format printed to stderr (default: none)
+  --list-devices                              list available devices and exit
+  -v, --verbose                               verbose output
+  --progress                                  print test progress indicators
+  --no-warmup                                 skip warmup runs before benchmarking
+  -fitt, --fit-target <MiB>                   fit model to device memory with this margin per device in MiB (default: off)
+  -fitc, --fit-ctx <n>                        minimum ctx size for --fit-target (default: 4096)
+
+test parameters:
+  -m, --model <filename>                            (default: models/7B/ggml-model-q4_0.gguf)
+  -hf, -hfr, --hf-repo <user>/<model>[:quant]       Hugging Face model repository; quant is optional, case-insensitive
+                                                    default to Q4_K_M, or falls back to the first file in the repo if Q4_K_M doesn't exist.
+                                                    example: ggml-org/GLM-4.7-Flash-GGUF:Q4_K_M
+                                                    (default: unused)
+  -hff, --hf-file <file>                            Hugging Face model file. If specified, it will override the quant in --hf-repo
+                                                    (default: unused)
+  -hft, --hf-token <token>                          Hugging Face access token
+                                                    (default: value from HF_TOKEN environment variable)
+  --offline                                         Offline mode: forces use of cache, prevents network access
+                                                    (default: disabled)
+  -p, --n-prompt <n>                                (default: 512)
+  -n, --n-gen <n>                                   (default: 128)
+  -pg <pp,tg>                                       (default: )
+  -d, --n-depth <n>                                 (default: 0)
+  -b, --batch-size <n>                              (default: 2048)
+  -ub, --ubatch-size <n>                            (default: 512)
+  -ctk, --cache-type-k <t>                          (default: f16)
+  -ctv, --cache-type-v <t>                          (default: f16)
+  -t, --threads <n>                                 (default: 8)
+  -C, --cpu-mask <hex,hex>                          (default: 0x0)
+  --cpu-strict <0|1>                                (default: 0)
+  --poll <0...100>                                  (default: 50)
+  -ngl, --n-gpu-layers <n>                          (default: -1)
+  -ncmoe, --n-cpu-moe <n>                           (default: 0)
+  -sm, --split-mode <none|layer|row|tensor>         (default: layer)
+  -mg, --main-gpu <i>                               (default: 0)
+  -nkvo, --no-kv-offload <0|1>                      (default: 0)
+  -fa, --flash-attn <on|off|auto>                   (default: auto)
+  -dev, --device <dev0/dev1/...>                    (default: auto)
+  -lm, --load-mode <auto|none|mmap|mlock|mmap+mlock|dio> (default: auto)
+  -lzm, --lazy-mode <on|auto|off>                   (default: auto)
+  -embd, --embeddings <0|1>                         (default: 0)
+  -ts, --tensor-split <ts0/ts1/..>                  (default: 0)
+  -ot --override-tensor <tensor name pattern>=<buffer type>;...
+                                                    (default: disabled)
+  -nopo, --no-op-offload <0|1>                      (default: 0)
+  --no-host <0|1>                                   (default: 0)
+  --repack <0|1>                                    (default: 1)
+
+Multiple values can be given for each parameter by separating them with ','
+or by specifying the parameter multiple times. Ranges can be given as
+'first-last' or 'first-last+step' or 'first-last*mult'.
+
+############ 6. 模型文件 ############
+total 3814576
+-rw-rw-rw-. 1 u0_a300 u0_a300  396705472 Oct  9 16:13 Qwen3-0.6B-Q4_K_M.gguf
+-rw-rw-rw-. 1 u0_a300 u0_a300 1107409472 Oct  9 20:59 Qwen3-1.7B-Q4_K_M.gguf
+-rw-rw-rw-. 1 u0_a300 u0_a300 1280835840 Oct  9 21:02 Qwen3.5-2B-Q4_K_M.gguf
+-rw-rw-rw-. 1 u0_a300 u0_a300 1117320736 Oct  9 16:14 qwen2.5-1.5b-instruct-q4_k_m.gguf
+--- sha256（大文件，需要一点时间） ---
+ac2d97712095a558e31573f62f466a3f9d93990898b0ec79d7c974c1780d524a  /data/data/com.termux/files/home/models/Qwen3-0.6B-Q4_K_M.gguf
+6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e  /data/data/com.termux/files/home/models/qwen2.5-1.5b-instruct-q4_k_m.gguf
+
+############ 7. 是否有推理进程在跑 ############
+没有可见的 llama 进程
+
+############ 8. 温度与电源节点（可能被权限拒绝） ############
+--- /sys/class/thermal ---
+ls: cannot open directory '/sys/class/thermal': Permission denied
+--- /sys/class/power_supply ---
+ls: cannot open directory '/sys/class/power_supply': Permission denied
+
+############ 快照结束 ############
+文件: /data/data/com.termux/files/home/speed-environment/env-snapshot.log

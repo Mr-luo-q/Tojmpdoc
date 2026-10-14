@@ -1,0 +1,159 @@
+模型: /data/data/com.termux/files/home/models/Qwen3-0.6B-Q4_K_M.gguf
+时间: 2026-10-14 14:02:53
+固定: -t 4 -ngl 0 -dev none -nkvo --no-op-offload -c 2048 -fa on -n 96 -st
+
+======================= kv=f16  题01 =======================
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。
+
+[Start thinking]
+
+Okay, let's tackle this problem. So, the user wants me to output a JSON with two fields: total and currency. The currency is fixed as CNY. Now, the user mentioned that Zhang bought 3 cups each priced at 12 yuan. Then he paid 5 yuan for freight. 
+
+First, I need to calculate the total cost. There are three cups at 12 each, so 3 times 12. Let me do
+
+[ Prompt: 61.5 t/s | Generation: 33.8 t/s ]
+
+
+Exiting...
+
+======================= kv=f16  题02 =======================
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 提取订单信息，只输出JSON。原文：订单号A102，收件人李华，电话13800138000，商品蓝色杯子2个。字段order_id、name、phone、item、quantity。
+
+[Start thinking]
+
+好的，用户让我提取订单信息，只输出JSON，原文是订单号A102，收件人李华，电话13800138000，商品蓝色杯子2个，字段有order_id、name、phone、item、quantity。首先，我需要确认每个字段对应的内容是否正确。订单号是A102，收件人是李华，电话是138001
+
+[ Prompt: 61.2 t/s | Generation: 33.6 t/s ]
+
+
+Exiting...
+
+======================= kv=f16  题06 =======================
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 计算17乘以23，再减去19。只输出结果。
+
+[Start thinking]
+
+嗯，我现在要计算17乘以23，然后再减去19，只输出结果。首先，我得确定这个过程是否正确。让我先仔细想想，有没有可能哪里出错了。首先，17乘23，这一步应该怎么算呢？我记得乘法的话，可以拆分成10乘23加上7乘23，这样计算起来可能更简单。不过，可能直接计算的话，结果会更直观
+
+[ Prompt: 60.7 t/s | Generation: 34.5 t/s ]
+
+
+Exiting...
+
+======================= kv=q8_0  题01 =======================
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。
+
+[Start thinking]
+
+好的，我现在需要处理用户的问题，按照要求只输出JSON，不要代码框。首先，用户张三买了3个单价12元的杯子，还付了5元运费。输出字段是total和currency，currency固定为CNY。
+
+首先，我需要确定总金额。单价是12元，买了3个，所以3乘以12等于36元。运费是5元，所以总金额应该是36加
+
+[ Prompt: 62.7 t/s | Generation: 34.5 t/s ]
+
+
+Exiting...
+
+======================= kv=q8_0  题02 =======================
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 提取订单信息，只输出JSON。原文：订单号A102，收件人李华，电话13800138000，商品蓝色杯子2个。字段order_id、name、phone、item、quantity。
+
+[Start thinking]
+
+好的，用户让我提取订单信息，并只输出JSON，原文是订单号A102，收件人李华，电话13800138000，商品蓝色杯子2个，要选字段order_id、name、phone、item、quantity。首先，我需要仔细看看这些信息对应的字段是否正确对应。
+
+订单号A102对应order_id，是的。收件人李华对应name
+
+[ Prompt: 61.8 t/s | Generation: 34.6 t/s ]
+
+
+Exiting...
+
+======================= kv=q8_0  题06 =======================
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 计算17乘以23，再减去19。只输出结果。
+
+[Start thinking]
+
+嗯，我现在需要计算17乘以23，再减去19，只输出结果。好的，首先我应该先处理乘法部分，然后是减法。不过让我仔细想想，避免出错。
+
+首先，17乘以23。我记得乘法的时候，可以分开计算，或者用竖式。比如，17乘20是340，然后加上17乘3，也就是51，所以
+
+[ Prompt: 60.9 t/s | Generation: 35.1 t/s ]
+
+
+Exiting...
+
+======================= fa off + f16  题01（对照基线） =======================
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。
+
+[Start thinking]
+
+好的，用户让我输出JSON，而且要只输出JSON，不能有代码框。张三买了三个单价12元的杯子，还付了5元运费。需要确定total和currency，currency固定为CNY。
+
+首先，我需要计算总金额。三个杯子每个12元，所以总共有3乘以12等于36元。加上运费5元，总应该是41元。所以total应该是41，currency
+
+[ Prompt: 54.1 t/s | Generation: 30.5 t/s ]
+
+
+Exiting...
+
+文件: /data/data/com.termux/files/home/quality-06.log

@@ -1,0 +1,1 @@
+只输出JSON，不要代码框。李四买了2台单价1899元的显示器，运费18元。输出字段total和currency，currency固定为CNY。

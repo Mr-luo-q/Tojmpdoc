@@ -1,0 +1,55 @@
+{
+  "model": "local",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are a voice assistant for Home Assistant. Use the provided tools to control devices."
+    },
+    {
+      "role": "user",
+      "content": "打开客厅的灯"
+    }
+  ],
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "HassTurnOn",
+        "description": "Turns on a device or entity",
+        "parameters": {
+          "type": "object",
+          "properties": { "name": { "type": "string", "description": "entity name" } },
+          "required": ["name"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "HassTurnOff",
+        "description": "Turns off a device or entity",
+        "parameters": {
+          "type": "object",
+          "properties": { "name": { "type": "string", "description": "entity name" } },
+          "required": ["name"]
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "HassGetState",
+        "description": "Gets the state of an entity",
+        "parameters": {
+          "type": "object",
+          "properties": { "name": { "type": "string", "description": "entity name" } },
+          "required": ["name"]
+        }
+      }
+    }
+  ],
+  "tool_choice": "auto",
+  "stream": true,
+  "max_tokens": 512,
+  "temperature": 0.7
+}

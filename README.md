@@ -1,0 +1,94 @@
+# Tojmpdoc
+
+交付文档归档仓库。按**产出日期**分目录（`MMDD`，例如 `1012` 就是 10 月 12 日），每个日期目录里有一个 `doc\`，把当天产出的文档、配套脚本和实验证据原样放进去，原文件名、原相对路径都不改。
+
+拉取：
+
+```powershell
+git clone https://github.com/Mr-luo-q/Tojmpdoc.git
+```
+
+这是**私有**仓库，用你自己的 GitHub 账号（`Mr-luo-q`）拉就行。
+
+## 目录长什么样
+
+```text
+Tojmpdoc/
+├─ README.md        本文件：总览、日期索引、归档规则
+├─ source.md        未入库内容登记（体积大的、第三方的、含本机口令的）
+├─ .gitignore       兜底：模型权重、密钥、缓存、安装包
+├─ tools/
+│   ├─ collect.py   归档脚本：扫描来源工程 → 按日期复制 → 写索引
+│   └─ collect.md   collect.py 的说明（输入、输出、判定规则）
+└─ MMDD/
+    ├─ README.md    当天索引：主题 + 文件清单（脚本生成）
+    └─ doc/
+        └─ <来源工程>/
+            └─ <原相对路径>
+```
+
+`doc\` 下面按来源工程再分一层，是为了保留出处：看到 `1012/doc/simuhome-ljb/_work/07_大模型接入与E路线实测.md`，就知道它原本在 `D:\项目\simuhome-ljb\_work\` 里。脚本和它的同名 `.md` 放在一起，不拆开。
+
+## 日期索引
+
+| 日期 | 来源工程 | 文件数 | 内容 |
+| --- | --- | --- | --- |
+| 0922 | 手机部署 | 1 | 手机部署工程从模板继承的 `AGENTS.md` |
+| 0929 | 树莓派 | 2 | SD 卡烧录脚本（`raw-write.py`、`write-image.ps1`） |
+| 0930 | 树莓派 | 4 | 部署报告、`pi-bench.sh`、`gguf-info.py`、benchmark 原始输出 |
+| 1002 | 树莓派 | 4 | HomeAssistant 容器部署记录、`ha-ws.ps1`、MCP demo |
+| 1003 | 手机部署 | 24 | Termux + llama.cpp 的调研报告、部署总结、构建与服务脚本、第一版文档包 |
+| 1004 | simuhome-ljb | 16 | V2 接入小米后的设计方案：记忆模块、时间调度、交付接口、辅助调研 |
+| 1009 | 手机部署 69 / 树莓派 1 | 70 | CPU 实测、GPU-NPU 探测与加速、交接文档、四模型对比、Token 速率详表 |
+| 1010 | simuhome-ljb 268 / 手机部署 6 | 274 | `deploy` 五份部署文档、七份跨会话上下文总结、本地工具脚本、`finally new paper` 论文资料、接入记录 01-06 |
+| 1011 | simuhome-ljb | 2 | 蓝牙音箱桥的两个早期脚本 |
+| 1012 | simuhome-ljb 59 / 树莓派 1 | 60 | MQTT broker、蓝牙音箱桥、米家 / 美的 / BLE / Zigbee 探测、大模型经 MCP 的 E 路线实测、当前问题清单 |
+| 1013 | simuhome-ljb 7 / 树莓派 7 | 14 | 端侧前缀缓存测评方案与实测、复现工具；树莓派有线直连排障手册 |
+| 1014 | 手机部署 127 / simuhome-ljb 11 | 138 | 端侧方案 B（房间信息前置）与交接包、手机提速调研与复现手册、真机实测结果；智能家居的当前问题清单、蓝牙桥与 Zigbee 总报告、HA 接口脚本 |
+
+合计 607 个文件，13 MB 左右。
+
+## 归档规则
+
+```text
+收：          .md 文档、同名配套脚本（.py/.ps1/.sh/.cmd/.bat）、配置（.yaml/.json）、
+              小体量证据（.txt/.tsv/.csv/.log）、交付用的压缩包（≤ 2 MB）
+单文件上限：  文本 512 KB，压缩包 2 MB，超了就不入库，登记进 source.md
+不收：        模型权重（gguf/safetensors 等）、浏览器 profile、第三方组件源码、
+              运行时数据库、离线安装包、PDF、含口令的设备配置
+日期怎么定：  取文件自身的修改时间；有一批文件的时间戳是 git 检出时间（1010 21:34），
+              这批按内容判断直接写死日期（finally new paper 的 10_04 目录 → 1004，其余 → 1010）
+脱敏：        本机设备口令（HA 登录口令、手机热点口令、树莓派 SSH 口令）在仓库里的副本中
+              替换成 <...已脱敏>，本机原件不动，替换清单在 source.md 第 4 节
+```
+
+未入库的东西不是丢了，`source.md` 里列了路径、体积和原因，需要的时候回本机按路径取。
+
+## 这份文档的信度
+
+基于 `D:\项目\simuhome-ljb`（`_work`、`deploy`、`context`、`_tools`、`finally new paper`）、`D:\项目\树莓派`、`D:\项目\手机部署` 三个工程的实际文件生成，核对时间 2026-10-14。
+
+已核对：每个日期目录里的文件都能在来源工程里找到同名同路径的原件；`tools\collect.py` 可重复运行，跑完结果一致；`source.md` 里的体积与文件数是脚本现算的。
+
+尚未验证：`1010` 那批（`context`、`deploy`、`_tools`、`finally new paper`）的本机时间戳已经被 git 检出覆盖，实际产出日期只能靠文档内容和目录名推断，`1010` 是推断值而不是事实。`finally new paper` 里的 `10_04V2接入小米后设计方案` 目录名自带 `10_04`，因此单独归到 `1004`，同样属于推断。
+
+## 说明四点
+
+`1005` 没有内容。本机找不到 10 月 5 日产出的任何文档，不是你漏看了。
+
+`D:\项目\autodl-tmp`（科研主线文档：训练数据、接口交接、UbiComp 讨论）没有并进来。它自己有 git 远端 `juezhan340/autodl-tmp`，而且整个工作区的文件时间戳都被 git 检出覆盖成同一时刻，没法按日期归档。要并的话说一声，我把它按内容日期拆一遍。
+
+代码不在这个仓库里。智能家居的工程本体（HA 配置、MQTT/MCP 工程、部署脚本）在 `Mr-luo-q/simuhome-ljb`，本仓库只镜像它的文档和脚本副本。
+
+本机设备口令在入库时被替换掉了。HA 的登录口令、手机热点口令、树莓派的 SSH 口令当初被顺手写进了几份文档，归档副本里统一换成 `<...已脱敏>`，本机原件一个字没动。规则写在 `tools\collect.py` 的 `GLOBAL_REDACT` 里，每次跑归档都会重新过一遍（包括早先留下的快照），替换清单在 `source.md` 第 4 节。这也让仓库可以公开。
+
+## 新增一天
+
+```powershell
+cd D:\项目\Tojmpdoc
+python tools\collect.py            # 实际归档
+python tools\collect.py --dry-run  # 先看一眼会做什么
+git add -A; git commit -m "archive: MMDD"; git push
+```
+
+新日期的主题一句话写在 `tools\collect.py` 的 `DATE_NOTES` 里，脚本会把它写进当天 `README.md` 的首行。

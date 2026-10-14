@@ -1,0 +1,2330 @@
+<!doctype html><html lang="en"><head>
+    <meta charset="utf-8">
+
+    <title>MediaTek | Dimensity 8300 | High-Performance and Efficiency</title>
+
+    <link rel="shortcut icon" href="https://www.mediatek.com/hubfs/fav-icon.ico"> 
+    
+    <meta name="description" content="The Dimensity 8300 features Armv9 CPU architecture and Arm Mali-G615 GPU, delivering faster speeds, power efficiency, and an incredible user experience.">
+    
+    
+    
+    
+
+    
+    
+    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:description" content="The Dimensity 8300 features Armv9 CPU architecture and Arm Mali-G615 GPU, delivering faster speeds, power efficiency, and an incredible user experience.">
+    <meta property="og:title" content="MediaTek | Dimensity 8300 | High-Performance and Efficiency">
+    <meta name="twitter:description" content="The Dimensity 8300 features Armv9 CPU architecture and Arm Mali-G615 GPU, delivering faster speeds, power efficiency, and an incredible user experience.">
+    <meta name="twitter:title" content="MediaTek | Dimensity 8300 | High-Performance and Efficiency">
+
+    
+
+    
+  <script id="hs-search-input__valid-content-types" type="application/json" nonce="9balE2NaWY1IRGpmPAuFrw==">
+    [
+      
+        "SITE_PAGE",
+      
+        "LANDING_PAGE",
+      
+        "BLOG_POST",
+      
+        "LISTING_PAGE",
+      
+        "KNOWLEDGE_ARTICLE",
+      
+        "HS_CASE_STUDY"
+      
+    ]
+  </script>
+
+    <style>
+a.cta_button{-moz-box-sizing:content-box !important;-webkit-box-sizing:content-box !important;box-sizing:content-box !important;vertical-align:middle}.hs-breadcrumb-menu{list-style-type:none;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px}.hs-breadcrumb-menu-item{float:left;padding:10px 0px 10px 10px}.hs-breadcrumb-menu-divider:before{content:'›';padding-left:10px}.hs-featured-image-link{border:0}.hs-featured-image{float:right;margin:0 0 20px 20px;max-width:50%}@media (max-width: 568px){.hs-featured-image{float:none;margin:0;width:100%;max-width:100%}}.hs-screen-reader-text{clip:rect(1px, 1px, 1px, 1px);height:1px;overflow:hidden;position:absolute !important;width:1px}
+</style>
+
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/template_assets/1/161694198809/1791876449944/template_main.min.css">
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/template_assets/1/178264772918/1791876458127/template_magnific_popup.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/template_assets/1/161694187382/1791876452810/template_theme-overrides.css">
+<link rel="stylesheet" href="https://7052064.fs1.hubspotusercontent-na1.net/hubfs/7052064/hub_generated/module_assets/1/-2712622/1791562990031/module_search_input.min.css">
+<link rel="stylesheet" href="/hs/hsstatic/cos-LanguageSwitcher/static-1.336/sass/LanguageSwitcher.css">
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/164238723404/1784966798944/module_breadcrumbs.min.css">
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/161694198833/1780135382296/module_bookmarks.min.css">
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/165902652047/1790055783407/module_hero-banner-level-3.min.css">
+
+
+<style>
+  
+
+</style>
+
+
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/165906680957/1778741887248/module_infographic-section.min.css">
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/165906681726/1770290574880/module_top-content-section.min.css">
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/165906716194/1788855424306/module_product-info.min.css">
+
+
+<style>
+
+  .prod_info{
+    background-color: rgba(241, 242, 242, 1.0 );
+  }
+
+  @media screen and (min-width:768px){
+    .prod_info._moduleproduct_info .page-center{
+      padding-top: 90px;
+padding-bottom: 90px;
+
+    }
+  }
+
+</style>
+
+
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/165900437918/1782366889186/module_accordian-section.min.css">
+
+<style>
+  .acc_sec._moduleaccordian_section{
+    background-color: rgba(255, 255, 255, 1.0 );
+  }
+  ._moduleaccordian_section .top_cont{
+    text-align: LEFT
+
+  }
+  ._moduleaccordian_section .page-center{
+    padding-top: 90px;
+padding-bottom: 90px;
+
+  }
+</style>
+
+<link rel="stylesheet" href="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/165913811617/1790316262450/module_product-specifications.min.css">
+
+
+<style>
+
+  
+  @media screen and (min-width:768px){
+    .product_specifications{
+      padding-top: 90px;
+padding-bottom: 90px;
+
+    }
+  }
+  
+
+
+  
+
+</style>
+
+
+    
+
+    
+    <link rel="canonical" href="https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300">
+
+<meta name="google-site-verification" content="ljbeBr-s82925qDO_ZEJrA3QJnN9TjbxDkYEhekULHc">
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+
+<script src="https://code.jquery.com/jquery-migrate-3.4.1.min.js" integrity="sha512-jWvlRVCKHDgni4rXgMN1iuSKJeThLu5EM3WqVgMdmzVvjJDyLU8lEUD6P2VgOvQFIxZeM8ri4tYvx47BBuPXMQ==" crossorigin="anonymous" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+
+
+
+
+<script nonce="9balE2NaWY1IRGpmPAuFrw==">
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+
+
+  // Determine actual values based on your own requirements, 
+  gtag('consent', 'default', {
+    'analytics_storage': 'denied',
+    'ad_storage': 'denied',
+    'ad_user_data': 'denied',
+    'ad_personalization': 'denied',
+    // Use region, to specifiy where this default should be applied.
+    'region': ["AT", "BE", "BG", "HR", "CY", "CZ", "DK", "EE", "FI", "FR",
+               "DE", "GR", "HU", "IS", "IE", "IT", "LV", "LI", "LT", "LU",
+               "MT", "NL", "NO", "PL", "PT", "RO", "SK", "SI", "ES", "SE",
+               "CH"
+              ]
+  });
+
+  // Step 3: This snippet sends consent updates from the HubSpot cookie banner to Google's tags using Consent Mode v2
+  var _hsp = window._hsp = window._hsp || []; 
+  _hsp.push(['addPrivacyConsentListener', function(consent) {
+    var hasAnalyticsConsent = consent && (consent.allowed || (consent.categories && consent.categories.analytics));
+    var hasAdsConsent = consent && (consent.allowed || (consent.categories && consent.categories.advertisement));
+
+    gtag('consent', 'update', {
+      'ad_storage': hasAdsConsent ? 'granted' : 'denied',
+      'analytics_storage': hasAnalyticsConsent ? 'granted' : 'denied',
+      'ad_user_data': hasAdsConsent ? 'granted' : 'denied',
+      'ad_personalization': hasAdsConsent ? 'granted' : 'denied'
+    });
+  }]);
+</script>
+
+<!-- Google Tag Manager -->
+<script nonce="9balE2NaWY1IRGpmPAuFrw==">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T6ZB69WT');</script>
+<!-- End Google Tag Manager -->
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-840382713" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<script nonce="9balE2NaWY1IRGpmPAuFrw==">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-840382713');
+</script>
+
+<!-- Meta Pixel Code -->
+<script nonce="9balE2NaWY1IRGpmPAuFrw==">
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '4459563920977321');
+fbq('track', 'PageView');
+</script>
+
+<!-- End Meta Pixel Code -->
+
+
+
+
+
+  
+
+
+<meta property="og:image" content="https://www.mediatek.com/hubfs/MediaTek%20Assets/Images/Static%20Images/Ghosted%20M%201200X%20630.jpg">
+
+<meta property="og:url" content="https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="content-language" content="en">
+<link rel="alternate" hreflang="en" href="https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300">
+<link rel="alternate" hreflang="es" href="https://www.mediatek.com/es/products/smartphones/mediatek-dimensity-8300">
+<link rel="alternate" hreflang="ja-jp" href="https://www.mediatek.com/ja-jp/products/smartphones/mediatek-dimensity-8300">
+<link rel="alternate" hreflang="zh-cn" href="https://www.mediatek.com/zh-cn/products/smartphones/mediatek-dimensity-8300">
+<link rel="alternate" hreflang="zh-tw" href="https://www.mediatek.com/zh-tw/products/smartphones/mediatek-dimensity-8300">
+
+
+
+
+
+
+
+    
+    <script type="application/ld+json" nonce="9balE2NaWY1IRGpmPAuFrw==">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.mediatek.com/#organization",
+  "name": "MediaTek Inc.",
+  "alternateName": "MediaTek",
+  "url": "https://www.mediatek.com/",
+  "logo": "https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=195&height=24&name=MediaTek-Logo.png",
+  "image": "https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=195&height=24&name=MediaTek-Logo.png",
+  "description": "MediaTek powers smarter devices with cutting-edge chipsets for smartphones, smart homes, automotive, IoT, and more. Discover innovation that connects.",
+  "foundingDate": "1997",
+  "foundingLocation": {
+    "@type": "Place",
+    "name": "Hsinchu, Taiwan"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No. 1, Dusing 1st Rd., Hsinchu Science Park",
+    "addressLocality": "Hsinchu City",
+    "postalCode": "30078",
+    "addressCountry": "TW"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Customer Support",
+    "url": "https://www.mediatek.com/company/contact-us"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/mediatek/",
+    "https://www.facebook.com/MediaTek",
+    "https://x.com/MediaTek",
+    "https://www.youtube.com/@MediaTek"
+  ],
+  "areaServed": {
+    "@type": "Place",
+    "name": "Worldwide"
+  }
+}
+    </script>
+
+    <script id="webpage" type="application/ld+json" data-application="ld+json" nonce="9balE2NaWY1IRGpmPAuFrw==">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+
+  "inLanguage": "en",
+
+  "name": "MediaTek | Dimensity 8300 | High-Performance and Efficiency",
+
+  
+  "description": "The Dimensity 8300 features Armv9 CPU architecture and Arm Mali-G615 GPU, delivering faster speeds, power efficiency, and an incredible user experience.",
+  
+
+  "mainEntityOfPage": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300",
+
+  "url": "https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300"
+}
+    </script> 
+
+    
+  <meta name="generator" content="HubSpot"></head>
+  <body class="lang_en">
+
+    <div class="body-wrapper   hs-content-id-167120021069 hs-site-page page ">
+      
+      <div class="header_wrapper">
+        
+        <div data-global-resource-path="MediaTek_Mar_2024/templates/partials/header.html"><header class="header en_site">
+  <div class="header-container full-container hs-skip-lang-url-rewrite">
+    <div class="logo-wrapper">
+       
+      <div id="hs_cos_wrapper_header_logo" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <span id="hs_cos_wrapper_header_logo_hs_logo_widget" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_logo" style="" data-hs-cos-general-type="widget" data-hs-cos-type="logo"><a href="https://www.mediatek.com/" id="hs-link-header_logo_hs_logo_widget" style="border-width:0px;border:0px;"><img src="https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=130&amp;height=16&amp;name=MediaTek-Logo.png" class="hs-image-widget " height="16" style="height: auto;width:130px;border-width:0px;border:0px;" width="130" alt="MediaTek" title="MediaTek" srcset="https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=65&amp;height=8&amp;name=MediaTek-Logo.png 65w, https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=130&amp;height=16&amp;name=MediaTek-Logo.png 130w, https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=195&amp;height=24&amp;name=MediaTek-Logo.png 195w, https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=260&amp;height=32&amp;name=MediaTek-Logo.png 260w, https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=325&amp;height=40&amp;name=MediaTek-Logo.png 325w, https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/MediaTek-Logo.png?width=390&amp;height=48&amp;name=MediaTek-Logo.png 390w" sizes="(max-width: 130px) 100vw, 130px"></a></span>
+</div>
+    </div>
+    <div class="header-menu //728015.fs1.hubspotusercontent-na1.net/hubfs/728015/raw_assets/public/MediaTek_Mar_2024/images/MediaTek-Logo.png">
+      <div class="dekstop-menu">
+        <div id="hs_cos_wrapper_menu1" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<span id="hs_cos_wrapper_menu1_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_menu1_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="182081163852" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Products</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/smartphones" role="menuitem">Smartphone</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smartphones/dimensity-5g" role="menuitem">MediaTek Dimensity 5G</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smartphones/mediatek-helio" role="menuitem">MediaTek Helio 4G</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/smart-home" role="menuitem">Smart Home</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smart-home/pentonic-smart-tvs" role="menuitem">Smart TVs</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smart-home/audio" role="menuitem">Audio</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smart-home/voice-assistant-devices" role="menuitem">Voice Assistant Devices</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smart-home/blu-ray-dvd-optical-disc-drives" role="menuitem">BLU-RAY, DVD, STB, ODD</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity" role="menuitem">Networking and Connectivity</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/mediatek-filogic-wi-fi-8" role="menuitem">Wi-Fi 8</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity/wifi-7" role="menuitem">Wi-Fi 7</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity/5g-mobile-modems" role="menuitem"> 5G Mobile Modems</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/networking-and-connectivity/5g-broadband" role="menuitem">Broadband</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity/ethernetphy" role="menuitem">Ethernet</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity/home-networking" role="menuitem">Home Networking</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/internet-of-things" role="menuitem">Internet of Things</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/iot/genio-iot" role="menuitem">MediaTek Genio IoT</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/iot/modem-based-iot" role="menuitem">Modem-Based IoT</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/iot/commercial-displays" role="menuitem">Commercial Display</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/internet-of-things/case-studies" role="menuitem">Case Studies</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/internet-of-things#features" role="menuitem">IoT Applications</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/iot/partners" role="menuitem">Partner Directory</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets" role="menuitem">Laptops &amp; Tablets</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets/kompanio" role="menuitem">Kompanio</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets/tablets" role="menuitem">Tablets</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/personal-computing/nvidia-rtx-spark" role="menuitem">NVIDIA RTX Spark™</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets/dimensity-cx" role="menuitem">Dimensity CX</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/dimensity-ax" role="menuitem">Automotive</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/dimensity-auto/cockpit-platforms" role="menuitem">Auto Cockpit Platforms</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/data-center" role="menuitem">Data Center</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/data-center" role="menuitem">Data Center Solutions</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem">ASIC</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/asic/consumer-electronics" role="menuitem">Consumer ASIC</a></li>
+     </ul></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Technology</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/5g" role="menuitem">5G</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/5g/5g-modem" role="menuitem">5G Modems</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/5g/5g-satellite-ntn" role="menuitem">5G Satellite (NTN)</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/5g/5g-redcap-modem" role="menuitem">5G RedCap Modem</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/5g/5g-progress" role="menuitem">5G Progress</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/artificial-intelligence" role="menuitem">Artificial Intelligence</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/ai" role="menuitem">Generative AI</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/wifi-7" role="menuitem">Wi-Fi</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/wifi/mlo-infographic" role="menuitem">Wi-Fi 7 Multi-Link Operation (MLO)</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/wifi/smart-link-dispatching" role="menuitem">Wi-Fi 7 Smart Link-Dispatching</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/gaming-technologies" role="menuitem">MediaTek HyperEngine</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/hyperengine-6" role="menuitem">HyperEngine 6.0</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/hyperengine-5" role="menuitem">HyperEngine 5.0</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/hyperengine-3" role="menuitem">HyperEngine 3.0</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/miravision-display" role="menuitem">MiraVision Display</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/miravision-pro" role="menuitem">MiraVision Pro for Large Displays</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/miravision-for-smartphones" role="menuitem">MiraVision for Smartphones</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/imagiq-for-smartphone-cameras" role="menuitem">Camera for Smartphones</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/imagiq-ai-camera" role="menuitem">Imagiq for Smartphone Cameras</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/imagiq-multi-camera" role="menuitem">Imagiq Multi-Camera Smartphones</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/imagiq-cameras-photo-video-streaming" role="menuitem">Imagiq for Recording &amp; Streaming Video</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/corepilot-evolution" role="menuitem">MediaTek CorePilot</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/whitepapers" role="menuitem">White Papers</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Investors</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations" role="menuitem">Investor Relations</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem"></a>
+       <ul role="menu" class="hs-menu-children-wrapper">
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information" role="menuitem">Financial Information</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information#financial-reports" role="menuitem">Financial Reports</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information#quarterly-earnings-release" role="menuitem" target="_blank" rel="noopener">Quarterly Earnings</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information#monthly-reports" role="menuitem" target="_blank" rel="noopener">Monthly Revenue</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information#annual-reports" role="menuitem" target="_blank" rel="noopener">Annual Reports</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services" role="menuitem">Shareholder Services</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services#shareholder-meetings" role="menuitem">Shareholder Meetings</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services#dividend-history" role="menuitem" target="_blank" rel="noopener">Dividend History</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://emops.twse.com.tw/server-java/t05st01_e?TYPEK=sii&amp;co_id=2454&amp;year=2016&amp;month=all&amp;step=0&amp;query=co&amp;colorchg=1" role="menuitem" target="_blank" rel="noopener">Material Information</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services#analyst-coverage" role="menuitem" target="_blank" rel="noopener">Analyst Coverage</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services#transfer-agent-contact" role="menuitem" target="_blank" rel="noopener">Transfer Agent</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://mis.twse.com.tw/stock/" role="menuitem" target="_blank" rel="noopener">Stock Quote</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://emops.twse.com.tw/server-java/t58query" role="menuitem" target="_blank" rel="noopener">M.O.P.S</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance" role="menuitem">Corporate Governance</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#board-of-directors" role="menuitem" target="_blank" rel="noopener">Board of Directors</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#audit-committee" role="menuitem" target="_blank" rel="noopener">Audit Committee</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#remuneration-committee" role="menuitem" target="_blank" rel="noopener">Remuneration Committee</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#corporate-management" role="menuitem" target="_blank" rel="noopener">Corporate Management</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#internal-auditing" role="menuitem" target="_blank" rel="noopener">Internal Auditing</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations/ir-events" role="menuitem">Investor Calendar</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/ir-events" role="menuitem">Upcoming Events</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/ir-events#expired-events" role="menuitem" target="_blank" rel="noopener">Expired Events</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/sustainability" role="menuitem">Sustainability</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/sustainability" role="menuitem">Sustainability at MediaTek</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/MediaTek_ESG_Highlight.pdf?__hstc=153516580.23c4a0ca7bc49310601da363b6743a83.1737653833986.1741419604946.1741421895609.84&amp;__hssc=153516580.4.1741421895609&amp;__hsfp=3792454212" role="menuitem" target="_blank" rel="noopener">ESG Summary</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4" role="none"><a href="https://www.mediatek.com/investor-relations/investor-relations-faq" role="menuitem">FAQ</a></li>
+       </ul></li>
+     </ul></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Company</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem">Discover</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/discover" role="menuitem">About MediaTek</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/awards-and-recognition" role="menuitem">Awards &amp; Recognition</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/events" role="menuitem">Events</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem"></a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/mediatek-foundation" role="menuitem">MediaTek Foundation</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/ventures" role="menuitem">MediaTek Ventures</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/subsidiary-information" role="menuitem">Subsidiary Information</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/sustainability" role="menuitem">Sustainability</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem"></a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://careers.mediatek.com/en" role="menuitem" target="_blank" rel="noopener">Careers</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/contact-us#location" role="menuitem" target="_blank" rel="noopener">Office Locations</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/contact-us" role="menuitem">Contact</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem">Brand</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/dream-faster" role="menuitem">Dream Faster</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/brand-assets" role="menuitem">Brand Assets</a></li>
+     </ul></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Newsroom</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/press-room" role="menuitem"> Press Releases</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/brand-assets" role="menuitem">Brand Assets</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.poweredbymediatek.com" role="menuitem" target="_blank" rel="noopener">Powered by MediaTek</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/inside-tek" role="menuitem">Inside Tek</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://i.mediatek.com/tektalk" role="menuitem">Tek Talk</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/expect-incredible-awards" role="menuitem">Expect Incredible Awards</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/mediatek-newsletters" role="menuitem">Newsletters</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Video</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/inside-tek" role="menuitem">Inside Tek</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/making-connections" role="menuitem">Connections That Matter</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/tek-in-motion" role="menuitem">Tek in Motion</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.mediatek.com/tek-talk-blogs" role="menuitem">Blog</a></li>
+ </ul>
+</div></span></div>
+      </div>
+
+      <div class="header_right_sec">
+        <div class="serach-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 33.5 33.5"><defs><style>.cls-1{fill:none;stroke:#1d1d1b;stroke-linecap:round;stroke-miterlimit:10;stroke-width:2px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Icons"><circle class="cls-1" cx="14.68" cy="14.68" r="13.68" /><line class="cls-1" x1="24.56" y1="24.56" x2="32.5" y2="32.5" /></g></g></svg>
+        </div>
+        <div class="site-search-wrapper">
+          <div class="close-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 28.15 28.15"><defs><style>.cls-1{fill:none;stroke:#1d1d1b;stroke-linecap:round;stroke-miterlimit:10;stroke-width:2px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Icons"><line class="cls-1" x1="1" y1="1" x2="27.15" y2="27.15" /><line class="cls-1" x1="27.15" y1="1" x2="1" y2="27.15" /></g></g></svg>
+          </div>
+          <div id="hs_cos_wrapper_search_input" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="hs-search-field">
+
+    <div class="hs-search-field__bar">
+      <form data-hs-do-not-collect="true" action="/hs-search-results">
+        
+        <input type="text" class="hs-search-field__input" name="term" autocomplete="off" aria-label="Search" placeholder="Search...">
+
+        
+          
+            <input type="hidden" name="type" value="SITE_PAGE">
+          
+        
+          
+        
+          
+            <input type="hidden" name="type" value="BLOG_POST">
+          
+        
+          
+        
+          
+        
+          
+        
+
+        
+      </form>
+    </div>
+    <ul class="hs-search-field__suggestions"></ul>
+</div></div>
+        </div>
+
+        <div class="header-lang-switcher">
+          
+          <div class="header__language-switcher header--element">
+            <div class="header__language-switcher--label">
+              <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 44 44"><defs><style>.cls-1{fill:none;stroke:#1d1d1b;stroke-miterlimit:10;stroke-width:2px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Icons"><circle class="cls-1" cx="22" cy="22" r="21" /><ellipse class="cls-1" cx="22" cy="22" rx="9.08" ry="21" /><line class="cls-1" x1="1" y1="22" x2="43" y2="22" /></g></g></svg>
+              <div id="hs_cos_wrapper_language-switcher" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-language_switcher" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_language-switcher_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_language_switcher" style="" data-hs-cos-general-type="widget" data-hs-cos-type="language_switcher"><div class="lang_switcher_class">
+   <div class="globe_class" onclick="">
+       <ul class="lang_list_class">
+           <li>
+               <a class="lang_switcher_link" data-language="en" lang="en" href="https://www.mediatek.com/products/smartphones/mediatek-dimensity-8300">English</a>
+           </li>
+           <li>
+               <a class="lang_switcher_link" data-language="es" lang="es" href="https://www.mediatek.com/es/products/smartphones/mediatek-dimensity-8300">Español</a>
+           </li>
+           <li>
+               <a class="lang_switcher_link" data-language="zh-tw" lang="zh-tw" href="https://www.mediatek.com/zh-tw/products/smartphones/mediatek-dimensity-8300">中文 - 繁體</a>
+           </li>
+           <li>
+               <a class="lang_switcher_link" data-language="ja-jp" lang="ja-jp" href="https://www.mediatek.com/ja-jp/products/smartphones/mediatek-dimensity-8300">日本語 - 日本</a>
+           </li>
+           <li>
+               <a class="lang_switcher_link" data-language="zh-cn" lang="zh-cn" href="https://www.mediatek.com/zh-cn/products/smartphones/mediatek-dimensity-8300">简体中文</a>
+           </li>
+       </ul>
+   </div>
+</div></span></div>
+              <div class="header__language-switcher--label-current"> English</div>
+            </div>
+          </div>
+          
+          <div class="header--toggle header__navigation--toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 33.34 25.49"><defs><style>.cls-1{fill:none;stroke:#1d1d1b;stroke-linecap:round;stroke-miterlimit:10;stroke-width:2px;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Icons"><line class="cls-1" x1="1" y1="1" x2="32.34" y2="1" /><line class="cls-1" x1="1" y1="12.74" x2="32.34" y2="12.74" /><line class="cls-1" x1="1" y1="24.49" x2="32.34" y2="24.49" /></g></g></svg>
+          </div>
+          
+          <div class="header--toggle header__language-switcher--toggle"></div>
+          
+        </div>
+        
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+
+
+<div class="mobile_menu_wrapper">
+  <div class="close_trigger">
+    <span></span>
+  </div>
+  <div class="mobile-menu">
+    <div id="hs_cos_wrapper_mobile_menu" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<span id="hs_cos_wrapper_mobile_menu_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_mobile_menu_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="182081163852" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Products</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/smartphones" role="menuitem">Smartphone</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smartphones/dimensity-5g" role="menuitem">MediaTek Dimensity 5G</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smartphones/mediatek-helio" role="menuitem">MediaTek Helio 4G</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/smart-home" role="menuitem">Smart Home</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smart-home/pentonic-smart-tvs" role="menuitem">Smart TVs</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smart-home/audio" role="menuitem">Audio</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smart-home/voice-assistant-devices" role="menuitem">Voice Assistant Devices</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/smart-home/blu-ray-dvd-optical-disc-drives" role="menuitem">BLU-RAY, DVD, STB, ODD</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity" role="menuitem">Networking and Connectivity</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/mediatek-filogic-wi-fi-8" role="menuitem">Wi-Fi 8</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity/wifi-7" role="menuitem">Wi-Fi 7</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity/5g-mobile-modems" role="menuitem"> 5G Mobile Modems</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/networking-and-connectivity/5g-broadband" role="menuitem">Broadband</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity/ethernetphy" role="menuitem">Ethernet</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity/home-networking" role="menuitem">Home Networking</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/internet-of-things" role="menuitem">Internet of Things</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/iot/genio-iot" role="menuitem">MediaTek Genio IoT</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/iot/modem-based-iot" role="menuitem">Modem-Based IoT</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/iot/commercial-displays" role="menuitem">Commercial Display</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/internet-of-things/case-studies" role="menuitem">Case Studies</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/internet-of-things#features" role="menuitem">IoT Applications</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/iot/partners" role="menuitem">Partner Directory</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets" role="menuitem">Laptops &amp; Tablets</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets/kompanio" role="menuitem">Kompanio</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets/tablets" role="menuitem">Tablets</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/personal-computing/nvidia-rtx-spark" role="menuitem">NVIDIA RTX Spark™</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets/dimensity-cx" role="menuitem">Dimensity CX</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/dimensity-ax" role="menuitem">Automotive</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/dimensity-auto/cockpit-platforms" role="menuitem">Auto Cockpit Platforms</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/products/data-center" role="menuitem">Data Center</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/data-center" role="menuitem">Data Center Solutions</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem">ASIC</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/products/asic/consumer-electronics" role="menuitem">Consumer ASIC</a></li>
+     </ul></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Technology</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/5g" role="menuitem">5G</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/5g/5g-modem" role="menuitem">5G Modems</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/5g/5g-satellite-ntn" role="menuitem">5G Satellite (NTN)</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/5g/5g-redcap-modem" role="menuitem">5G RedCap Modem</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/5g/5g-progress" role="menuitem">5G Progress</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/artificial-intelligence" role="menuitem">Artificial Intelligence</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/ai" role="menuitem">Generative AI</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/wifi-7" role="menuitem">Wi-Fi</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/wifi/mlo-infographic" role="menuitem">Wi-Fi 7 Multi-Link Operation (MLO)</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/wifi/smart-link-dispatching" role="menuitem">Wi-Fi 7 Smart Link-Dispatching</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/gaming-technologies" role="menuitem">MediaTek HyperEngine</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/hyperengine-6" role="menuitem">HyperEngine 6.0</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/hyperengine-5" role="menuitem">HyperEngine 5.0</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/hyperengine-3" role="menuitem">HyperEngine 3.0</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/miravision-display" role="menuitem">MiraVision Display</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/miravision-pro" role="menuitem">MiraVision Pro for Large Displays</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/miravision-for-smartphones" role="menuitem">MiraVision for Smartphones</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/technology/imagiq-for-smartphone-cameras" role="menuitem">Camera for Smartphones</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/imagiq-ai-camera" role="menuitem">Imagiq for Smartphone Cameras</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/imagiq-multi-camera" role="menuitem">Imagiq Multi-Camera Smartphones</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/technology/imagiq-cameras-photo-video-streaming" role="menuitem">Imagiq for Recording &amp; Streaming Video</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/corepilot-evolution" role="menuitem">MediaTek CorePilot</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/whitepapers" role="menuitem">White Papers</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Investors</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations" role="menuitem">Investor Relations</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem"></a>
+       <ul role="menu" class="hs-menu-children-wrapper">
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information" role="menuitem">Financial Information</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information#financial-reports" role="menuitem">Financial Reports</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information#quarterly-earnings-release" role="menuitem" target="_blank" rel="noopener">Quarterly Earnings</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information#monthly-reports" role="menuitem" target="_blank" rel="noopener">Monthly Revenue</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/financial-information#annual-reports" role="menuitem" target="_blank" rel="noopener">Annual Reports</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services" role="menuitem">Shareholder Services</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services#shareholder-meetings" role="menuitem">Shareholder Meetings</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services#dividend-history" role="menuitem" target="_blank" rel="noopener">Dividend History</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://emops.twse.com.tw/server-java/t05st01_e?TYPEK=sii&amp;co_id=2454&amp;year=2016&amp;month=all&amp;step=0&amp;query=co&amp;colorchg=1" role="menuitem" target="_blank" rel="noopener">Material Information</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services#analyst-coverage" role="menuitem" target="_blank" rel="noopener">Analyst Coverage</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/shareholder-services#transfer-agent-contact" role="menuitem" target="_blank" rel="noopener">Transfer Agent</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://mis.twse.com.tw/stock/" role="menuitem" target="_blank" rel="noopener">Stock Quote</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://emops.twse.com.tw/server-java/t58query" role="menuitem" target="_blank" rel="noopener">M.O.P.S</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance" role="menuitem">Corporate Governance</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#board-of-directors" role="menuitem" target="_blank" rel="noopener">Board of Directors</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#audit-committee" role="menuitem" target="_blank" rel="noopener">Audit Committee</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#remuneration-committee" role="menuitem" target="_blank" rel="noopener">Remuneration Committee</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#corporate-management" role="menuitem" target="_blank" rel="noopener">Corporate Management</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/corporate-governance#internal-auditing" role="menuitem" target="_blank" rel="noopener">Internal Auditing</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/investor-relations/ir-events" role="menuitem">Investor Calendar</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/ir-events" role="menuitem">Upcoming Events</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/investor-relations/ir-events#expired-events" role="menuitem" target="_blank" rel="noopener">Expired Events</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4 hs-item-has-children" role="none"><a href="https://www.mediatek.com/sustainability" role="menuitem">Sustainability</a>
+         <ul role="menu" class="hs-menu-children-wrapper">
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/sustainability" role="menuitem">Sustainability at MediaTek</a></li>
+          <li class="hs-menu-item hs-menu-depth-5" role="none"><a href="https://www.mediatek.com/hubfs/MediaTek%20Assets/Pdfs/MediaTek_ESG_Highlight.pdf?__hstc=153516580.23c4a0ca7bc49310601da363b6743a83.1737653833986.1741419604946.1741421895609.84&amp;__hssc=153516580.4.1741421895609&amp;__hsfp=3792454212" role="menuitem" target="_blank" rel="noopener">ESG Summary</a></li>
+         </ul></li>
+        <li class="hs-menu-item hs-menu-depth-4" role="none"><a href="https://www.mediatek.com/investor-relations/investor-relations-faq" role="menuitem">FAQ</a></li>
+       </ul></li>
+     </ul></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Company</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem">Discover</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/discover" role="menuitem">About MediaTek</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/awards-and-recognition" role="menuitem">Awards &amp; Recognition</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/events" role="menuitem">Events</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem"></a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/mediatek-foundation" role="menuitem">MediaTek Foundation</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/ventures" role="menuitem">MediaTek Ventures</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/subsidiary-information" role="menuitem">Subsidiary Information</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/sustainability" role="menuitem">Sustainability</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem"></a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://careers.mediatek.com/en" role="menuitem" target="_blank" rel="noopener">Careers</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/contact-us#location" role="menuitem" target="_blank" rel="noopener">Office Locations</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/company/contact-us" role="menuitem">Contact</a></li>
+     </ul></li>
+    <li class="hs-menu-item hs-menu-depth-2 hs-item-has-children" role="none"><a href="javascript:;" role="menuitem">Brand</a>
+     <ul role="menu" class="hs-menu-children-wrapper">
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/dream-faster" role="menuitem">Dream Faster</a></li>
+      <li class="hs-menu-item hs-menu-depth-3" role="none"><a href="https://www.mediatek.com/brand-assets" role="menuitem">Brand Assets</a></li>
+     </ul></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Newsroom</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/press-room" role="menuitem"> Press Releases</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/brand-assets" role="menuitem">Brand Assets</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.poweredbymediatek.com" role="menuitem" target="_blank" rel="noopener">Powered by MediaTek</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/inside-tek" role="menuitem">Inside Tek</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://i.mediatek.com/tektalk" role="menuitem">Tek Talk</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/expect-incredible-awards" role="menuitem">Expect Incredible Awards</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/mediatek-newsletters" role="menuitem">Newsletters</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Video</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/inside-tek" role="menuitem">Inside Tek</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/making-connections" role="menuitem">Connections That Matter</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/tek-in-motion" role="menuitem">Tek in Motion</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.mediatek.com/tek-talk-blogs" role="menuitem">Blog</a></li>
+ </ul>
+</div></span></div>
+  </div>
+</div></div>
+        
+      </div>
+      
+
+
+      
+
+      
+
+
+
+
+
+
+<div class="header_bottom">
+  <div class="container full-width">
+    <div class="breadcrumbs">
+
+      
+      <div id="hs_cos_wrapper_breadcrumbs" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="breadcrumbs-wrapper">
+  <span id="hs_cos_wrapper_breadcrumbs_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div class="hs-breadcrumb-menu-wrapper" id="hs_menu_wrapper_breadcrumbs_" role="navigation" data-sitemap-name="default" data-menu-id="163233743108">
+ <ul class="hs-breadcrumb-menu">
+  <li class="hs-breadcrumb-menu-item first-crumb"><a href="https://www.mediatek.com?hsLang=en" class="hs-breadcrumb-label">Home</a><span class="hs-breadcrumb-menu-divider"></span></li>
+  <li class="hs-breadcrumb-menu-item"><a href="javascript:;" class="hs-breadcrumb-label">Products</a><span class="hs-breadcrumb-menu-divider"></span></li>
+  <li class="hs-breadcrumb-menu-item"><a href="https://www.mediatek.com/products/smartphones?hsLang=en" class="hs-breadcrumb-label">Smartphones</a><span class="hs-breadcrumb-menu-divider"></span></li>
+  <li class="hs-breadcrumb-menu-item"><a href="https://www.mediatek.com/products/smartphones/dimensity-5g?hsLang=en" class="hs-breadcrumb-label">MediaTek Dimensity 5G</a><span class="hs-breadcrumb-menu-divider"></span></li>
+  <li class="hs-breadcrumb-menu-item last-crumb"><span class="hs-breadcrumb-label">MediaTek Dimensity 8300</span></li>
+ </ul>
+</div></span>
+</div>
+
+
+</div>
+      
+
+      
+
+
+      
+
+    </div>
+    <div class="bookmarks">
+      <div id="hs_cos_wrapper_bookmark_menu" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="breadcrumbs">
+  <div class="breadcrumb-content">
+    <ul id="bookmark_menu_ul">
+      
+      <li>
+        <a href="#overview">Overview</a>
+      </li>
+      
+      <li>
+        <a href="#features">Features</a>
+      </li>
+      
+      <li>
+        <a href="#specifications">Specifications</a>
+      </li>
+      
+    </ul>
+
+    
+  </div>
+</div></div>
+    </div>
+  </div>
+</div>
+
+
+
+<main class="main-container-wrapper lev_3">
+
+
+  
+
+  <div class="banner-container-wrapper">
+    <div id="hs_cos_wrapper_hero_banner" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<div class="hero-banner3 hero_banner">
+  
+  <div class="hero_banner_img">
+    <img src="https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/Banners/Banner-Bg.png?width=1920&amp;length=800&amp;name=Banner-Bg.png" alt="Banner Bg" title="Banner Bg" decoding="async" loading="eager" fetchpriority="high">
+  </div>
+  
+  <div class="page-center">
+
+    <div class="her_main_wrap">
+      <div class="hero-banner-content ">
+        
+        <h1>
+          
+          <span>MediaTek</span><br>
+          
+          Dimensity 8300
+        </h1>
+        
+        
+        <p>Next-Gen Power, Efficiency, and Intelligence Unleashed</p>
+        
+        
+        
+        
+        <div class="chip_img mob_img">
+          <img src="https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/ChipSets/Dimensity_8300%20chipset@1.25x.png?width=390&amp;height=600&amp;length=350&amp;name=Dimensity_8300%20chipset@1.25x.png" alt="Dimensity 8300 chipset@1.25x" title="Dimensity 8300 chipset@1.25x" loading="eager" fetchpriority="high">
+        </div>
+        
+      </div>
+      
+      <div class="chip_img desk_img">
+        <img src="https://www.mediatek.com/hubfs/MediaTek%20Assets/Images/ChipSets/Dimensity_8300%20chipset.png" alt="Dimensity 8300 chipset" title="Dimensity 8300 chipset">
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+</div>
+  </div>
+
+  <div class="info_wrapper">
+    <div id="hs_cos_wrapper_infographic_section" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+<div class="info_sec" id="overview">
+  <div class="page-center">
+    <div class="info_main hs-skip-lang-url-rewrite">
+      
+      <div class="ifo_item item_2">
+        <div class="info_link">
+          
+          <a href="https://www.mediatek.com/products/smartphones/dimensity-5g">
+            <span>LEARN MORE</span>
+            <span class="lnk_btn"><img src="https://www.mediatek.com/hubfs/MediaTek%20Assets/Images/Button-Arrow.png" alt="Arrow Right"></span>
+          </a>
+        </div>
+        
+        <div class="btm_txt cm_hype">
+          <h3>MediaTek Dimensity <br>5G Family</h3>
+        </div>
+        
+      </div>
+      
+      <div class="ifo_item item_2">
+        <div class="info_link">
+          
+          <a href="https://www.mediatek.com/hubfs/MediaTek%20Dimensity%208300%20Infographic.pdf" target="_blank" rel="noopener">
+            <span>DOWNLOAD INFOGRAPHIC</span>
+            <span class="lnk_btn"><img src="https://www.mediatek.com/hubfs/MediaTek%20Assets/Images/Button-Arrow.png" alt="Arrow Right"></span>
+          </a>
+        </div>
+        
+        <div class="btm_txt cm_hype">
+          <h3>MediaTek Dimensity 8300 <br>at-a-glance</h3>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+</div>
+  </div>
+
+  <div class="tp_cont_sec_wrapper" id="overview">
+    <div id="hs_cos_wrapper_top_content_section" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<div class="tp_cont_sec hs-skip-lang-url-rewrite" style="background-image: url('https://www.mediatek.com/hs-fs/hubfs/MediaTek%20Assets/Images/9300-info-bg.png?width=1920&amp;length=800&amp;name=9300-info-bg.png');">
+  <div class="page-center">
+    <div class="tp_cont_main">
+      <div class="tp_main_txt cm_hype">
+        <h2>MediaTek Dimensity 8300</h2>
+<p>Meet the high-performance and super power-efficient MediaTek Dimensity 8300 redefining premium experiences in 5G smartphones.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+</div>
+  </div>
+
+  <div class="prod_info_wrapper">
+    <div id="hs_cos_wrapper_product_info" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<div class="prod_info _moduleproduct_info " id="features">
+  <div class="page-center">
+    
+    <div class="top_cont cm_hype">
+
+      <h2 class="title">Exceptional Power Efficiency in Premier 5G Smartphones</h2>
+
+      
+    </div>
+    
+    <div class="prod_info_main">
+      
+      <div class="prod_info_item">
+        
+        <div class="prod_info_left cm_hype">
+          <p>Extending the best-in-class advantages of the popular Dimensity 8000 series, the Dimensity 8300 introduces the Armv9 CPU architecture to premier 5G smartphones. Generational improvements include over 20% faster CPU performance or 30% peak gains in power efficiency, while the GPU upgrade provides up to 60% greater performance or 55% greater power efficiency at peak.</p>
+<p>By combining the exceptional CPU and GPU performance with flagship-grade memory and storage speeds, the Dimensity 8300 ensures incredible experiences every day in games, apps, cameras, connectivity, and entertainment.</p>
+        </div>
+        
+        
+        <div class="prod_info_right">
+          <ul>
+<li aria-level="1">Octa-core CPU with 4X Arm Cortex-A715 and 4X Cortex-A510</li>
+<li aria-level="1">Arm Mali-G615</li>
+<li aria-level="1">LPDDR5X up to 8533Mbps</li>
+<li aria-level="1">UFS 4.0 + MCQ</li>
+<li aria-level="1">Ultra-efficient 4nm-class chip</li>
+</ul>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+</div>
+  </div>
+
+  <div class="acc_sec_wrapper" id="features">
+    <div id="hs_cos_wrapper_accordian_section" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<div class="acc_sec _moduleaccordian_section style_light">
+  <div class="page-center">
+    
+    <div class="top_cont">
+      <h2>Additional Key Features</h2>
+      
+    </div>
+    
+    <div class="acc_sec_main hs-skip-lang-url-rewrite">
+      <div class="acc_sec_main_inn">
+        
+        <div class="acc_sec_item ">
+          <div class="prod_item_title">
+            <!--             <a href="#data-1"> -->
+            <a href="javascript:%20void(0);" data-id="#data-1">
+              
+              <h3>Faster Apps, Superior Experiences</h3>
+              
+            </a>
+            <div class="prod_title_icon"></div>
+          </div>
+
+          <div class="acc_sec_inner">
+
+            
+
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p>Taking app speeds to the next level, a smartphone powered by Dimensity 8300 will always keep up with you thanks to even faster app launches. Generational improvements in memory management now allow&nbsp;more active apps in memory, benefiting active users.</p>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+              <div class="item_right">
+                <ul>
+<li aria-level="1">Up to 17% faster app cold launch</li>
+<li aria-level="1">Up to 47% faster app launch from standby</li>
+</ul>
+<div>*power savings compared to the previous generation</div>
+                
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+
+            
+
+          </div>
+        </div>
+        
+        <div class="acc_sec_item ">
+          <div class="prod_item_title">
+            <!--             <a href="#data-2"> -->
+            <a href="javascript:%20void(0);" data-id="#data-2">
+              
+              <h3>Everywhere Energy Efficiency Advantages</h3>
+              
+            </a>
+            <div class="prod_title_icon"></div>
+          </div>
+
+          <div class="acc_sec_inner">
+
+            
+
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p>MediaTek engineers have optimized platform energy efficiency in many areas of everyday smartphone use, benefiting users from longer battery life in all situations.</p>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+              <div class="item_right">
+                <ul>
+<li aria-level="1">Video recording 7%</li>
+<li aria-level="1">Messaging and chat apps 8%</li>
+<li aria-level="1">Daily use (light load) 11%</li>
+<li aria-level="1">Gaming (medium/heavy load) up to 25%</li>
+</ul>
+                
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+
+            
+
+          </div>
+        </div>
+        
+        <div class="acc_sec_item ">
+          <div class="prod_item_title">
+            <!--             <a href="#data-3"> -->
+            <a href="javascript:%20void(0);" data-id="#data-3">
+              
+              <h3>AI: MediaTek NPU 780</h3>
+              
+            </a>
+            <div class="prod_title_icon"></div>
+          </div>
+
+          <div class="acc_sec_inner">
+
+            
+
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p>MediaTek’s next-generation AI processor is ready to bring Generative AI into smartphones.</p>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+              <div class="item_right">
+                <p>Architectural upgrade versus previous generation:</p>
+<ul>
+<li aria-level="1">8x faster transformer-based generative AI</li>
+<li aria-level="1">2x faster integer and floating-point compute improvement</li>
+<li aria-level="1">Up to 10 billion parameters</li>
+<li aria-level="1">3.3x AI performance (AI Benchmark v5)</li>
+</ul>
+                
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+
+            
+
+          </div>
+        </div>
+        
+        <div class="acc_sec_item ">
+          <div class="prod_item_title">
+            <!--             <a href="#data-4"> -->
+            <a href="javascript:%20void(0);" data-id="#data-4">
+              
+              <h3>Gaming: MediaTek HyperEngine</h3>
+              
+            </a>
+            <div class="prod_title_icon"></div>
+          </div>
+
+          <div class="acc_sec_inner">
+
+            
+
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p><strong>MediaTek Adaptive Game Technology 2.0</strong></p>
+<p><span>Enjoy full speed gaming that lasts for longer. Smartphone brands and game&nbsp;developers are adopting MediaTek’s Adaptive Game Technology with AI performance prediction to reduce average power consumption at max speeds versus competitor alternatives.</span></p>
+<div>
+<p>Using exclusive performance algorithms that are constantly aware of the smartphone’s temperature and the user's&nbsp;game engine or social video app demands from the CPU, GPU, APU, and networking, it ensures the best user experiences – full FPS, minimized jitter, faster rendering, and longer battery life.</p>
+</div>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+              <div class="item_right">
+                <p><strong>Gaming:</strong></p>
+<ul>
+<li aria-level="1">24% faster game scene change</li>
+<li aria-level="1">24% lower power consumption at full framerate</li>
+<li aria-level="1">Industry-leading consistent framerate performance (lowest jitter)</li>
+</ul>
+<p><strong>Short video creation:</strong></p>
+<ul>
+<li aria-level="1">15% faster AR preview framerate</li>
+<li aria-level="1">6% faster video rendering</li>
+</ul>
+<div>*compared to the competitor alternative</div>
+                
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+
+            
+
+          </div>
+        </div>
+        
+        <div class="acc_sec_item ">
+          <div class="prod_item_title">
+            <!--             <a href="#data-5"> -->
+            <a href="javascript:%20void(0);" data-id="#data-5">
+              
+              <h3>Camera: MediaTek Imagiq 980</h3>
+              
+            </a>
+            <div class="prod_title_icon"></div>
+          </div>
+
+          <div class="acc_sec_inner">
+
+            
+
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p>With its 14-bit HDR-ISP, the Dimensity 8300 lets users capture true-to-life 4K60 HDR video more power-efficiently versus the previous generation, while flagship-grade imaging technologies make video capture sharper, clearer, and more compelling than ever.</p>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+              <div class="item_right">
+                <ul>
+<li aria-level="1">Up to 10% more power-efficient 4K60 video capture</li>
+<li aria-level="1">Flagship-grade IQ on simultaneous dual-camera 4K HDR video capture</li>
+<li aria-level="1">Flagship-grade video noise reduction</li>
+<li aria-level="1">AI-Color Content Smart ISP</li>
+</ul>
+                
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+
+            
+
+          </div>
+        </div>
+        
+        <div class="acc_sec_item ">
+          <div class="prod_item_title">
+            <!--             <a href="#data-6"> -->
+            <a href="javascript:%20void(0);" data-id="#data-6">
+              
+              <h3>Display: MediaTek MiraVision 880</h3>
+              
+            </a>
+            <div class="prod_title_icon"></div>
+          </div>
+
+          <div class="acc_sec_inner">
+
+            
+
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p><strong>New AI Region PQ</strong></p>
+<p>MediaTek AI-PQ for smartphones works by analyzing the scenes within the video streaming in real-time, and then applying scene-adaptive settings to generate maximum picture quality. New AI Region PQ now distinguishes regions within each scene to selectively adjust contrast, sharpness, and color tones through AI-Segmentation.</p>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+              <div class="item_right">
+                <ul>
+<li>120Hz WQHD+ / 180Hz Full HD+ display support</li>
+<li>HDR10+ Adaptive support</li>
+<li>Smart BluLight Defender</li>
+<li>4K AV1 media decoding</li>
+</ul>
+                
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+
+            
+
+          </div>
+        </div>
+        
+        <div class="acc_sec_item ">
+          <div class="prod_item_title">
+            <!--             <a href="#data-7"> -->
+            <a href="javascript:%20void(0);" data-id="#data-7">
+              
+              <h3>Premier Connectivity Speeds</h3>
+              
+            </a>
+            <div class="prod_title_icon"></div>
+          </div>
+
+          <div class="acc_sec_inner">
+
+            
+
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p><strong>Ultra-Fast 5G with Enhanced Range</strong></p>
+<p>The fully integrated 5G modem features 3CC carrier aggregation and up to 5.17Gbps downlink speeds, amplifying sub-6GHz performance and range to be more effective than ever before.</p>
+<ul>
+<li aria-level="1">Up to 3CC-CA sub-6GHz, mixed duplex</li>
+<li aria-level="1">Up to 5.17Gbps sub-6GHz performance</li>
+<li aria-level="1">20% faster downlink on high-speed rail (HSR)</li>
+<li aria-level="1">20% faster 5G re-establishment after a period of weak connectivity</li>
+</ul>
+<div>*compared to the competitor alternative</div>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+              <div class="item_right">
+                <p><strong>MediaTek 5G UltraSave 3.0+</strong></p>
+<p>MediaTek 5G UltraSave 3.0+ further improves 5G power efficiency by 15% in light loading, and 10%* in heavy loading connectivity scenarios.</p>
+<div>*compared to the competitor alternative</div>
+                
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p><strong>Wi-Fi 6E 160BW</strong></p>
+<div>
+<p>Twice the bandwidth vs previous generation – provides supremely fast wireless networking, while 2x2 antenna assures improved performance and connection reliability.</p>
+</div>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+              <div class="item_right">
+                <p><strong>MediaTek Wi-Fi/Bluetooth hybrid coexistence technology</strong></p>
+<p>MediaTek Wi-Fi/Bluetooth hybrid coexistence technology ensures Wi-Fi, earbuds and wireless gamepads can work together seamlessly, with the lowest latency and reliable connections. Use the latest earbuds with Bluetooth LE Audio technology with Dual-Link True Wireless Stereo Audio.</p>
+                
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+
+            
+
+          </div>
+        </div>
+        
+        <div class="acc_sec_item ">
+          <div class="prod_item_title">
+            <!--             <a href="#data-8"> -->
+            <a href="javascript:%20void(0);" data-id="#data-8">
+              
+              <h3>Partnerships</h3>
+              
+            </a>
+            <div class="prod_title_icon"></div>
+          </div>
+
+          <div class="acc_sec_inner">
+
+            
+
+            
+            <div class="tech_item ">
+              
+              <div class="item_left">
+                <p>Dimensity 5G Open Resource Architecture allows device makers to create unmatched smartphones that stand out in unique ways across camera, APU, display, and connectivity.</p>
+                
+              </div>
+              
+              
+              <div class="blank_space">
+              </div>
+              
+
+              
+              
+
+            </div>
+            
+
+            
+
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+</div>
+  </div>
+
+  <div class="prod_spec_wrapper">
+    <div id="hs_cos_wrapper_product_specifications" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<div class="prod_spec product_specifications" id="specifications">
+  <div class="page-center">
+    <div class="top_cont">
+      <h2>Specifications</h2>
+    </div>
+    <div class="prod_sec_main">
+      <div class="prod_sec_inn">
+        
+        <div class="prod_item">
+          <div class="title">
+            <h3>CPU</h3>
+          </div>
+          <div class="prod_det_wrap">
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Processor
+              </h3>
+             
+              
+              <div class="prod_det">
+                <ul>
+<li>4x Arm Cortex-A715</li>
+<li>4x Arm Cortex-A510</li>
+<li>4MB L3 Cache</li>
+</ul>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Cores
+              </h3>
+             
+              
+              <div class="prod_det">
+                <p>Octa (8)</p>
+              </div>
+             
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="prod_item">
+          <div class="title">
+            <h3>Memory &amp; Storage</h3>
+          </div>
+          <div class="prod_det_wrap">
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Memory Type
+              </h3>
+             
+              
+              <div class="prod_det">
+                <div>
+<p>Quad-channel LPDDR5X</p>
+</div>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Max Memory Frequency
+              </h3>
+             
+              
+              <div class="prod_det">
+                <div>
+<p>Up to 8533Mbps</p>
+</div>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Storage Type
+              </h3>
+             
+              
+              <div class="prod_det">
+                <div>
+<div>
+<p>UFS 4.0 + MCQ</p>
+</div>
+</div>
+              </div>
+             
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="prod_item">
+          <div class="title">
+            <h3>Connectivity</h3>
+          </div>
+          <div class="prod_det_wrap">
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Cellular Technologies
+              </h3>
+             
+              
+              <div class="prod_det">
+                <p>2G-5G Multi-Mode, 5G/4G CA, 5G/4G FDD+TDD, CDMA2000 1x/EVDO Rev. A (SRLTE), EDGE, GSM, TD-SCDMA, WDCDMA</p>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Specific Functions
+              </h3>
+             
+              
+              <div class="prod_det">
+                <p>SA &amp; NSA modes; SA Option2, NSA Option3 / 3a / 3x, NR TDD and FDD bands, DSS, NR DL 3CC, 220MHz bandwidth, 4x4 MIMO, 256QAM NR UL 2CC, R16 UL Enhancement, 2x2 MIMO, 256QAM VoNR / EPS fallback</p>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Peak Downlink Speed
+              </h3>
+             
+              
+              <div class="prod_det">
+                <p>5.17Gbps</p>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                GNSS
+              </h3>
+             
+              
+              <div class="prod_det">
+                <ul>
+<li>GPS L1CA+L5 + L1C</li>
+<li>BeiDou B1I+ B2a + B1C</li>
+<li>Glonass L1OF</li>
+<li>Galileo E1 + E5a</li>
+<li>QZSS L1CA+ L5</li>
+<li>NavIC</li>
+</ul>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Wi-Fi
+              </h3>
+             
+              
+              <div class="prod_det">
+                <p>Wi-Fi 6E</p>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Wi-Fi Antenna
+              </h3>
+             
+              
+              <div class="prod_det">
+                <p>2T2R</p>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Bluetooth
+              </h3>
+             
+              
+              <div class="prod_det">
+                <p>5.4</p>
+              </div>
+             
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="prod_item">
+          <div class="title">
+            <h3>Graphics</h3>
+          </div>
+          <div class="prod_det_wrap">
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                GPU Type
+              </h3>
+             
+              
+              <div class="prod_det">
+                <div>
+<p>Arm Mali-G615 MC6</p>
+</div>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Video Encoding
+              </h3>
+             
+              
+              <div class="prod_det">
+                <ul>
+<li>H.264</li>
+<li>HEVC</li>
+</ul>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Video Playback
+              </h3>
+             
+              
+              <div class="prod_det">
+                <ul>
+<li>H.264</li>
+<li>HEVC</li>
+<li>Vp-9</li>
+<li>AV1</li>
+</ul>
+              </div>
+             
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="prod_item">
+          <div class="title">
+            <h3>Display</h3>
+          </div>
+          <div class="prod_det_wrap">
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Max Refresh Rate
+              </h3>
+             
+              
+              <div class="prod_det">
+                <ul>
+<li>FHD+ @ 180Hz</li>
+<li>WQHD+ @ 120Hz</li>
+<li>Dual Display</li>
+</ul>
+              </div>
+             
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="prod_item">
+          <div class="title">
+            <h3>Camera</h3>
+          </div>
+          <div class="prod_det_wrap">
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Max Camera Sensor
+              </h3>
+             
+              
+              <div class="prod_det">
+                <ul>
+<li>320MP</li>
+<li>32+32+32MP</li>
+</ul>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Max Video Capture Resolution
+              </h3>
+             
+              
+              <div class="prod_det">
+                <div>
+<p>4K (3840 x 2160)</p>
+</div>
+              </div>
+             
+            </div>
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                Camera Features
+              </h3>
+             
+              
+              <div class="prod_det">
+                <ul>
+<li>14-bit HDR-ISP</li>
+<li>Video HDR</li>
+<li>Video Bokeh</li>
+<li>Video EIS</li>
+<li>Video NR</li>
+<li>AI Color for Capture</li>
+<li>AI-AE / AI-AF / AI-AWB / AI-FD</li>
+</ul>
+              </div>
+             
+            </div>
+            
+          </div>
+        </div>
+        
+        <div class="prod_item">
+          <div class="title">
+            <h3>AI</h3>
+          </div>
+          <div class="prod_det_wrap">
+            
+            <div class="prod_det_item">
+             
+              <h3 class="sub_title">
+                MediaTek NPU
+              </h3>
+             
+              
+              <div class="prod_det">
+                <p>NPU 780 (multi-core)</p>
+              </div>
+             
+            </div>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+      
+  </div>
+</div>
+
+
+</div>
+  </div>
+
+  
+
+
+
+
+</main>
+
+
+
+
+      
+      <div class="footer_wrapper">
+        
+        <div data-global-resource-path="MediaTek_Mar_2024/templates/partials/footer.html"><footer class="footer cm_foot_v5 hs-skip-lang-url-rewrite">
+  <div class="container">
+    <div class="row footer_top">  
+      <div class="menu-section col col-8">
+        <div class="header_nav">
+          <div class="desk_menu">
+            <div id="hs_cos_wrapper_menu" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<span id="hs_cos_wrapper_menu_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_menu_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="172597447077" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Products</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/smartphones" role="menuitem">Smartphones</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/smart-home" role="menuitem">Smart Home</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity" role="menuitem">Networking and Connectivity</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/internet-of-things" role="menuitem">Internet of Things</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets" role="menuitem">Laptops &amp; Tablets</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/dimensity-ax" role="menuitem">Automotive</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/asic" role="menuitem">ASIC</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Technology</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/5g" role="menuitem">5G</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/artificial-intelligence" role="menuitem">Artificial Intelligence </a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/wifi-7" role="menuitem">Wi-Fi</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/gaming-technologies" role="menuitem">MediaTek HyperEngine</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/miravision-display" role="menuitem">Display for Smartphones</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/imagiq-multi-camera" role="menuitem"> Camera for Smartphones</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/corepilot-evolution" role="menuitem">MediaTek CorePilot</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Company</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/company/discover" role="menuitem">Discover</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/company/discover" role="menuitem">About MediaTek</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/company/contact-us" role="menuitem">Contact Us</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/security-contact" role="menuitem">Report Security Vulnerability</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://careers.mediatek.com/en" role="menuitem">Careers</a></li>
+   </ul></li>
+ </ul>
+</div></span></div>
+          </div>
+          <div class="mob_menu">
+            <div id="hs_cos_wrapper_mobile_menu" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<span id="hs_cos_wrapper_mobile_menu_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_mobile_menu_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="172597447077" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Products</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/smartphones" role="menuitem">Smartphones</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/smart-home" role="menuitem">Smart Home</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/networking-and-connectivity" role="menuitem">Networking and Connectivity</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/internet-of-things" role="menuitem">Internet of Things</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/laptops-and-tablets" role="menuitem">Laptops &amp; Tablets</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/dimensity-ax" role="menuitem">Automotive</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/products/asic" role="menuitem">ASIC</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Technology</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/5g" role="menuitem">5G</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/artificial-intelligence" role="menuitem">Artificial Intelligence </a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/wifi-7" role="menuitem">Wi-Fi</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/gaming-technologies" role="menuitem">MediaTek HyperEngine</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/miravision-display" role="menuitem">Display for Smartphones</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/imagiq-multi-camera" role="menuitem"> Camera for Smartphones</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/technology/corepilot-evolution" role="menuitem">MediaTek CorePilot</a></li>
+   </ul></li>
+  <li class="hs-menu-item hs-menu-depth-1 hs-item-has-children" role="none"><a href="javascript:;" aria-haspopup="true" aria-expanded="false" role="menuitem">Company</a>
+   <ul role="menu" class="hs-menu-children-wrapper">
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/company/discover" role="menuitem">Discover</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/company/discover" role="menuitem">About MediaTek</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/company/contact-us" role="menuitem">Contact Us</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://www.mediatek.com/security-contact" role="menuitem">Report Security Vulnerability</a></li>
+    <li class="hs-menu-item hs-menu-depth-2" role="none"><a href="https://careers.mediatek.com/en" role="menuitem">Careers</a></li>
+   </ul></li>
+ </ul>
+</div></span></div>
+          </div>
+        </div>
+        <div class="social_links desk_soc">
+          <div id="hs_cos_wrapper_footer_social_links_desk" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="footer_social_links">
+  <ul class="social_share foot_soc">
+    
+    
+    <div class="facebook_share share-item">
+      <a data-site="facebook" href="https://www.facebook.com/MediaTek" target="_blank" rel="noopener">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+    </div>
+    
+    
+    <div class="linkedin_share share-item">
+      <a data-site="linkedin" href="https://www.linkedin.com/company/17763" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+    </div>
+    
+    
+    <div class="instagram_share share-item">
+      <a data-site="instagram" href="https://www.instagram.com/mediatek_inc/" target="_blank" rel="noopener">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+    
+    
+    <div class="youtube_share share-item">
+      <a data-site="youtube" href="https://www.youtube.com/mediatek" target="_blank" rel="noopener">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </div>
+    
+    
+    <div class="threads_share share-item">
+      <a data-site="threads" href="https://www.threads.net/@mediatek_inc" target="_blank" rel="noopener">
+        <i class="fa-brands fa-threads"></i>
+      </a>
+    </div>
+    
+    
+  </ul>
+</div></div>
+        </div>
+      </div>
+      <div class="blank_sec col col-1">
+
+      </div>
+      <div class="form-section col col-3">
+        <div id="hs_cos_wrapper_form" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+
+
+	
+
+
+
+	<span id="hs_cos_wrapper_form_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_form" style="" data-hs-cos-general-type="widget" data-hs-cos-type="form"><h3 id="hs_cos_wrapper_form_title" class="hs_cos_wrapper form-title" data-hs-cos-general-type="widget_field" data-hs-cos-type="text">Join our newsletter</h3>
+
+<div id="hs_form_target_form"></div>
+
+
+
+
+
+
+
+
+
+</span>
+</div>
+      </div>
+    </div>
+    <div class="row footer_bottom">
+      <div class="logo col col-3">
+        <div class="left_sec">
+           
+          <div id="hs_cos_wrapper_footer_logo" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+    
+
+
+
+
+
+
+  
+
+
+
+<span id="hs_cos_wrapper_footer_logo_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_linked_image" style="" data-hs-cos-general-type="widget" data-hs-cos-type="linked_image"><a href="https://www.mediatek.com/" target="_parent" id="hs-link-footer_logo_" style="border-width:0px;border:0px;"><img src="https://www.mediatek.com/hubfs/raw_assets/public/MediaTek_Mar_2024/images/mediatek-logo.svg" class="hs-image-widget " style="width:180px;border-width:0px;border:0px;" width="180" alt="MediaTek" title="MediaTek"></a></span></div>
+        </div>
+      </div>
+      <div class="right_sec col col-9">
+        <div class="privacy_menu">
+          <div id="hs_cos_wrapper_menu2" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module">
+<span id="hs_cos_wrapper_menu2_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_menu" style="" data-hs-cos-general-type="widget" data-hs-cos-type="menu"><div id="hs_menu_wrapper_menu2_" class="hs-menu-wrapper active-branch no-flyouts hs-menu-flow-horizontal" role="navigation" data-sitemap-name="default" data-menu-id="162274226748" aria-label="Navigation Menu">
+ <ul role="menu">
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.mediatek.com/cookie-statement" role="menuitem">Cookie Statement</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.mediatek.com/terms-of-use" role="menuitem">Terms of Use</a></li>
+  <li class="hs-menu-item hs-menu-depth-1" role="none"><a href="https://www.mediatek.com/privacy-policy" role="menuitem">Privacy Policy</a></li>
+ </ul>
+</div></span></div>
+        </div>
+        <div class="copyright_text">
+          <div id="hs_cos_wrapper_rich_text" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_rich_text_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Copyright © 2026 MediaTek. All rights reserved</p></span></div>
+        </div>
+      </div>
+      <div class="mobile_footer">
+        <div class="copyright_mobile">
+          <div id="hs_cos_wrapper_rich_text" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module widget-type-rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><span id="hs_cos_wrapper_rich_text_" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_rich_text" style="" data-hs-cos-general-type="widget" data-hs-cos-type="rich_text"><p>Copyright © 2026 MediaTek. All rights reserved</p></span></div>
+        </div>
+        <div class="social_links">
+          <div id="hs_cos_wrapper_footer_social_links" class="hs_cos_wrapper hs_cos_wrapper_widget hs_cos_wrapper_type_module" style="" data-hs-cos-general-type="widget" data-hs-cos-type="module"><div class="footer_social_links">
+  <ul class="social_share foot_soc">
+    
+    
+    <div class="facebook_share share-item">
+      <a data-site="facebook" href="https://www.facebook.com/MediaTek" target="_blank" rel="noopener">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+    </div>
+    
+    
+    <div class="linkedin_share share-item">
+      <a data-site="linkedin" href="https://www.linkedin.com/company/17763" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+    </div>
+    
+    
+    <div class="instagram_share share-item">
+      <a data-site="instagram" href="https://www.instagram.com/mediatek_inc/" target="_blank" rel="noopener">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+    </div>
+    
+    
+    <div class="youtube_share share-item">
+      <a data-site="youtube" href="https://www.youtube.com/mediatek" target="_blank" rel="noopener">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+    </div>
+    
+    
+    <div class="threads_share share-item">
+      <a data-site="threads" href="https://www.threads.net/@mediatek_inc" target="_blank" rel="noopener">
+        <i class="fa-brands fa-threads"></i>
+      </a>
+    </div>
+    
+    
+  </ul>
+</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="back-to-top" id="back-to-top">
+  <i class="fa-solid fa-chevron-up"></i>
+</div>
+
+<svg width="0" height="0" class="tw-hidden hidden hide" style="display: none;">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" id="icon-globe" fill="currentColor">
+    <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 16.057v-3.057h2.994c-.059 1.143-.212 2.24-.456 3.279-.823-.12-1.674-.188-2.538-.222zm1.957 2.162c-.499 1.33-1.159 2.497-1.957 3.456v-3.62c.666.028 1.319.081 1.957.164zm-1.957-7.219v-3.015c.868-.034 1.721-.103 2.548-.224.238 1.027.389 2.111.446 3.239h-2.994zm0-5.014v-3.661c.806.969 1.471 2.15 1.971 3.496-.642.084-1.3.137-1.971.165zm2.703-3.267c1.237.496 2.354 1.228 3.29 2.146-.642.234-1.311.442-2.019.607-.344-.992-.775-1.91-1.271-2.753zm-7.241 13.56c-.244-1.039-.398-2.136-.456-3.279h2.994v3.057c-.865.034-1.714.102-2.538.222zm2.538 1.776v3.62c-.798-.959-1.458-2.126-1.957-3.456.638-.083 1.291-.136 1.957-.164zm-2.994-7.055c.057-1.128.207-2.212.446-3.239.827.121 1.68.19 2.548.224v3.015h-2.994zm1.024-5.179c.5-1.346 1.165-2.527 1.97-3.496v3.661c-.671-.028-1.329-.081-1.97-.165zm-2.005-.35c-.708-.165-1.377-.373-2.018-.607.937-.918 2.053-1.65 3.29-2.146-.496.844-.927 1.762-1.272 2.753zm-.549 1.918c-.264 1.151-.434 2.36-.492 3.611h-3.933c.165-1.658.739-3.197 1.617-4.518.88.361 1.816.67 2.808.907zm.009 9.262c-.988.236-1.92.542-2.797.9-.89-1.328-1.471-2.879-1.637-4.551h3.934c.058 1.265.231 2.488.5 3.651zm.553 1.917c.342.976.768 1.881 1.257 2.712-1.223-.49-2.326-1.211-3.256-2.115.636-.229 1.299-.435 1.999-.597zm9.924 0c.7.163 1.362.367 1.999.597-.931.903-2.034 1.625-3.257 2.116.489-.832.915-1.737 1.258-2.713zm.553-1.917c.27-1.163.442-2.386.501-3.651h3.934c-.167 1.672-.748 3.223-1.638 4.551-.877-.358-1.81-.664-2.797-.9zm.501-5.651c-.058-1.251-.229-2.46-.492-3.611.992-.237 1.929-.546 2.809-.907.877 1.321 1.451 2.86 1.616 4.518h-3.933z" />
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewbox="0 0 18 18" id="icon-magnifying-glass" fill="currentColor">
+    <path d="M17.755 15.562l-3.505-3.505a.843.843 0 00-.598-.246h-.573a7.275 7.275 0 001.547-4.5A7.311 7.311 0 007.313 0 7.311 7.311 0 000 7.312a7.311 7.311 0 007.313 7.312c1.698 0 3.26-.577 4.5-1.547v.573c0 .225.088.44.246.597l3.506 3.505a.84.84 0 001.192 0l.995-.995c.33-.33.33-.864.003-1.195zm-10.442-3.75a4.497 4.497 0 01-4.5-4.5c0-2.486 2.01-4.5 4.5-4.5 2.486 0 4.5 2.011 4.5 4.5 0 2.485-2.01 4.5-4.5 4.5z"></path>
+  </symbol>
+  <symbol xmlns="http://www.w3.org/2000/svg" viewbox="0 0 20 20" id="icon-close" fill="currentColor">
+    <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+  </symbol>
+</svg></div>
+        
+      </div>
+      
+    </div>
+    
+    
+    
+    
+
+
+    
+    
+    
+<!-- HubSpot performance collection script -->
+<script defer src="/hs/hsstatic/content-cwv-embed/static-1.1293/embed.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<script src="https://www.mediatek.com/hubfs/hub_generated/template_assets/1/161694198838/1791876449026/template_magnific_popup.min.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<script src="https://www.mediatek.com/hubfs/hub_generated/template_assets/1/161694198837/1791876450962/template_wow.min.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<script src="https://www.mediatek.com/hubfs/hub_generated/template_assets/1/161692443007/1791876447695/template_slick.min.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<script src="https://www.mediatek.com/hubfs/hub_generated/template_assets/1/161694187402/1791876449570/template_main.min.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<script nonce="9balE2NaWY1IRGpmPAuFrw==">
+var hsVars = hsVars || {}; hsVars['language'] = 'en';
+</script>
+
+<script src="/hs/hsstatic/cos-i18n/static-1.53/bundles/project.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<script src="https://7052064.fs1.hubspotusercontent-na1.net/hubfs/7052064/hub_generated/module_assets/1/-2712622/1791562990031/module_search_input.min.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+
+
+<script nonce="9balE2NaWY1IRGpmPAuFrw==">
+  console.log(
+  [...document.querySelectorAll(".hs-breadcrumb-menu li a")].map((item, index) => ({
+    position: index + 1,
+    name: item.textContent.trim(),
+    url: item.href
+  }))
+);
+</script>
+
+<script nonce="9balE2NaWY1IRGpmPAuFrw==">
+  $(document).ready(function(){
+    const chs_home = $('html[lang="zh-cn"] .test_menu .breadcrumbs ul.hs-breadcrumb-menu > li.first-crumb > a');
+    const cht_home = $('html[lang="zh-tw"] .test_menu .breadcrumbs ul.hs-breadcrumb-menu > li.first-crumb > a');
+
+    const url = window.location.pathname;
+
+    if ( url.includes('zh-tw')) {
+      cht_home.attr('href', 'https://www.mediatek.tw/');  
+    }
+    else if ( url.includes('zh-cn')){
+      chs_home.attr('href', 'https://www.mediatek.cn');  
+    }
+  });
+
+</script>
+
+
+<script src="https://www.mediatek.com/hubfs/hub_generated/module_assets/1/165900437918/1782366889186/module_accordian-section.min.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+
+    <!--[if lte IE 8]>
+    <script charset="utf-8" src="https://js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
+
+<script data-hs-allowed="true" src="/_hcms/forms/v2.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+
+    <script data-hs-allowed="true" nonce="9balE2NaWY1IRGpmPAuFrw==">
+        var options = {
+            portalId: '728015',
+            formId: 'afd29ec0-e531-4714-97fc-99bddc45f567',
+            formInstanceId: '8543',
+            
+            pageId: '167120021069',
+            
+            region: 'na1',
+            
+            
+            
+            
+            pageName: "MediaTek | Dimensity 8300 | High-Performance and Efficiency",
+            
+            
+            
+            
+            
+            
+            css: '',
+            target: '#hs_form_target_form',
+            
+            
+            
+            
+            
+            
+            
+            contentType: "standard-page",
+            
+            
+            
+            formsBaseUrl: '/_hcms/forms/',
+            
+            
+            
+            formData: {
+                cssClass: 'hs-form stacked hs-custom-form'
+            }
+        };
+
+        options.getExtraMetaDataBeforeSubmit = function() {
+            var metadata = {};
+            
+
+            if (hbspt.targetedContentMetadata) {
+                var count = hbspt.targetedContentMetadata.length;
+                var targetedContentData = [];
+                for (var i = 0; i < count; i++) {
+                    var tc = hbspt.targetedContentMetadata[i];
+                     if ( tc.length !== 3) {
+                        continue;
+                     }
+                     targetedContentData.push({
+                        definitionId: tc[0],
+                        criterionId: tc[1],
+                        smartTypeId: tc[2]
+                     });
+                }
+                metadata["targetedContentMetadata"] = JSON.stringify(targetedContentData);
+            }
+
+            return metadata;
+        };
+
+        hbspt.forms.create(options);
+    </script>
+
+
+<!-- Start of HubSpot Analytics Code -->
+<script type="text/javascript" nonce="9balE2NaWY1IRGpmPAuFrw==">
+var _hsq = _hsq || [];
+_hsq.push(["setContentType", "standard-page"]);
+_hsq.push(["setCanonicalUrl", "https:\/\/www.mediatek.com\/products\/smartphones\/mediatek-dimensity-8300"]);
+_hsq.push(["setPageId", "167120021069"]);
+_hsq.push(["setContentMetadata", {
+    "contentPageId": 167120021069,
+    "legacyPageId": "167120021069",
+    "contentFolderId": null,
+    "contentGroupId": null,
+    "abTestId": null,
+    "languageVariantId": 167120021069,
+    "languageCode": "en",
+    
+    
+}]);
+</script>
+
+<script type="text/javascript" id="hs-script-loader" async defer src="/hs/scriptloader/728015.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+<!-- End of HubSpot Analytics Code -->
+
+
+<script type="text/javascript" nonce="9balE2NaWY1IRGpmPAuFrw==">
+var hsVars = {
+    render_id: "0d393c8f-8dac-4659-9a2e-1a5841747989",
+    ticks: 1791876504672,
+    page_id: 167120021069,
+    
+    content_group_id: 0,
+    portal_id: 728015,
+    app_hs_base_url: "https://app.hubspot.com",
+    cp_hs_base_url: "https://cp.hubspot.com",
+    language: "en",
+    analytics_page_type: "standard-page",
+    scp_content_type: "",
+    
+    analytics_page_id: "167120021069",
+    category_id: 1,
+    folder_id: 0,
+    is_hubspot_user: false
+}
+</script>
+
+
+<script defer src="/hs/hsstatic/HubspotToolsMenu/static-1.640/js/index.js" nonce="9balE2NaWY1IRGpmPAuFrw=="></script>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6ZB69WT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<noscript>
+<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=4459563920977321&amp;ev=PageView&amp;noscript=1">
+</noscript>
+
+
+  
+</body></html>

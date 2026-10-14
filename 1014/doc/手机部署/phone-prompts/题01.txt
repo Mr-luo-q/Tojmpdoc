@@ -1,0 +1,1 @@
+只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。

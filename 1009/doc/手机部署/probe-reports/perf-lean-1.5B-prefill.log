@@ -1,0 +1,29 @@
+﻿设备: MT6897   内核: 6.1.138-android14-11-g6ab8c9a86a33-ab14396278
+llama.cpp: version: 0.6.0 (build 0, commit unknown)
+内存: MemAvailable:    7184932 kB
+固定: -ngl 0 (纯 CPU)  -t 4  -r 2  --no-warmup
+
+############################################################
+# 1.5B · prefill 曲线（-p 扫描，-n 固定 32）
+############################################################
+频率: cpu0=480 cpu4=1400 cpu7=400
+
+load_backend: loaded CPU backend from /data/data/com.termux/files/usr/lib/libggml-cpu.so
+| model                          |       size |     params | backend    | threads |            test |                  t/s |
+| ------------------------------ | ---------: | ---------: | ---------- | ------: | --------------: | -------------------: |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | CPU        |       4 |            pp32 |         18.28 ± 0.02 |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | CPU        |       4 |            pp64 |         18.37 ± 0.03 |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | CPU        |       4 |           pp128 |         18.44 ± 0.06 |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | CPU        |       4 |           pp256 |         18.45 ± 0.03 |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | CPU        |       4 |           pp512 |         18.40 ± 0.01 |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | CPU        |       4 |          pp1024 |         18.15 ± 0.01 |
+| qwen2 1.5B Q4_K - Medium       |   1.04 GiB |     1.78 B | CPU        |       4 |          pp2048 |         17.70 ± 0.04 |
+Terminated                 llama-bench -m "$M15" -ngl 0 -t 4 -r 2 --no-warmup -o md -p 32,64,128,256,512,1024,2048,4096 -n 32 2>&1
+
+############################################################
+# 1.5B · decode 曲线（-n 扫描，-p 固定 128）
+############################################################
+频率: cpu0=480 cpu4=1600 cpu7=400
+
+load_backend: loaded CPU backend from /data/data/com.termux/files/usr/lib/libggml-cpu.so
+

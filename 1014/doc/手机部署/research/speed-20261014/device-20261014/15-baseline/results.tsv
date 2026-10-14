@@ -1,0 +1,3 @@
+job	model	experiment	depth	block	arm	status	n_prompt	n_gen	avg_ts	stddev_ts	elapsed_s	settings
+001	qwen2.5-1.5b-instruct-q4_k_m.gguf	baseline	0	0	A	OK	128	0	28.115973	0.079016	29.095	"{""t"": ""4"", ""fa"": ""off"", ""ctk"": ""f16"", ""ctv"": ""f16"", ""b"": ""512"", ""ub"": ""128"", ""repack"": ""1""}"
+001	qwen2.5-1.5b-instruct-q4_k_m.gguf	baseline	0	0	A	OK	0	64	18.67006	0.388995	29.095	"{""t"": ""4"", ""fa"": ""off"", ""ctk"": ""f16"", ""ctv"": ""f16"", ""b"": ""512"", ""ub"": ""128"", ""repack"": ""1""}"

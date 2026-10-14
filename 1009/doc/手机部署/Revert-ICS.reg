@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+; Disable ICS sharing and clear the interface bindings.
+; Run this to revert, then restart the SharedAccess service (or reboot).
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\SharedAccess]
+"EnableSharing"=dword:00000000
+"PublicProfile"=""
+"PrivateProfile"=""
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\SharedAccess\Parameters\SharedAccess\NS_{62201F60-D541-40D7-8EB6-54A5593990EC}]
+"EnableSharing"=dword:00000000
+"PrivateProfile"=""

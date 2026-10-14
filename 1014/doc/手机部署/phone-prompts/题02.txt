@@ -1,0 +1,1 @@
+提取订单信息，只输出JSON。原文：订单号A102，收件人李华，电话13800138000，商品蓝色杯子2个。字段order_id、name、phone、item、quantity。

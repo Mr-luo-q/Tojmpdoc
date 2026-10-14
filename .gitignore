@@ -1,0 +1,45 @@
+# 兜底规则：collect.py 已经按白名单挑文件，这里只防手滑。
+# 体积大或敏感的类别一律不入库，需要时登记在 source.md 里。
+
+# 模型权重与推理产物
+*.gguf
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.bin
+
+# 磁盘镜像与安装包
+*.img
+*.iso
+*.exe
+*.msi
+*.whl
+*.tar.gz
+*.7z
+*.rar
+
+# 本机密钥与口令
+.env
+*.pem
+*.key
+config.txt
+*credential*
+*credentials*
+*.passwd
+*password*
+*.nmconnection
+
+# 缓存与生成物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+.DS_Store
+
+# 体积大、不属于文档
+*.pdf
+

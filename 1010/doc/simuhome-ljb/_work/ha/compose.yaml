@@ -1,0 +1,24 @@
+# 沙盒专用 HA 容器。和仓库里的 deploy\compose.yaml 是两份东西，不动那一份。
+#
+# 差异（都是本机环境的现实约束）：
+#   1. 镜像用本机已有的 homeassistant/home-assistant:stable，
+#      不写 ghcr.io（Docker Hub 不通，本地这份能直接用，省一次 3 GB 拉取）
+#   2. 配置目录是本沙盒专用的 D:\homeassistant-sandbox，
+#      不碰现有的 D:\homeassistant（那边是旧 REST 方案的配置，实体名会和 MQTT 撞）
+#
+# 用法：
+#   $env:HA_CONFIG_DIR = "D:\homeassistant-sandbox"
+#   docker compose -f _work\ha\compose.yaml up -d
+name: simuhome_sandbox_ha
+
+services:
+  homeassistant:
+    container_name: homeassistant
+    image: homeassistant/home-assistant:stable
+    restart: unless-stopped
+    ports:
+      - "8123:8123"
+    environment:
+      TZ: Asia/Shanghai
+    volumes:
+      - ${HA_CONFIG_DIR:?请先设置 HA_CONFIG_DIR 指向沙盒 HA 的配置目录}:/config

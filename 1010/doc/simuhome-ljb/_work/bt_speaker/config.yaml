@@ -1,0 +1,36 @@
+# 蓝牙音箱 MQTT 桥的配置。
+#
+# 这套东西只做一件事：在 HA 里报一个 switch 实体，命令走 MQTT，
+# 音箱侧的声音由本机 Windows 的音频输出负责。
+
+broker:
+  host: 127.0.0.1
+  port: 1883
+  client_id: bt-speaker-bridge
+  # 本机 amqtt 允许匿名，留空即可
+  username:
+  password:
+
+# HA 里的实体
+name: 蓝牙音箱
+model: ERAZER SAB6
+
+audio:
+  # ON 时播放的文件（相对本目录）；不存在会自动生成一段提示音
+  media: media/announce.wav
+  # true = ON 一直循环播放，直到 OFF（这样"停止/暂停"随时都有作用）
+  # false = 播一遍，播完自动回 OFF（提示音只有 2.5 秒，想中途停得抢时间）
+  loop: true
+  # true = 只打日志不出声，用来单独验证 MQTT 链路
+  dry_run: false
+  # 目标输出设备名（子串匹配）。设了就锁定到这个设备，不再依赖系统默认输出。
+  # 注意这音箱上报的名字是 EARZER（厂商把 ERAZER 拼错了一个字母），
+  # 所以这里用 SAB6 这个不会拼错的部分。
+  device_name: SAB6
+  # 播报（bt_speaker/v1/say）时的语速，范围 -10 ~ 10
+  say_voice_rate: 0
+  # 是否暴露音量实体（HA 里是 number.bt_speaker_volume，0~100）
+  # 它对应"系统默认输出设备"的音量，用 pycaw 读写；没装 pycaw 会自动降级关闭
+  volume: true
+  # 定期把系统音量同步回 HA 的间隔（秒）；你在系统里手动改音量，HA 里也会跟着变
+  volume_poll_s: 5
