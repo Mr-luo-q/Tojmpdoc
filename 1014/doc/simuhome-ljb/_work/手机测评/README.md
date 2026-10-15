@@ -37,6 +37,8 @@ tools/
 protoB/
     protoB_replay.py    方案 B 原型：房间信息前置 + 去掉 observe_home（内存改写，不动主线）
     protoB_replay.md    对应说明与系统提示词改动清单
+    protoB_summary.py   行为检查器：逐跳看调了什么工具、引用的 id 是真是假
+    protoB_summary.md   对应说明
 logs/                  实测原始记录（已在 _work/.gitignore 中排除，不入库）
 dist/                  打好的交接包（zip 快照），可整体发出去
 ```

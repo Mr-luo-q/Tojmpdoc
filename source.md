@@ -2,7 +2,7 @@
 
 本文件由 `tools/collect.py` 生成，登记**没有进这个仓库**的东西：体积大的、第三方的、或者含本机口令的。需要时按路径回本机取，不用从仓库里找。
 
-生成时间：2026-10-14 22:25（本机 `D:\项目`）
+生成时间：2026-10-15 20:51（本机 `D:\项目`）
 
 ## 1. 按路径排除，未入库
 
@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- |
 | simuhome-ljb | `_work\chrome-ha-profile` | 21.6 MB | 417 | 浏览器用户数据（登录态），可再生成 |
 | simuhome-ljb | `_work\edge-ha-profile` | 1095.5 MB | 5726 | 浏览器用户数据（登录态），可再生成 |
-| simuhome-ljb | `_work\logs` | 4.6 MB | 16 | HA / MQTT 等运行时日志 |
+| simuhome-ljb | `_work\logs` | 4.2 MB | 16 | HA / MQTT 等运行时日志 |
 | simuhome-ljb | `_work\llm\extract` | 218.3 KB | 55 | HACS 组件解压出来的第三方源码 |
 | simuhome-ljb | `_work\llm\extract202` | 218.3 KB | 55 | HACS 组件解压出来的第三方源码 |
 | simuhome-ljb | `_work\llm\removed_extended_openai_conversation` | 242.7 KB | 28 | 撤除前的第三方组件副本 |
@@ -19,7 +19,7 @@
 | simuhome-ljb | `_work\midea\extract` | 1.8 MB | 101 | 第三方 midea_auto_cloud 源码 |
 | simuhome-ljb | `_work\midea\midea_auto_cloud-master.zip` | 729.3 KB | 1 | 第三方组件安装包 |
 | simuhome-ljb | `_work\pi\wheels` | 1.5 MB | 7 | 树莓派离线 wheel 安装包 |
-| simuhome-ljb | `_work\broker\logs` | 1.2 KB | 2 | MQTT broker 运行时日志 |
+| simuhome-ljb | `_work\broker\logs` | 649 B | 2 | MQTT broker 运行时日志 |
 | simuhome-ljb | `_work\bt_speaker\logs` | 4.3 KB | 6 | 蓝牙音箱桥运行时日志 |
 | simuhome-ljb | `_work\bt_speaker\media\announce.wav` | 215.4 KB | 1 | 提示音素材 |
 | simuhome-ljb | `_work\mcp\data\schedules.db*` | 76.3 KB | 3 | MCP 运行时 SQLite 数据库 |

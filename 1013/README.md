@@ -2,9 +2,9 @@
 
 主题：端侧前缀缓存测评方案与实测数据；树莓派有线直连排障手册
 
-当天归档 14 个文件，来自 simuhome-ljb、树莓派。“原路径”是它在来源工程里的位置。
+当天归档 13 个文件，来自 simuhome-ljb、树莓派。“原路径”是它在来源工程里的位置。
 
-## simuhome-ljb（7）
+## simuhome-ljb（6）
 
 | 文件 | 原路径 | 大小 |
 | --- | --- | --- |
@@ -14,7 +14,6 @@
 | [03_前缀缓存预热方案.md](<doc/simuhome-ljb/_work/手机测评/03_前缀缓存预热方案.md>) | `_work/手机测评/03_前缀缓存预热方案.md` | 6.4 KB |
 | [04_方案A_预置固定头_保持协议.md](<doc/simuhome-ljb/_work/手机测评/04_方案A_预置固定头_保持协议.md>) | `_work/手机测评/04_方案A_预置固定头_保持协议.md` | 8.4 KB |
 | [traj_replay.md](<doc/simuhome-ljb/_work/手机测评/tools/traj_replay.md>) | `_work/手机测评/tools/traj_replay.md` | 4.4 KB |
-| [traj_replay.py](<doc/simuhome-ljb/_work/手机测评/tools/traj_replay.py>) | `_work/手机测评/tools/traj_replay.py` | 15.8 KB |
 
 ## 树莓派（7）
 

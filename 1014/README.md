@@ -2,23 +2,30 @@
 
 主题：端侧方案 B（房间信息前置）与交接包；手机提速调研、复现手册与真机实测结果
 
-当天归档 138 个文件，来自 simuhome-ljb、手机部署。“原路径”是它在来源工程里的位置。
+当天归档 145 个文件，来自 simuhome-ljb、手机部署。“原路径”是它在来源工程里的位置。
 
-## simuhome-ljb（11）
+## simuhome-ljb（18）
 
 | 文件 | 原路径 | 大小 |
 | --- | --- | --- |
 | [09_当前问题与待办.md](<doc/simuhome-ljb/_work/09_当前问题与待办.md>) | `_work/09_当前问题与待办.md` | 6.8 KB |
-| [11_蓝牙桥与Zigbee接入总报告.md](<doc/simuhome-ljb/_work/11_蓝牙桥与Zigbee接入总报告.md>) | `_work/11_蓝牙桥与Zigbee接入总报告.md` | 19.2 KB |
+| [11_蓝牙桥与Zigbee接入总报告.md](<doc/simuhome-ljb/_work/11_蓝牙桥与Zigbee接入总报告.md>) | `_work/11_蓝牙桥与Zigbee接入总报告.md` | 24.6 KB |
 | [README.md](<doc/simuhome-ljb/_work/README.md>) | `_work/README.md` | 5.8 KB |
+| [midea_listen.md](<doc/simuhome-ljb/_work/ble/midea_listen.md>) | `_work/ble/midea_listen.md` | 2.3 KB |
+| [midea_listen.py](<doc/simuhome-ljb/_work/ble/midea_listen.py>) | `_work/ble/midea_listen.py` | 4.9 KB |
+| [midea_probe.md](<doc/simuhome-ljb/_work/ble/midea_probe.md>) | `_work/ble/midea_probe.md` | 2.3 KB |
+| [midea_probe.py](<doc/simuhome-ljb/_work/ble/midea_probe.py>) | `_work/ble/midea_probe.py` | 4.1 KB |
 | [ha_api.md](<doc/simuhome-ljb/_work/pi/ha_api.md>) | `_work/pi/ha_api.md` | 2.2 KB |
 | [ha_api.py](<doc/simuhome-ljb/_work/pi/ha_api.py>) | `_work/pi/ha_api.py` | 4.8 KB |
-| [05_方案B_房间信息前置_按家共享.md](<doc/simuhome-ljb/_work/手机测评/05_方案B_房间信息前置_按家共享.md>) | `_work/手机测评/05_方案B_房间信息前置_按家共享.md` | 8.2 KB |
+| [05_方案B_房间信息前置_按家共享.md](<doc/simuhome-ljb/_work/手机测评/05_方案B_房间信息前置_按家共享.md>) | `_work/手机测评/05_方案B_房间信息前置_按家共享.md` | 10.2 KB |
 | [06_交接包说明.md](<doc/simuhome-ljb/_work/手机测评/06_交接包说明.md>) | `_work/手机测评/06_交接包说明.md` | 3.5 KB |
-| [README.md](<doc/simuhome-ljb/_work/手机测评/README.md>) | `_work/手机测评/README.md` | 2.6 KB |
+| [README.md](<doc/simuhome-ljb/_work/手机测评/README.md>) | `_work/手机测评/README.md` | 2.7 KB |
 | [端侧测评_方案AB_20261014.zip](<doc/simuhome-ljb/_work/手机测评/dist/端侧测评_方案AB_20261014.zip>) | `_work/手机测评/dist/端侧测评_方案AB_20261014.zip` | 38.6 KB |
-| [protoB_replay.md](<doc/simuhome-ljb/_work/手机测评/protoB/protoB_replay.md>) | `_work/手机测评/protoB/protoB_replay.md` | 3.0 KB |
+| [protoB_replay.md](<doc/simuhome-ljb/_work/手机测评/protoB/protoB_replay.md>) | `_work/手机测评/protoB/protoB_replay.md` | 3.1 KB |
 | [protoB_replay.py](<doc/simuhome-ljb/_work/手机测评/protoB/protoB_replay.py>) | `_work/手机测评/protoB/protoB_replay.py` | 8.5 KB |
+| [protoB_summary.md](<doc/simuhome-ljb/_work/手机测评/protoB/protoB_summary.md>) | `_work/手机测评/protoB/protoB_summary.md` | 1.1 KB |
+| [protoB_summary.py](<doc/simuhome-ljb/_work/手机测评/protoB/protoB_summary.py>) | `_work/手机测评/protoB/protoB_summary.py` | 3.1 KB |
+| [traj_replay.py](<doc/simuhome-ljb/_work/手机测评/tools/traj_replay.py>) | `_work/手机测评/tools/traj_replay.py` | 16.3 KB |
 
 ## 手机部署（127）
 

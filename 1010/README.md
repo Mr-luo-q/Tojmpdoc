@@ -2,9 +2,9 @@
 
 主题：智能家居部署文档（deploy 五份）、跨会话上下文总结、本地工具脚本、layered 接入记录 01-06
 
-当天归档 274 个文件，来自 simuhome-ljb、手机部署。“原路径”是它在来源工程里的位置。
+当天归档 273 个文件，来自 simuhome-ljb、手机部署。“原路径”是它在来源工程里的位置。
 
-## simuhome-ljb（268）
+## simuhome-ljb（267）
 
 | 文件 | 原路径 | 大小 |
 | --- | --- | --- |
@@ -48,7 +48,6 @@
 | [ha_login.cmd](<doc/simuhome-ljb/_work/ha_login.cmd>) | `_work/ha_login.cmd` | 88 B |
 | [ha_login.ps1](<doc/simuhome-ljb/_work/ha_login.ps1>) | `_work/ha_login.ps1` | 2.3 KB |
 | [config.yaml](<doc/simuhome-ljb/_work/mcp/config.yaml>) | `_work/mcp/config.yaml` | 2.7 KB |
-| [device_aliases.yaml](<doc/simuhome-ljb/_work/mcp/data/device_aliases.yaml>) | `_work/mcp/data/device_aliases.yaml` | 1006 B |
 | [memory.yaml](<doc/simuhome-ljb/_work/mcp/data/memory.yaml>) | `_work/mcp/data/memory.yaml` | 0 B |
 | [smoke.py](<doc/simuhome-ljb/_work/mcp/smoke.py>) | `_work/mcp/smoke.py` | 2.5 KB |
 | [start_sandbox.ps1](<doc/simuhome-ljb/_work/start_sandbox.ps1>) | `_work/start_sandbox.ps1` | 4.8 KB |

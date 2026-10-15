@@ -187,7 +187,8 @@ def main() -> None:
     out = base.LOGDIR / f"{name}_{stamp}.json"
     out.write_text(
         json.dumps(
-            {"args": vars(args), "prewarm_ms": prewarm_ms, "records": records},
+            {"model": base.server_model(args.host), "args": vars(args),
+             "prewarm_ms": prewarm_ms, "records": records},
             ensure_ascii=False,
             indent=2,
         ),
