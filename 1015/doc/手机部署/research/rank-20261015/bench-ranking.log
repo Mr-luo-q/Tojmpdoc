@@ -1,0 +1,128 @@
+开始: 2026-10-15 22:13:21
+输出目录: /data/data/com.termux/files/home/speed-results/rank-20261015-221321
+频率: cpu0=480 cpu4=1600 cpu7=400
+
+utc=2026-10-15T14:13:21Z
+android_release=16
+android_sdk=36
+soc=MT6897
+incremental=OS3.0.305.0.WNLCNXM
+load_backend: loaded CPU backend from /data/data/com.termux/files/usr/lib/libggml-cpu.so
+version: 0.6.0 (build 0, commit unknown)
+built with Clang 21.0.0 for Android aarch64
+ac2d97712095a558e31573f62f466a3f9d93990898b0ec79d7c974c1780d524a  /data/data/com.termux/files/home/models/Qwen3-0.6B-Q4_K_M.gguf
+bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517  /data/data/com.termux/files/home/models/Qwen3.5-0.8B-Q4_K_M.gguf
+6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e  /data/data/com.termux/files/home/models/qwen2.5-1.5b-instruct-q4_k_m.gguf
+b139949c5bd74937ad8ed8c8cf3d9ffb1e99c866c823204dc42c0d91fa181897  /data/data/com.termux/files/home/models/Qwen3-1.7B-Q4_K_M.gguf
+aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223  /data/data/com.termux/files/home/models/Qwen3.5-2B-Q4_K_M.gguf
+
+=============== B1 基线正序 d=0 r=3 ===============
+### b1-06 | Qwen3-0.6B-Q4_K_M.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=800 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1500 cpu7=400
+
+### b1-08 | Qwen3.5-0.8B-Q4_K_M.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=2500 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=600 cpu7=400
+
+### b1-15 | qwen2.5-1.5b-instruct-q4_k_m.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=1200 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1700 cpu7=2500
+
+### b1-17 | Qwen3-1.7B-Q4_K_M.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=2400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=600 cpu7=400
+
+### b1-35 | Qwen3.5-2B-Q4_K_M.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=600 cpu4=1300 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=400 cpu7=1800
+
+=============== B2 基线逆序 d=0 r=3 ===============
+### b2-35 | Qwen3.5-2B-Q4_K_M.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=2400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1900 cpu7=400
+
+### b2-17 | Qwen3-1.7B-Q4_K_M.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1700 cpu7=400
+
+### b2-15 | qwen2.5-1.5b-instruct-q4_k_m.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=2400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1500 cpu7=400
+
+### b2-08 | Qwen3.5-0.8B-Q4_K_M.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=2400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2400 cpu7=400
+
+### b2-06 | Qwen3-0.6B-Q4_K_M.gguf | -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=700 cpu4=2400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2400 cpu7=2400
+
+=============== D1 深度 512 r=2 ===============
+### d512-06 | Qwen3-0.6B-Q4_K_M.gguf | -p 128 -n 64 -d 512 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1800 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2400 cpu7=400
+
+### d512-08 | Qwen3.5-0.8B-Q4_K_M.gguf | -p 128 -n 64 -d 512 -r 2 --no-warmup
+    频率前: cpu0=600 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2400 cpu7=400
+
+### d512-15 | qwen2.5-1.5b-instruct-q4_k_m.gguf | -p 128 -n 64 -d 512 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=400 cpu7=400
+
+### d512-17 | Qwen3-1.7B-Q4_K_M.gguf | -p 128 -n 64 -d 512 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1200 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2200 cpu7=2200
+
+### d512-35 | Qwen3.5-2B-Q4_K_M.gguf | -p 128 -n 64 -d 512 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1700 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1000 cpu7=2200
+
+=============== D2 深度 2048 r=2 ===============
+### d2048-35 | Qwen3.5-2B-Q4_K_M.gguf | -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1200 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1800 cpu7=2200
+
+### d2048-17 | Qwen3-1.7B-Q4_K_M.gguf | -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1200 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2200 cpu7=400
+
+### d2048-15 | qwen2.5-1.5b-instruct-q4_k_m.gguf | -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1700 cpu7=2200
+
+### d2048-08 | Qwen3.5-0.8B-Q4_K_M.gguf | -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1600 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2200 cpu7=2200
+
+### d2048-06 | Qwen3-0.6B-Q4_K_M.gguf | -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=2200 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2200 cpu7=2200
+
+=============== D3 深度 4096 r=2 ===============
+### d4096-06 | Qwen3-0.6B-Q4_K_M.gguf | -p 128 -n 64 -d 4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=2200 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2200 cpu7=2200
+
+### d4096-08 | Qwen3.5-0.8B-Q4_K_M.gguf | -p 128 -n 64 -d 4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1900 cpu7=2200
+
+### d4096-15 | qwen2.5-1.5b-instruct-q4_k_m.gguf | -p 128 -n 64 -d 4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1500 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2100 cpu7=2100
+
+### d4096-17 | Qwen3-1.7B-Q4_K_M.gguf | -p 128 -n 64 -d 4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1700 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1600 cpu7=2000
+
+### d4096-35 | Qwen3.5-2B-Q4_K_M.gguf | -p 128 -n 64 -d 4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1600 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=500 cpu7=2200
+
+完成: 2026-10-15 22:54:15
+频率: cpu0=700 cpu4=1400 cpu7=400
+输出目录: /data/data/com.termux/files/home/speed-results/rank-20261015-221321
+Error: Not found; no service started.
+日志: /data/data/com.termux/files/home/bench-ranking.log

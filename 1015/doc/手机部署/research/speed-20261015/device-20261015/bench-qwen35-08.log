@@ -1,0 +1,113 @@
+开始: 2026-10-15 21:36:02
+输出目录: /data/data/com.termux/files/home/speed-results/0608-20261015-213602
+频率: cpu0=600 cpu4=1600 cpu7=400
+
+utc=2026-10-15T13:36:03Z
+android_release=16
+android_sdk=36
+soc=MT6897
+load_backend: loaded CPU backend from /data/data/com.termux/files/usr/lib/libggml-cpu.so
+version: 0.6.0 (build 0, commit unknown)
+built with Clang 21.0.0 for Android aarch64
+llama-cpp	0.6.0
+ac2d97712095a558e31573f62f466a3f9d93990898b0ec79d7c974c1780d524a  /data/data/com.termux/files/home/models/Qwen3-0.6B-Q4_K_M.gguf
+bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517  /data/data/com.termux/files/home/models/Qwen3.5-0.8B-Q4_K_M.gguf
+
+=============== S0 历史口径基线 ===============
+### s0-06-a | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -t 4 -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=600 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2660 cpu7=400
+
+### s0-08-a | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -t 4 -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=2400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1600 cpu7=400
+
+### s0-08-b | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -t 4 -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=1500 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1500 cpu7=400
+
+### s0-06-b | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -t 4 -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=1600 cpu7=400
+    rc=0 频率后: cpu0=1600 cpu4=1700 cpu7=2800
+
+=============== S1 标准口径基线 ===============
+### s1-06-a | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=1900 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1500 cpu7=2800
+
+### s1-08-a | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=2000 cpu4=2660 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2660 cpu7=400
+
+### s1-08-b | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=480 cpu4=2400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2500 cpu7=2800
+
+### s1-06-b | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 3 --no-warmup
+    频率前: cpu0=700 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1900 cpu7=2700
+
+=============== S2 线程扫描 ===============
+### s2-08-t2 | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 2 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=2400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2660 cpu7=400
+
+### s2-08-t4 | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1300 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1600 cpu7=2000
+
+### s2-08-t6 | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 6 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 2 --no-warmup
+    频率前: cpu0=1800 cpu4=1600 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2400 cpu7=2800
+
+### s2-08-t8 | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 8 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2660 cpu7=2800
+
+### s2-06-t4 | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 2 --no-warmup
+    频率前: cpu0=600 cpu4=2800 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1500 cpu7=400
+
+### s2-06-t8 | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 8 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1700 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2400 cpu7=400
+
+=============== S3 上下文深度扫描 ===============
+### s3-06-a | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0,512,2048,4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1500 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2400 cpu7=400
+
+### s3-08-a | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0,512,2048,4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1600 cpu7=2200
+
+### s3-08-b | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0,512,2048,4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2200 cpu7=2200
+
+### s3-06-b | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 0,512,2048,4096 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1400 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=2200 cpu7=2200
+
+=============== S4 深度 2048 下的 FA 对照 ===============
+### s4-06-faoff | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1500 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1900 cpu7=2200
+
+### s4-08-faoff | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa off -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=1600 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1500 cpu7=2200
+
+### s4-08-faon | Qwen3.5-0.8B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa on -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=480 cpu4=2200 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=600 cpu7=400
+
+### s4-06-faon | Qwen3-0.6B-Q4_K_M.gguf | -ngl 0 -dev none -nkvo 1 -nopo 1 -t 4 -fa on -ctk f16 -ctv f16 -b 512 -ub 128 --repack 1 -p 128 -n 64 -d 2048 -r 2 --no-warmup
+    频率前: cpu0=600 cpu4=1300 cpu7=400
+    rc=0 频率后: cpu0=480 cpu4=1500 cpu7=400
+
+完成: 2026-10-15 22:01:50
+频率: cpu0=480 cpu4=2000 cpu7=400
+输出目录: /data/data/com.termux/files/home/speed-results/0608-20261015-213602
+Error: Not found; no service started.
+日志: /data/data/com.termux/files/home/bench-qwen35-08.log

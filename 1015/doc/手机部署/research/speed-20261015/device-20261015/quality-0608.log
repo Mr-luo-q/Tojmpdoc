@@ -1,0 +1,109 @@
+时间: 2026-10-15 22:04:03
+固定参数: -ngl 0 -dev none -nkvo --no-op-offload -t 4 -c 2048 -fa off -ctk f16 -ctv f16 -n 128 -st --reasoning off
+
+############################################################
+# 模型 06  Qwen3-0.6B-Q4_K_M.gguf
+############################################################
+
+======================= 题01 =======================
+
+
+> 只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。
+```json
+{
+  "total": 3 * 12 + 5,
+  "currency": "CNY"
+}
+```
+
+[ Prompt: 58.8 t/s | Generation: 33.0 t/s ]
+
+
+Exiting...
+
+======================= 题02 =======================
+
+> 提取订单信息，只输出JSON。原文：订单号A102，收件人李华，电话13800138000，商品蓝色杯子2个。字段order_id、name、phone、item、quantity。
+{
+  "order_id": "A102",
+  "name": "李华",
+  "phone": "13800138000",
+  "item": "蓝色杯子",
+  "quantity": 2
+}
+
+[ Prompt: 59.2 t/s | Generation: 33.2 t/s ]
+
+
+Exiting...
+
+======================= 题06 =======================
+
+
+> 计算17乘以23，再减去19。只输出结果。
+计算：  
+17 × 23 = 391，  
+391 − 19 = 372。
+
+只输出结果：  
+**372**
+
+[ Prompt: 57.4 t/s | Generation: 32.6 t/s ]
+
+
+Exiting...
+
+############################################################
+# 模型 08  Qwen3.5-0.8B-Q4_K_M.gguf
+############################################################
+
+======================= 题01 =======================
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 只输出JSON，不要代码框。张三买了3个单价12元的杯子，又付了5元运费。输出字段total和currency，currency固定为CNY。
+[{"total": 39, "currency": "CNY"}]
+
+[ Prompt: 50.6 t/s | Generation: 26.5 t/s ]
+
+
+Exiting...
+
+======================= 题02 =======================
+```json
+{
+  "order_id": "A102",
+  "name": "李华",
+  "phone": "13800138000",
+  "item": "蓝色杯子",
+  "quantity": 2
+}
+```
+
+[ Prompt: 50.7 t/s | Generation: 26.6 t/s ]
+
+
+Exiting...
+
+======================= 题06 =======================
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 计算17乘以23，再减去19。只输出结果。
+22
+
+[ Prompt: 48.6 t/s | Generation: 26.3 t/s ]
+
+
+Exiting...
+
+完成: 2026-10-15 22:04:27
+日志: /data/data/com.termux/files/home/quality-0608.log

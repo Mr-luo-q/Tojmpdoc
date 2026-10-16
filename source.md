@@ -2,7 +2,7 @@
 
 本文件由 `tools/collect.py` 生成，登记**没有进这个仓库**的东西：体积大的、第三方的、或者含本机口令的。需要时按路径回本机取，不用从仓库里找。
 
-生成时间：2026-10-15 20:51（本机 `D:\项目`）
+生成时间：2026-10-16 14:44（本机 `D:\项目`）
 
 ## 1. 按路径排除，未入库
 
@@ -10,7 +10,7 @@
 | --- | --- | --- | --- | --- |
 | simuhome-ljb | `_work\chrome-ha-profile` | 21.6 MB | 417 | 浏览器用户数据（登录态），可再生成 |
 | simuhome-ljb | `_work\edge-ha-profile` | 1095.5 MB | 5726 | 浏览器用户数据（登录态），可再生成 |
-| simuhome-ljb | `_work\logs` | 4.2 MB | 16 | HA / MQTT 等运行时日志 |
+| simuhome-ljb | `_work\logs` | 6.6 MB | 16 | HA / MQTT 等运行时日志 |
 | simuhome-ljb | `_work\llm\extract` | 218.3 KB | 55 | HACS 组件解压出来的第三方源码 |
 | simuhome-ljb | `_work\llm\extract202` | 218.3 KB | 55 | HACS 组件解压出来的第三方源码 |
 | simuhome-ljb | `_work\llm\removed_extended_openai_conversation` | 242.7 KB | 28 | 撤除前的第三方组件副本 |

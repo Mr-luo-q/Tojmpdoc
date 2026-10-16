@@ -1,0 +1,10 @@
+utc=2026-10-15T13:36:03Z
+android_release=16
+android_sdk=36
+soc=MT6897
+load_backend: loaded CPU backend from /data/data/com.termux/files/usr/lib/libggml-cpu.so
+version: 0.6.0 (build 0, commit unknown)
+built with Clang 21.0.0 for Android aarch64
+llama-cpp	0.6.0
+ac2d97712095a558e31573f62f466a3f9d93990898b0ec79d7c974c1780d524a  /data/data/com.termux/files/home/models/Qwen3-0.6B-Q4_K_M.gguf
+bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517  /data/data/com.termux/files/home/models/Qwen3.5-0.8B-Q4_K_M.gguf
