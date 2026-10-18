@@ -63,6 +63,24 @@ DATE_NOTES = {
     "1015": "三台设备（氛围灯 / 美的温湿度计 / 涂鸦 Zigbee）接入情况；手机端五模型同场测速与答案质量排名（Redmi K70E）",
 }
 
+# 目录名用的短标题：日期在前、主要内容在后，例如 1012_MQTT与设备接入实测。
+# 目录名不带空格和斜杠；一天有多个主题时，取最主要的两三个词。
+DATE_TITLES = {
+    "0922": "手机部署工程约定",
+    "0929": "树莓派烧录脚本",
+    "0930": "树莓派部署与基准",
+    "1002": "树莓派HA容器部署",
+    "1003": "手机端部署调研",
+    "1004": "V2接入小米设计",
+    "1009": "手机端性能实测",
+    "1010": "部署文档与上下文总结",
+    "1011": "蓝牙音箱桥脚本",
+    "1012": "MQTT与设备接入实测",
+    "1013": "端侧缓存测评与树莓派排障",
+    "1014": "端侧方案B与手机提速",
+    "1015": "三设备接入与五模型测速",
+}
+
 # 外部仓库指针：不在本仓库内，单独有 git 远端
 EXTERNAL_REPOS = [
     (r"D:\项目\autodl-tmp", "https://github.com/juezhan340/autodl-tmp.git",
@@ -201,6 +219,12 @@ def pick_date(project: dict, rel: str, mtime: datetime) -> str:
     return mtime.strftime("%m%d")
 
 
+def date_dir(date: str) -> str:
+    """日期目录名：MMDD_短标题；没登记短标题时退回纯日期，并在扫描时提示补登记。"""
+    title = DATE_TITLES.get(date)
+    return f"{date}_{title}" if title else date
+
+
 def scan_project(project: dict) -> tuple[list[dict], list[dict]]:
     """扫描一个源工程，返回（要复制的文件列表，因体积超限被跳过的文件列表）。"""
     root: Path = project["root"]
@@ -235,8 +259,8 @@ def scan_project(project: dict) -> tuple[list[dict], list[dict]]:
 
 
 def dest_of(record: dict) -> Path:
-    """一个文件在本仓库中的落点：<MMDD>/doc/<工程>/<原相对路径>。"""
-    return REPO_ROOT / record["date"] / "doc" / record["project"] / record["rel"]
+    """一个文件在本仓库中的落点：<MMDD_短标题>/doc/<工程>/<原相对路径>。"""
+    return REPO_ROOT / date_dir(record["date"]) / "doc" / record["project"] / record["rel"]
 
 
 def copy_all(records: list[dict], dry_run: bool) -> list[tuple[str, str]]:
@@ -249,7 +273,7 @@ def copy_all(records: list[dict], dry_run: bool) -> list[tuple[str, str]]:
             continue
         dest.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(record["src"], dest)
-        hits.extend(redact_file(dest, f"{record['date']}/doc/{record['project']}/{record['rel']}"))
+        hits.extend(redact_file(dest, f"{date_dir(record['date'])}/doc/{record['project']}/{record['rel']}"))
     return hits
 
 
@@ -286,29 +310,40 @@ def redact_repo(dry_run: bool) -> list[tuple[str, str]]:
     return hits
 
 
-def write_date_readme(date: str, records: list[dict], dry_run: bool) -> None:
-    """生成某个日期目录下的 README.md，作为当天的索引。"""
-    lines = [f"# {date}", ""]
+def write_date_readme(dir_name: str, dry_run: bool) -> None:
+    """生成某个日期目录下的 README.md：按目录里的实际文件列清单，保证索引和内容一致。"""
+    date = dir_name.split("_", 1)[0]
+    doc_root = REPO_ROOT / dir_name / "doc"
+    rows: list[dict] = []
+    if doc_root.exists():
+        for path in sorted(doc_root.rglob("*")):
+            if not path.is_file():
+                continue
+            rel_to_doc = path.relative_to(doc_root).as_posix()
+            project, _, rel = rel_to_doc.partition("/")
+            rows.append({"project": project, "rel": rel, "size": path.stat().st_size})
+
+    lines = [f"# {dir_name}", ""]
     note = DATE_NOTES.get(date)
     if note:
         lines += [f"主题：{note}", ""]
     lines += [
-        f"当天归档 {len(records)} 个文件，来自 "
-        + "、".join(sorted({r["project"] for r in records}))
+        f"本目录共 {len(rows)} 个文件，来自 "
+        + "、".join(sorted({r["project"] for r in rows}))
         + "。“原路径”是它在来源工程里的位置。",
         "",
     ]
-    for project in sorted({r["project"] for r in records}):
-        rows = sorted([r for r in records if r["project"] == project], key=lambda r: r["rel"])
-        lines += [f"## {project}（{len(rows)}）", "", "| 文件 | 原路径 | 大小 |", "| --- | --- | --- |"]
-        for row in rows:
+    for project in sorted({r["project"] for r in rows}):
+        rows_of_project = sorted([r for r in rows if r["project"] == project], key=lambda r: r["rel"])
+        lines += [f"## {project}（{len(rows_of_project)}）", "", "| 文件 | 原路径 | 大小 |", "| --- | --- | --- |"]
+        for row in rows_of_project:
             name = Path(row["rel"]).name.replace("|", "\\|")
             target = (f"doc/{row['project']}/{row['rel']}").replace(" ", "%20")
             lines.append(f"| [{name}](<{target}>) | `{row['rel']}` | {human(row['size'])} |")
         lines.append("")
     if dry_run:
         return
-    target = REPO_ROOT / date / "README.md"
+    target = REPO_ROOT / dir_name / "README.md"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text("\n".join(lines), encoding="utf-8")
 
@@ -425,12 +460,16 @@ def main() -> int:
     by_date: dict[str, list[dict]] = {}
     for record in records:
         by_date.setdefault(record["date"], []).append(record)
-    for date in sorted(by_date):
-        write_date_readme(date, by_date[date], args.dry_run)
+    # 索引按目录里的实际文件生成，这样文件后来改到别的日期时，旧目录的清单仍然准确
+    for dir_name in sorted(p.name for p in REPO_ROOT.iterdir()
+                           if p.is_dir() and re.fullmatch(r"\d{4}_.+", p.name)):
+        write_date_readme(dir_name, args.dry_run)
     write_source_md(oversized, redact_hits, args.dry_run)
 
     for date in sorted(by_date):
-        print(f"[date] {date}: {len(by_date[date])} 个文件")
+        if date not in DATE_TITLES:
+            print(f"[warn] {date} 还没登记短标题，目录名会退回纯日期；补 DATE_TITLES")
+        print(f"[date] {date_dir(date)}: {len(by_date[date])} 个文件")
     print(f"[done] 共 {len(records)} 个文件，{len(by_date)} 个日期目录"
           + ("（dry-run，未落盘）" if args.dry_run else ""))
     return 0

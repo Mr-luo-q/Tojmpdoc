@@ -1,0 +1,380 @@
+{
+  "tools": {
+    "count": 29,
+    "bytes": 35663,
+    "tokens": 8907,
+    "per_tool": [
+      {
+        "name": "get_version",
+        "schema_bytes": 69,
+        "params": [],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "get_entity",
+        "schema_bytes": 345,
+        "params": [
+          "entity_id",
+          "fields",
+          "detailed"
+        ],
+        "required": [
+          "entity_id"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "entity_action",
+        "schema_bytes": 337,
+        "params": [
+          "entity_id",
+          "action",
+          "params"
+        ],
+        "required": [
+          "entity_id",
+          "action"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "list_entities",
+        "schema_bytes": 536,
+        "params": [
+          "domain",
+          "search_query",
+          "limit",
+          "fields",
+          "detailed"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "get_entities_by_area",
+        "schema_bytes": 303,
+        "params": [
+          "area",
+          "domain",
+          "lean"
+        ],
+        "required": [
+          "area"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "search_entities_tool",
+        "schema_bytes": 209,
+        "params": [
+          "query",
+          "limit"
+        ],
+        "required": [
+          "query"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "domain_summary_tool",
+        "schema_bytes": 226,
+        "params": [
+          "domain",
+          "example_limit"
+        ],
+        "required": [
+          "domain"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "system_overview",
+        "schema_bytes": 73,
+        "params": [],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "list_automations",
+        "schema_bytes": 74,
+        "params": [],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "restart_ha",
+        "schema_bytes": 68,
+        "params": [],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "call_service_tool",
+        "schema_bytes": 331,
+        "params": [
+          "domain",
+          "service",
+          "data"
+        ],
+        "required": [
+          "domain",
+          "service"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "list_dashboards",
+        "schema_bytes": 73,
+        "params": [],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "get_dashboard_config",
+        "schema_bytes": 177,
+        "params": [
+          "url_path"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "set_dashboard_config",
+        "schema_bytes": 374,
+        "params": [
+          "url_path",
+          "config",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "add_card",
+        "schema_bytes": 673,
+        "params": [
+          "url_path",
+          "view",
+          "card",
+          "position",
+          "section",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "update_card",
+        "schema_bytes": 646,
+        "params": [
+          "url_path",
+          "view",
+          "card_index",
+          "card",
+          "section",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "remove_card",
+        "schema_bytes": 523,
+        "params": [
+          "url_path",
+          "view",
+          "card_index",
+          "section",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "move_card",
+        "schema_bytes": 591,
+        "params": [
+          "url_path",
+          "view",
+          "card_index",
+          "new_index",
+          "section",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "list_view_sections",
+        "schema_bytes": 268,
+        "params": [
+          "url_path",
+          "view"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "add_view",
+        "schema_bytes": 474,
+        "params": [
+          "url_path",
+          "view_config",
+          "position",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "remove_view",
+        "schema_bytes": 331,
+        "params": [
+          "url_path",
+          "view",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "update_view",
+        "schema_bytes": 460,
+        "params": [
+          "url_path",
+          "view",
+          "changes",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "list_dashboard_backups",
+        "schema_bytes": 179,
+        "params": [
+          "url_path"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "restore_dashboard",
+        "schema_bytes": 347,
+        "params": [
+          "url_path",
+          "backup_id",
+          "dry_run"
+        ],
+        "required": [],
+        "constrained": []
+      },
+      {
+        "name": "get_history",
+        "schema_bytes": 212,
+        "params": [
+          "entity_id",
+          "hours"
+        ],
+        "required": [
+          "entity_id"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "get_history_range",
+        "schema_bytes": 327,
+        "params": [
+          "entity_id",
+          "start_time",
+          "end_time"
+        ],
+        "required": [
+          "entity_id",
+          "start_time"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "get_statistics",
+        "schema_bytes": 283,
+        "params": [
+          "entity_id",
+          "hours",
+          "period"
+        ],
+        "required": [
+          "entity_id"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "get_statistics_range",
+        "schema_bytes": 398,
+        "params": [
+          "entity_id",
+          "start_time",
+          "end_time",
+          "period"
+        ],
+        "required": [
+          "entity_id",
+          "start_time"
+        ],
+        "constrained": []
+      },
+      {
+        "name": "get_error_log",
+        "schema_bytes": 474,
+        "params": [
+          "level",
+          "integration",
+          "search_term",
+          "lines"
+        ],
+        "required": [],
+        "constrained": []
+      }
+    ]
+  },
+  "prompts": {
+    "count": 7,
+    "bytes": 2927,
+    "tokens": 731
+  },
+  "resources": {
+    "count": 1,
+    "bytes": 918,
+    "tokens": 229
+  },
+  "calls": [
+    {
+      "tool": "list_entities",
+      "note": "列实体",
+      "is_error": false,
+      "elapsed_ms": 36,
+      "bytes": 8938,
+      "tokens": 2224,
+      "head": "{   \"entity_id\": \"conversation.home_assistant\",   \"state\": \"unknown\",   \"area\": null,   \"attributes\": {     \"friendly_name\": \"Home Assistant\"   } } {   \"entity_id\": \"event.backup_automatic_backup\",   "
+    },
+    {
+      "tool": "get_entity",
+      "note": "读单实体",
+      "is_error": false,
+      "elapsed_ms": 5,
+      "bytes": 174,
+      "tokens": 43,
+      "head": "{   \"entity_id\": \"switch.simuhome_living_room_side_light\",   \"state\": \"off\",   \"area\": \"living_room\",   \"attributes\": {     \"friendly_name\": \"On/Off Light On/Off Light\"   } }"
+    },
+    {
+      "tool": "get_entity",
+      "note": "不存在的实体（错误输出体量）",
+      "is_error": false,
+      "elapsed_ms": 4,
+      "bytes": 44,
+      "tokens": 11,
+      "head": "{   \"error\": \"HTTP error: 404 - Not Found\" }"
+    }
+  ]
+}

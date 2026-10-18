@@ -1,4 +1,0 @@
-id	title	status	url	ref	blob_sha	sha256	bytes	file	fetched_utc	errors
-S29	llama.cpp 构建与 KleidiAI	OK	https://github.com/ggml-org/llama.cpp/blob/091b6a7fc561b78da90a0ed2d524ec995458c657/docs/build.md	091b6a7fc561b78da90a0ed2d524ec995458c657	7286ec58dededa8aeaf5566a394a6679eef7e9a3	97a58a014be2386c149a4c754003cdb2b480e484049477758fa933774d77049b	44381	S29.txt	2026-10-14T02:40:37.075609+00:00	
-S30	LiteRT-LM NPU 设备支持	FAILED	https://ai.google.dev/edge/litert/next/litert_lm_npu				0		2026-10-14T02:41:16.525585+00:00	"https://ai.google.dev/edge/litert/next/litert_lm_npu: curl: (28) Connection timed out after 20007 milliseconds
-curl: (28) Connection timed out after 20007 milliseconds"

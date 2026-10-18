@@ -1,0 +1,98 @@
+﻿==============================================================
+ 第 0 步 · 记录当前身份与 SELinux 上下文
+==============================================================
+uid: 10300  gid: 10300
+id: uid=10300(u0_a300) gid=10300(u0_a300) groups=10300(u0_a300),1004(input),1007(log),1011(adb),1015(sdcard_rw),1028(sdcard_r),1078(ext_data_rw),1079(ext_obb_rw),3001(net_bt_admin),3002(net_bt),3003(inet),3006(net_bw_stats),3009(readproc),3011(uhid),3012(readtracefs),50300(all_a300) context=u:r:runas_app:s0:c44,c257,c512,c768
+/data/data/com.termux/files/home/scripts/termux-gpu-setup.sh: line 48: warning: command substitution: ignored null byte in input
+SELinux 上下文: u:r:runas_app:s0:c44,c257,c512,c768
+SELinux 模式: 
+内核: 6.1.138-android14-11-g6ab8c9a86a33-ab14396278
+ABI: arm64-v8a
+
+==============================================================
+ 第 1 步 · GPU 设备节点可达性（Termux 身份，与 shell 身份对比）
+==============================================================
+crw-rw-rw-. 1 system graphics 10, 99 Oct  8 22:38 /dev/mali0
+  → /dev/mali0 不可读（open 被拒，SELinux 或权限位拦截）
+  → /dev/mali0 可写
+crw-rw----. 1 system system 226, 0 Oct  8 22:38 /dev/dri/card0
+  → /dev/dri/card0 不可读（open 被拒，SELinux 或权限位拦截）
+  → /dev/dri/card0 不可写
+/dev/apusys 不存在
+
+==============================================================
+ 第 2 步 · 图形驱动库可见性
+==============================================================
+可读  /vendor/lib64/hw/vulkan.mali.so  (21 字节)
+可读  /vendor/lib64/egl/mt6897/libGLES_mali.so  (46384136 字节)
+可读  /vendor/lib64/libOpenCL.so  (136624 字节)
+可读  /system/lib64/libvulkan.so  (269600 字节)
+
+==============================================================
+ 第 3 步 · 安装 llama.cpp 与 Vulkan 后端
+==============================================================
+[1;32m==>[0m 更新包索引
+[1;32m==>[0m 安装 vulkan-tools（提供 vulkaninfo）
+[1;32m==>[0m 安装 llama-cpp + Vulkan 后端
+[1;32m==>[0m 安装 clinfo（查 Mali 的 OpenCL）
+
+==============================================================
+ 第 4 步 · vulkaninfo 验证：Mali 真的被枚举到了吗
+==============================================================
+--- vulkaninfo --summary ---
+CANNOT LINK EXECUTABLE "vulkaninfo": cannot locate symbol "_ZNSt6__ndk113__hash_memoryEPKvm" referenced by "/data/data/com.termux/files/usr/bin/vulkaninfo"...
+
+--- 关键字段提取 ---
+
+==============================================================
+ 第 5 步 · clinfo 验证（Mali 的 OpenCL，作为 GPU 的第二条证据）
+==============================================================
+
+==============================================================
+ 第 6 步 · llama.cpp 后端清单
+==============================================================
+--- llama-cli --list-devices ---
+CANNOT LINK EXECUTABLE "llama-cli": cannot locate symbol "_ZNSt6__ndk113__hash_memoryEPKvm" referenced by "/data/data/com.termux/files/usr/lib/libllama-server-impl.so"...
+
+--- 版本 ---
+CANNOT LINK EXECUTABLE "llama-cli": cannot locate symbol "_ZNSt6__ndk113__hash_memoryEPKvm" referenced by "/data/data/com.termux/files/usr/lib/libllama-server-impl.so"...
+--- ggml 后端动态库落点 ---
+/data/data/com.termux/files/usr/lib/cmake/ggml
+/data/data/com.termux/files/usr/lib/libggml-cpu.so
+/data/data/com.termux/files/usr/lib/libggml.so
+/data/data/com.termux/files/usr/lib/libggml-base.so
+/data/data/com.termux/files/usr/lib/libggml-vulkan.so
+
+==============================================================
+ 第 7 步 · 找模型
+==============================================================
+[1;33m[!][0m ~/models 下没有 gguf 模型，跳过基准测试
+[1;33m[!][0m 模型要先从电脑推过来，或在 Termux 里下载
+
+==============================================================
+ 第 8 步 · 基准测试：CPU vs Vulkan
+==============================================================
+[1;33m[!][0m 没有模型，跳过基准
+
+==============================================================
+ 结论速查
+==============================================================
+ 看三件事：
+
+ 1. vulkaninfo 里 deviceName 是否出现 "Mali-G615"（或类似）
+      出现 → Vulkan 驱动层通了
+      没出现但没报错 → loader 没找到 ICD，检查 vulkan-loader-android 是否装上
+
+ 2. llama-cli --list-devices 是否列出 Vulkan 设备
+      列出 → ggml 认到了 GPU
+      没列出 → 后端库没被加载，检查 llama-cpp-backend-vulkan 是否装成功
+
+ 3. llama-bench 组 1 与组 2 的 pp/tg 数字对比
+       常见结果：pp 明显变快（GPU 擅长大批量矩阵乘）
+                 tg 可能变慢或持平（decode 是访存受限，GPU 未必占优）
+       若 tg 大幅慢于 CPU，说明这个模型规模下 Vulkan 不划算，
+       但 prefill 快可以用混合策略：-ngl 部分层数
+
+日志已保存: /data/data/com.termux/files/home/gpu-bench.log
+[1;32m==>[0m 完成
+

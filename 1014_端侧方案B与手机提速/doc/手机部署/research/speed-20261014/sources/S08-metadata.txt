@@ -1,0 +1,18 @@
+{
+  "name": "README.md",
+  "path": "examples/speculative/README.md",
+  "sha": "36ab3708629d2f0a59960e6f2c8764a7530b542b",
+  "size": 282,
+  "url": "https://api.github.com/repos/ggml-org/llama.cpp/contents/examples/speculative/README.md?ref=091b6a7fc561b78da90a0ed2d524ec995458c657",
+  "html_url": "https://github.com/ggml-org/llama.cpp/blob/091b6a7fc561b78da90a0ed2d524ec995458c657/examples/speculative/README.md",
+  "git_url": "https://api.github.com/repos/ggml-org/llama.cpp/git/blobs/36ab3708629d2f0a59960e6f2c8764a7530b542b",
+  "download_url": "https://raw.githubusercontent.com/ggml-org/llama.cpp/091b6a7fc561b78da90a0ed2d524ec995458c657/examples/speculative/README.md",
+  "type": "file",
+  "content": "IyBsbGFtYS5jcHAvZXhhbXBsZXMvc3BlY3VsYXRpdmUKCkRlbW9uc3RyYXRp\nb24gb2Ygc3BlY3VsYXRpdmUgZGVjb2RpbmcgYW5kIHRyZWUtYmFzZWQgc3Bl\nY3VsYXRpdmUgZGVjb2RpbmcgdGVjaG5pcXVlcwoKTW9yZSBpbmZvOgoKLSBo\ndHRwczovL2dpdGh1Yi5jb20vZ2dtbC1vcmcvbGxhbWEuY3BwL3B1bGwvMjky\nNgotIGh0dHBzOi8vZ2l0aHViLmNvbS9nZ21sLW9yZy9sbGFtYS5jcHAvcHVs\nbC8zNjI0Ci0gaHR0cHM6Ly9naXRodWIuY29tL2dnbWwtb3JnL2xsYW1hLmNw\ncC9wdWxsLzU2MjUK\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/ggml-org/llama.cpp/contents/examples/speculative/README.md?ref=091b6a7fc561b78da90a0ed2d524ec995458c657",
+    "git": "https://api.github.com/repos/ggml-org/llama.cpp/git/blobs/36ab3708629d2f0a59960e6f2c8764a7530b542b",
+    "html": "https://github.com/ggml-org/llama.cpp/blob/091b6a7fc561b78da90a0ed2d524ec995458c657/examples/speculative/README.md"
+  }
+}

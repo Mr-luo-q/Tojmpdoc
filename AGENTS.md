@@ -12,13 +12,14 @@ Tojmpdoc/
 ├─ tools/
 │   ├─ collect.py   归档脚本
 │   └─ collect.md   collect.py 的说明
-└─ MMDD/            日期目录，MMDD = 月日，例如 1012
+└─ MMDD_短标题/     日期目录：日期在前、主要内容在后，例如 1012_MQTT与设备接入实测
     ├─ README.md    当天索引（由 tools/collect.py 生成，不手改）
     └─ doc/<来源工程>/<原相对路径>
 ```
 
 两个「不手改」的文件由脚本生成，手改下次跑脚本就没了。要改内容，改 `tools\collect.py` 里的
-`DATE_NOTES`（每天一句话主题）、`UNTRACKED`（未入库登记）、`PROJECTS`（来源工程与排除规则）。
+`DATE_NOTES`（每天一句话主题）、`DATE_TITLES`（目录名里的短标题）、`UNTRACKED`（未入库登记）、
+`PROJECTS`（来源工程与排除规则）。
 
 ## 2. 往仓库里加东西
 
@@ -32,6 +33,9 @@ python tools\collect.py             # 落盘
 
 脚本自己判定日期（文件修改时间），所以产出文档不要事后改时间戳；如果某个源目录的时间戳被
 git 检出覆盖过，在 `PROJECTS` 的 `date_rules` 里给该路径写死日期。
+
+新日期还要在 `DATE_TITLES` 里补一条短标题，目录才会长成 `1018_四个字的主题` 这种形式；
+不补的话脚本会退回纯 `MMDD` 并打一条警告。
 
 ## 3. 不收什么
 

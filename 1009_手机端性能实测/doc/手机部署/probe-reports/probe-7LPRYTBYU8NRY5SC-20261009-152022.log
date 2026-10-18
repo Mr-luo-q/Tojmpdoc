@@ -1,0 +1,352 @@
+﻿##### [1] 设备与 SoC 事实 #####
+2311DRK48C
+Redmi
+duchamp
+mt6897
+MT6897
+Mediatek
+mt6897
+
+16
+36
+arm64-v8a
+arm64-v8a
+arm64-v8a
+2026-06-01
+--- kernel ---
+Linux localhost 6.1.138-android14-11-g6ab8c9a86a33-ab14396278 #1 SMP PREEMPT Wed Nov  5 15:47:39 UTC 2025 aarch64 Toybox
+
+##### [2] CPU 特性与拓扑 #####
+Features	: fp asimd evtstrm aes pmull sha1 sha2 crc32 atomics fphp asimdhp cpuid asimdrdm jscvt fcma lrcpc dcpop sha3 sm3 sm4 asimddp sha512 sve asimdfhm dit uscat ilrcpc flagm sb paca pacg dcpodp sve2 sveaes svepmull svebitperm svesha3 svesm4 flagm2 frint svei8mm svebf16 i8mm bf16 bti
+cpuinfo 逻辑核数: 8
+--- 各核最大频率 ---
+cpu0 2200000
+cpu1 2200000
+cpu2 2200000
+cpu3 2200000
+cpu4 3200000
+cpu5 3200000
+cpu6 3200000
+cpu7 3350000
+--- 核心拓扑（同频分簇） ---
+cpu0 core_id=0
+cpu1 core_id=1
+cpu2 core_id=2
+cpu3 core_id=3
+cpu4 core_id=0
+cpu5 core_id=1
+cpu6 core_id=2
+cpu7 core_id=0
+
+##### [3] GPU 驱动与图形 API #####
+--- /dev 下的 GPU 设备节点 ---
+crw-rw---- 1 system system   226,   0 2026-10-08 22:38 /dev/dri/card0
+crw-rw-rw- 1 system graphics  10,  99 2026-10-08 22:38 /dev/mali0
+--- devfreq 里的 GPU 频率接口 ---
+/sys/class/devfreq/13000000.mali
+/sys/class/devfreq/13000000.mali: available= cur=
+--- Android 声明的图形特性 ---
+[graphics.gpu.profiler.support]: [true]
+[init.svc.gpu]: [running]
+[persist.sys.computility.gpulevel]: [4]
+[persist.sys.enable_sched_gpu_threads]: [true]
+[persist.sys.enable_systemui_mali]: [true]
+[ro.hardware.egl]: [meow]
+[ro.hardware.vulkan]: [mali]
+[ro.hwui.use_vulkan]: []
+[ro.opengles.version]: [196610]
+[ro.vendor.arm.egl.configs.nv12.hal_format]: [0x200]
+[ro.vendor.arm.egl.configs.nv12.recordable]: [true]
+[ro.vendor.arm.egl.configs.nv16.hal_format]: [0x10]
+[ro.vendor.arm.egl.configs.nv16.recordable]: [true]
+[ro.vendor.arm.egl.configs.nv21.hal_format]: [0x201]
+[ro.vendor.arm.egl.configs.nv21.recordable]: [true]
+[ro.vendor.arm.egl.configs.p010.hal_format]: [0x204]
+[ro.vendor.arm.egl.configs.p010.recordable]: [true]
+[ro.vendor.arm.egl.configs.p210.hal_format]: [0x205]
+[ro.vendor.arm.egl.configs.p210.recordable]: [true]
+[ro.vendor.arm.egl.configs.r10_g10_b10_a2_32bit_fixed.framebuffer_target]: [false]
+[ro.vendor.arm.egl.configs.r10_g10_b10_a2_32bit_fixed.hal_format]: [0x2b]
+[ro.vendor.arm.egl.configs.r10_g10_b10_a2_32bit_fixed.recordable]: [false]
+[ro.vendor.arm.egl.configs.r16_g16_b16_a16_64bit_float.framebuffer_target]: [false]
+[ro.vendor.arm.egl.configs.r16_g16_b16_a16_64bit_float.hal_format]: [0x16]
+[ro.vendor.arm.egl.configs.r16_g16_b16_a16_64bit_float.recordable]: [false]
+[ro.vendor.arm.egl.configs.r5_g6_b5_a0_16bit_fixed.framebuffer_target]: [false]
+[ro.vendor.arm.egl.configs.r5_g6_b5_a0_16bit_fixed.hal_format]: [0x4]
+[ro.vendor.arm.egl.configs.r5_g6_b5_a0_16bit_fixed.recordable]: [false]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.framebuffer_target]: [false]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.hal_format]: [0x2]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_fixed.recordable]: [false]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_yuv_special.framebuffer_target]: [false]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a0_24bit_yuv_special.hal_format]: [0x23]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.framebuffer_target]: [false]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.hal_format]: [0x2]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a0_32bit_fixed.recordable]: [false]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.framebuffer_target]: [false]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.hal_format]: [0x1]
+[ro.vendor.arm.egl.configs.r8_g8_b8_a8_32bit_fixed.recordable]: [true]
+[ro.vendor.arm.egl.configs.y0l2.hal_format]: [0x203]
+--- /vendor/etc/permissions 里与图形/算力有关的手册 ---
+android.hardware.opengles.aep.prebuilt.xml
+android.hardware.vulkan.compute-0.prebuilt.xml
+android.hardware.vulkan.level-1.prebuilt.xml
+android.hardware.vulkan.version-1_3.prebuilt.xml
+android.software.opengles.deqp.level-2023-03-01.prebuilt.xml
+android.software.vulkan.deqp.level-2023-03-01.prebuilt.xml
+--- EGL / Vulkan 实现库在哪 ---
+/vendor/lib/egl:
+total 1196
+-rw-r--r-- 1 root root       76 2009-01-01 08:00 egl.cfg
+lrwxr-xr-x 1 root shell      22 2009-01-01 08:00 libGLES_mali.so -> mt6897/libGLES_mali.so
+-rw-r--r-- 1 root root  1432988 2009-01-01 08:00 libGLES_meow.so
+-rw-r--r-- 1 root root    10548 2009-01-01 08:00 libMEOW_data.so
+-rw-r--r-- 1 root root   522736 2009-01-01 08:00 libMEOW_gift.so
+-rw-r--r-- 1 root root    55804 2009-01-01 08:00 libMEOW_qt.so
+-rw-r--r-- 1 root root   326968 2009-01-01 08:00 libMEOW_trace.so
+drwxr-xr-x 2 root shell      54 2009-01-01 08:00 mt6897
+drwxr-xr-x 2 root shell      27 2009-01-01 08:00 mt6985
+drwxr-xr-x 2 root shell      27 2009-01-01 08:00 mt6989
+
+/vendor/lib64/egl:
+total 1404
+lrwxr-xr-x 1 root shell      22 2009-01-01 08:00 libGLES_mali.so -> mt6897/libGLES_mali.so
+-rw-r--r-- 1 root root  2160536 2009-01-01 08:00 libGLES_meow.so
+-rw-r--r-- 1 root root    18200 2009-01-01 08:00 libMEOW_data.so
+-rw-r--r-- 1 root root   760152 2009-01-01 08:00 libMEOW_gift.so
+-rw-r--r-- 1 root root    90896 2009-01-01 08:00 libMEOW_qt.so
+-rw-r--r-- 1 root root   519976 2009-01-01 08:00 libMEOW_trace.so
+drwxr-xr-x 2 root shell      54 2009-01-01 08:00 mt6897
+drwxr-xr-x 2 root shell      27 2009-01-01 08:00 mt6985
+drwxr-xr-x 2 root shell      27 2009-01-01 08:00 mt6989
+/system/lib64/libvulkan.so
+
+##### [4] GPU 计算接口 #####
+--- 系统里自带的 Vulkan 工具/加载器 ---
+-rw-r--r-- 1 root root 269600 2009-01-01 08:00 /system/lib64/libvulkan.so
+--- OpenCL 厂商库（Mali 计算常走这里） ---
+/vendor/lib64/libOpenCL.so
+/vendor/lib/libOpenCL.so
+/system/vendor/lib64/libOpenCL.so
+--- Vulkan HAL ---
+[ro.hardware.vulkan]: [mali]
+[ro.hwui.use_vulkan]: []
+[ro.opengles.version]: [196610]
+/vendor/lib/hw/vulkan.mali.so
+/vendor/lib64/hw/vulkan.mali.so
+
+##### [5] NPU / APU 驱动与节点 #####
+--- /dev 下的加速器节点（APU / NPU / DSP / VPU） ---
+crw-rw----  1 root        media         10, 110 2026-10-08 22:38 adsp
+cr--r-----  1 system      media         10, 109 2026-10-08 22:38 adsp_0
+cr--r-----  1 system      media         10, 108 2026-10-08 22:38 adsp_1
+crw-r--r--  1 root        root          10, 100 2026-10-08 22:38 apuext
+crw-rw-rw-  1 system      camera        10, 101 2026-10-08 22:38 apusys
+crw-------  1 root        root         481,   0 2026-10-08 22:38 apusys_apummu
+crw-------  1 root        root          10,  87 2026-10-08 22:38 apusys_sapu
+crw-rw----  1 system      system       472,   0 2026-10-08 22:38 conn_scp
+lrwxrwxrwx  1 root        root               80 2026-10-08 22:38 gauge -> /sys/devices/platform/11f01000.i2c/i2c-5/5-0034/11f01000.i2c:mt6375@34:mtk-gauge
+crw-------  1 gps         gps          447,   0 2026-10-08 22:38 gps2scp
+crw-rw----  1 system      system       460,   0 2026-10-08 22:38 gz_ffa_dev
+crw-rw----  1 system      system        10,  88 2026-10-08 22:38 gz_kree
+drwxr-xr-x  2 root        root              160 2026-10-08 22:38 input
+crw-rw----  1 system      camera       477,   0 2026-10-08 22:38 mtk_ccd
+crw-rw----  1 camera      system       485,   0 2026-10-08 22:38 mtk_hcp
+crw-r-----  1 system      system       502,   0 2026-10-08 22:38 mtk_mdp
+crw-r-----  1 media       media         10, 105 2026-10-08 22:38 mtk_usb_offload
+cr--r-----  1 root        system        10,  96 2026-10-08 22:38 scp
+crw-rw----  1 system      system        10,  95 2026-10-08 22:38 scp_chre_manager
+crw-rw----  1 system      net_bt_admin  10, 223 2026-10-08 22:38 uinput
+crw-rw---- 1 root   media         10, 110 2026-10-08 22:38 /dev/adsp
+cr--r----- 1 system media         10, 109 2026-10-08 22:38 /dev/adsp_0
+cr--r----- 1 system media         10, 108 2026-10-08 22:38 /dev/adsp_1
+crw-r--r-- 1 root   root          10, 100 2026-10-08 22:38 /dev/apuext
+crw-rw-rw- 1 system camera        10, 101 2026-10-08 22:38 /dev/apusys
+crw------- 1 root   root         481,   0 2026-10-08 22:38 /dev/apusys_apummu
+crw------- 1 root   root          10,  87 2026-10-08 22:38 /dev/apusys_sapu
+crw-rw---- 1 system system       472,   0 2026-10-08 22:38 /dev/conn_scp
+crw------- 1 gps    gps          447,   0 2026-10-08 22:38 /dev/gps2scp
+crw-rw---- 1 system camera       477,   0 2026-10-08 22:38 /dev/mtk_ccd
+crw-rw---- 1 camera system       485,   0 2026-10-08 22:38 /dev/mtk_hcp
+crw-r----- 1 system system       502,   0 2026-10-08 22:38 /dev/mtk_mdp
+crw-r----- 1 media  media         10, 105 2026-10-08 22:38 /dev/mtk_usb_offload
+cr--r----- 1 root   system        10,  96 2026-10-08 22:38 /dev/scp
+crw-rw---- 1 system system        10,  95 2026-10-08 22:38 /dev/scp_chre_manager
+crw-rw---- 1 system net_bt_admin  10, 223 2026-10-08 22:38 /dev/uinput
+
+/dev/input:
+total 0
+crw-rw---- 1 root input 13,  64 2026-10-08 22:38 event0
+crw-rw---- 1 root input 13,  65 2026-10-08 22:38 event1
+crw-rw-rw- 1 root input 13,  66 2026-10-08 22:38 event2
+crw-rw---- 1 root input 13,  67 2026-10-08 22:38 event3
+crw-rw---- 1 root input 13,  68 2026-10-08 22:38 event4
+crw-rw---- 1 root input 13,  69 2026-10-08 22:38 event5
+--- /sys 下的加速器类 ---
+/sys/class/apusys_drv_apummu
+/sys/class/conn_scp
+/sys/class/gps2scp
+/sys/class/input
+--- /proc 下的驱动痕迹 ---
+--- /sys/module 下已加载的加速器模块 ---
+adsp
+adsp_v2
+apu_top
+apusys
+ccci_fsm_scp
+clk_mt6897_adsp
+connscp
+gps_scp
+gz_ipc_mod
+gz_irq_mod
+gz_log_mod
+gz_main_mod
+gz_trusty_mod
+gz_tz_system
+gz_virtio_mod
+gzvm
+mali_dmabuf_test_mt6897_r44
+mali_kbase_mt6897_r44
+mali_mgm_mt6897_r44
+mali_prot_alloc_mt6897_r44
+mtk_scp_ultra
+mtk_scp_vow
+mtk_scpsys
+mtk_scpsys_bringup
+mtk_scpsys_mt6897
+sapu
+scp
+snd_soc_audiodsp_common
+snd_soc_mtk_scp_ultra
+--- 内核命令行里的加速器开关 ---
+--- SELinux 当前模式 ---
+Enforcing
+
+##### [6] NPU 软件栈（NNAPI / 厂商库 / 固件） #####
+--- NNAPI 加速器声明（Android 的 NPU 标准入口） ---
+[init.svc.neuralnetworks_hal_service_shim_mtk]: [running]
+/vendor/etc/nnapi_powerhal.json
+--- 厂商 AI 运行库 ---
+/vendor/lib64/libapu_mdw.so
+/vendor/lib64/libapu_mdw_batch.so
+/vendor/lib64/libapudcutils.so
+/vendor/lib64/libmdla_ut.so
+/vendor/lib64/libneuron_adapter_mgvi.so
+/vendor/lib64/libneuron_platform.so
+/vendor/lib64/libneuron_runtime.7.so
+/vendor/lib64/libneuron_runtime.so
+/vendor/lib64/libneuron_wrapper.so
+/vendor/lib64/libtflite_mtk.so
+/vendor/lib64/mt6897/libneuron_runtime.7.so
+/vendor/lib64/mt6897/libneuron_runtime.so
+--- NPU 固件 ---
+BT_FW.cfg
+Conf_MultipleTest.ini
+aw8697_haptic.bin
+aw8697_rtp_1.bin
+aw882xx_acf.bin
+connfem.cfg
+conninfra.cfg
+fm_cust.cfg
+focaltech_ts_fw.bin
+goodix_cfg_group_duchamp.bin
+goodix_cfg_group_duchamp_nowater.bin
+goodix_firmware_duchamp.bin
+goodix_test_limits_255.csv
+gt9895_cfg_6886v01.bin
+gt9895_cfg_6897v01.bin
+gt9895_cfg_6985v01.bin
+gt9895_cfg_6989v01.bin
+gt9895_firmware_6886v01.bin
+gt9895_firmware_6897v01.bin
+gt9895_firmware_6985v01.bin
+gt9895_firmware_6989v01.bin
+gt9896s_cfg_6781v01_1080x2280.bin
+gt9896s_cfg_6781v01_1080x2300.bin
+gt9896s_cfg_6833v01.bin
+gt9896s_cfg_6853v01.bin
+gt9896s_cfg_6855v01.bin
+gt9896s_cfg_6873v01.bin
+gt9896s_cfg_6877v01_1080x2280.bin
+gt9896s_cfg_6877v01_1080x2300.bin
+gt9896s_cfg_6879v01.bin
+gt9896s_cfg_6893v01.bin
+gt9896s_cfg_6893v02.bin
+gt9896s_cfg_6893v03.bin
+gt9896s_cfg_6893v04.bin
+gt9896s_cfg_6893v05.bin
+gt9896s_cfg_6895v01.bin
+gt9896s_cfg_6983v01.bin
+gt9896s_firmware_6781v01_1080x2280.bin
+gt9896s_firmware_6781v01_1080x2300.bin
+gt9896s_firmware_6833v01.bin
+
+##### [7] 系统属性里的 AI 痕迹 #####
+[debug.config.media.video.ais.support]: [true]
+[debug.media.video.ais]: [false]
+[debug.mtk_tflite.target_nnapi]: [29]
+[debug.stagefright.c2inputsurface]: [-1]
+[init.svc.mainline_aconfigd_init]: [stopped]
+[init.svc.mainline_aconfigd_socket_service]: [stopped]
+[init.svc.neuralnetworks_hal_service_shim_mtk]: [running]
+[init.svc.nvram-aidl]: [running]
+[init.svc.system_aconfigd_mainline_init]: [stopped]
+[init.svc.vender.mediatek.hardware.pq_aidl-default]: [running]
+[init.svc.vtservice_aidl]: [running]
+[log.tag.APM::AudioInputDescriptor]: [D]
+[log.tag.AudioALSACaptureDataProviderModemDai]: [D]
+[log.tag.AudioALSACaptureHandlerModemDai]: [D]
+[log.tag.AudioFlinger::EffectChain]: [D]
+[log.tag.AudioMTKGainController]: [D]
+[log.tag.GainTableParamParser]: [D]
+[media.stagefright.thumbnail.prefer_hw_codecs]: [true]
+[persist.log.tag.AirplaneHandler]: [I]
+[persist.log.tag.RfxMainThread]: [I]
+[persist.log.tag.WpfaRuleContainer]: [I]
+[persist.sys.enable_inputopts]: [true]
+[persist.sys.miui.unfairMemory.enable]: [true]
+[persist.sys.mmms.pre.previous.memavailable.thread]: [171520]
+[persist.sys.mms.use_integrated_memory_reclaim]: [true]
+[persist.sys.raise_region_sampling_prio]: [true]
+[persist.sys.skip_input_anr]: [1]
+[persist.sys.stability.maintain_factory_reboot_days]: [60]
+[persist.sys.support_ai_wakeup_effect]: [false]
+[persist.sys.timezone]: [Asia/Shanghai]
+[persist.sys.translate.state.supportAiSubtitles]: [true]
+[persist.vendor.camera.mi.dualcal.detail]: [0]
+[persist.vendor.camera.mi.module.info]: [back_main=ov64b40;back_ultra=ov08d10;]
+[persist.vendor.camera.mi.module.infoext]: [front_main=ov16a1q;back_macro=sc202pcs;]
+[persist.vendor.radio.airplane.mode.on]: [false]
+[persist.vendor.sys.pq.mdp.vp.airegionpq.en]: [1]
+[persist.vendor.sys.pq.mdp.vp.aispq.en]: [1]
+[pm.dexopt.boot-after-mainline-update]: [verify]
+[ro.ai.os.version.code]: [4]
+[ro.ai.os.version.name]: [OS3.1]
+[ro.ai.transparent.sandbox.enabled]: [true]
+[ro.build.version.known_codenames]: [Base,Base11,Cupcake,Donut,Eclair,Eclair01,EclairMr1,Froyo,Gingerbread,GingerbreadMr1,Honeycomb,HoneycombMr1,HoneycombMr2,IceCreamSandwich,IceCreamSandwichMr1,JellyBean,JellyBeanMr1,JellyBeanMr2,Kitkat,KitkatWatch,Lollipop,LollipopMr1,M,N,NMr1,O,OMr1,P,Q,R,S,Sv2,Tiramisu,UpsideDownCake,VanillaIceCream,Baklava]
+[ro.product.exaid.supported]: [false]
+[ro.product.system.model]: [mainline]
+[ro.product.system.name]: [mainline]
+[ro.vendor.audio.gain.support]: [true]
+[ro.vendor.audio.soundtrigger.mtk.split_training]: [1]
+[ro.vendor.audio.us.proximity_waitfornegative_feature]: [true]
+[ro.vendor.pq.mtk_ai_hdr_model_dq]: [0.006186207290738821]
+[ro.vendor.pq.mtk_ai_region_pq_support]: [1]
+[ro.vendor.pq.mtk_ai_scence_pq_support]: [0]
+[ro.vendor.pq.mtk_ai_sdr_to_hdr_support]: [0]
+[ro.vendor.pq.mtk_libaibld_name]: [libaibld.nn6.so]
+[sys.mem.reclaim_on_launcher]: [0]
+[sys.mem.reclaim_on_start]: [0]
+[sys.user.0.ce_available]: [true]
+[vendor.af.pausewait.enable]: [false]
+[vendor.camera.sensor.frontMain.fuseID]: [ofil00321F160A011A1E100E08050100093F1B810000000014MF623D38S038M600000000000000000000000000]
+[vendor.camera.sensor.rearMain.fuseID]: [sunn00321F640B04009992098601382E1B0005C30000000014Y0A26A3AQ00L8400000000000000000000000000]
+[vendor.connsys.bt_fw_ver]: [t-neptune-main-soc7_0-2104-LEPIN_SOC7_0_E1_ASIC-20211206113401]
+
+##### [8] 汇总判断 #####
+GPU 节点: /dev/dri/card0 /dev/mali0 
+Vulkan 库: /system/lib64/libvulkan.so 
+OpenCL 库: /vendor/lib64/libOpenCL.so 
+NNAPI 库: 
+APU/NPU 节点: /dev/apuext /dev/apusys /dev/apusys_apummu /dev/apusys_sapu /dev/uinput  /dev/input: event0 event1 event2 event3 event4 event5 
+##### 探测结束 #####
+

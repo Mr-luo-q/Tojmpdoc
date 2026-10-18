@@ -23,9 +23,9 @@
 ## 输出
 
 ```text
-Tojmpdoc/MMDD/doc/<工程>/<原相对路径>   复制过来的文件，保留原始修改时间
-Tojmpdoc/MMDD/README.md                 当天索引：主题一句话 + 文件清单（文件 / 原路径 / 大小）
-Tojmpdoc/source.md                      未入库登记：路径 / 体积 / 文件数 / 原因
+Tojmpdoc/MMDD_短标题/doc/<工程>/<原相对路径>   复制过来的文件，保留原始修改时间
+Tojmpdoc/MMDD_短标题/README.md                 当天索引：主题一句话 + 文件清单（文件 / 原路径 / 大小）
+Tojmpdoc/source.md                             未入库登记：路径 / 体积 / 文件数 / 原因
 ```
 
 ## 判定顺序
@@ -43,6 +43,11 @@ Tojmpdoc/source.md                      未入库登记：路径 / 体积 / 文�
 日期怎么算
   ├─ 先匹配 PROJECTS[].date_rules（写死的日期，用于时间戳被 git 检出覆盖的目录）
   └─ 没匹配上就用文件自身的修改时间得到 MMDD
+
+目录名怎么定
+  ├─ 取 DATE_TITLES[MMDD] 作为短标题
+  ├─ 拼成 MMDD_短标题，例如 1012_MQTT与设备接入实测
+  └─ 没登记短标题就退回纯 MMDD，并打警告
 ```
 
 ## 函数逐个说
@@ -61,12 +66,15 @@ Tojmpdoc/source.md                      未入库登记：路径 / 体积 / 文�
 `scan_project(project)`：扫描一个工程，返回要收的文件记录和因超限被跳过的记录。每条记录带源路径、
 相对路径、体积、修改时间。
 
-`dest_of(record)`：算出文件在本仓库里的落点，即日期目录下的 `doc/<工程>/<原相对路径>`。
+`date_dir(date)`：把 `MMDD` 拼成目录名 `MMDD_短标题`，短标题来自 `DATE_TITLES`。
+
+`dest_of(record)`：算出文件在本仓库里的落点，即 `MMDD_短标题/doc/<工程>/<原相对路径>`。
 
 `copy_all(records, dry_run)`：按记录复制文件，用 `shutil.copy2` 保留原始修改时间。
 
-`write_date_readme(date, records, dry_run)`：生成某个日期目录下的 `README.md`，按工程分组列文件
-清单，链接指向仓库内的相对路径。
+`write_date_readme(dir_name, dry_run)`：扫描某个日期目录里的实际文件，生成 `README.md`，按工程
+分组列清单，链接指向仓库内的相对路径。按目录内容生成，所以后来有文件改到别的日期时，旧目录的
+清单仍然准确。
 
 `write_source_md(oversized, dry_run)`：生成 `source.md`，登记按路径排除的目录、因体积跳过的文件，
 以及「另有 git 远端、未并入」的外部仓库。
@@ -77,6 +85,7 @@ Tojmpdoc/source.md                      未入库登记：路径 / 体积 / 文�
 
 ```text
 新日期的一句话主题        改 DATE_NOTES
+新日期的目录短标题        改 DATE_TITLES
 新工程要归档              改 PROJECTS，加一条（key / root / scan / exclude / date_rules）
 某个目录时间戳不可信      在该工程的 date_rules 里加一条 (正则, "MMDD")
 体积大的东西要登记        改 UNTRACKED，加一条 (工程 key, 相对路径, 原因)
@@ -85,8 +94,9 @@ Tojmpdoc/source.md                      未入库登记：路径 / 体积 / 文�
 
 ## 已验证与未验证
 
-已核对：2026-10-14 在 `D:\项目\Tojmpdoc` 实际运行，收录 604 个文件、生成 12 个日期目录；
-`--dry-run` 与正式运行的收录列表一致；重复运行不产生差异；被排除的目录逐个确认过路径存在。
+已核对：2026-10-18 在 `D:\项目\Tojmpdoc` 实际运行，收录 734 个文件、生成 13 个日期目录；
+目录名已改成 `MMDD_短标题`；每个日期目录的 `README.md` 与目录里的实际文件数一致；
+重复运行不产生差异；被排除的目录逐个确认过路径存在。
 
 尚未验证：`1010` 与 `1004` 的日期是推断值（本机时间戳已被 git 检出覆盖），不是从文件内容确证的
 事实。

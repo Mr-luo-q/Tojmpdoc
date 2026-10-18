@@ -1,0 +1,88 @@
+﻿==============================================================
+ 第 1 步 · 安装 ONNX Runtime 与 TFLite Runtime
+==============================================================
+[1;32m==>[0m pkg install onnxruntime python-tflite-runtime python-numpy
+Setting up python-pip (26.2.1) ...
+
+pip setup...
+
+Writing to /data/data/com.termux/files/usr/etc/pip.conf
+
+Setting up libre2 (2025-11-05-2) ...
+
+Setting up glib (2.90.1) ...
+
+No schema files found: doing nothing.
+
+Setting up onnxruntime (1.29.0) ...
+
+Setting up python-tflite-runtime (2.21.0) ...
+
+Installing dependencies for python-tflite-runtime through pip...
+
+Requirement already satisfied: tflite-runtime in ./data/data/com.termux/files/usr/lib/python3.14/site-packages (2.21.0)
+
+Requirement already satisfied: numpy>=1.23.2 in ./data/data/com.termux/files/usr/lib/python3.14/site-packages (from tflite-runtime) (2.4.4)
+
+Setting up pkg-config (0.29.2-3) ...
+
+
+==============================================================
+ 第 2 步 · ONNX Runtime 的 NNAPI Execution Provider
+==============================================================
+导入 onnxruntime 失败: No module named 'onnxruntime'
+
+==============================================================
+ 第 3 步 · TFLite Runtime 的 NNAPI delegate
+==============================================================
+Exception ignored while calling deallocator <function Delegate.__del__ at 0x755f32c720>:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/tflite_runtime/interpreter.py", line 122, in __del__
+    self._library.tflite_plugin_destroy_delegate.argtypes = [ctypes.c_void_p]
+  File "/data/data/com.termux/files/usr/lib/python3.14/ctypes/__init__.py", line 486, in __getattr__
+    func = self.__getitem__(name)
+  File "/data/data/com.termux/files/usr/lib/python3.14/ctypes/__init__.py", line 491, in __getitem__
+    func = self._FuncPtr((name_or_ordinal, self))
+AttributeError: undefined symbol: tflite_plugin_destroy_delegate
+Exception ignored while calling deallocator <function Delegate.__del__ at 0x755f32c720>:
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.14/site-packages/tflite_runtime/interpreter.py", line 122, in __del__
+    self._library.tflite_plugin_destroy_delegate.argtypes = [ctypes.c_void_p]
+  File "/data/data/com.termux/files/usr/lib/python3.14/ctypes/__init__.py", line 486, in __getattr__
+    func = self.__getitem__(name)
+  File "/data/data/com.termux/files/usr/lib/python3.14/ctypes/__init__.py", line 491, in __getitem__
+    func = self._FuncPtr((name_or_ordinal, self))
+AttributeError: undefined symbol: tflite_plugin_destroy_delegate
+tflite_runtime 导入成功
+与 delegate 相关的符号: ['Delegate']
+
+尝试构造 NNAPI delegate:
+   load_delegate('libneuralnetworks.so') -> 失败: AttributeError: undefined symbol: tflite_plugin_create_delegate
+   load_delegate('/apex/com.android.neuralnetworks/lib64/libneuralnetworks.so') -> 失败: AttributeError: undefined symbol: tflite_plugin_create_delegate
+判据: 没有可用的 NNAPI delegate 加载路径
+
+==============================================================
+ 第 4 步 · 直接用 C API 走一遍完整 NNAPI 流程（不依赖任何 Python 包）
+==============================================================
+[1;32m==>[0m 编译成功，运行
+枚举到设备数: 4
+Model_create rc=0
+addOperation(ADD) rc=4
+Model_finish rc=4
+
+==============================================================
+ 小结
+==============================================================
+ 判读：
+
+ ONNX Runtime 有 NnapiExecutionProvider，或 TFLite 能 load_delegate NNAPI
+     → NPU 有现成的落地工具，下一步只需准备一个转换好的模型
+       （int8 量化的 ONNX 或 TFLite），就能实测 NPU 推理速度
+
+ 两者都没有，但第 4 步的 C API 流程能跑到 Compilation_finish 返回 0
+     → NPU 在系统层面可用，只是 Termux 的现成包没开这个后端，
+       需要自己写 NNAPI 调用代码或找带 NNAPI 的构建
+
+ 全都失败
+     → 枚举得到设备但无法实际使用，NPU 到此为止
+
