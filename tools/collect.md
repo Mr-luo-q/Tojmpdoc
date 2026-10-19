@@ -17,7 +17,16 @@
   树莓派         D:\项目\树莓派            扫描整个目录
   手机部署       D:\项目\手机部署          扫描整个目录
 
-命令行参数：--dry-run，只打印动作不落盘。
+命令行参数：--dry-run 只打印动作不落盘；--date MMDD 只归档指定日期，可重复传入。
+```
+
+常用命令：
+
+```powershell
+python tools\collect.py
+python tools\collect.py --dry-run
+python tools\collect.py --date 1019 --dry-run
+python tools\collect.py --date 1019
 ```
 
 ## 输出
@@ -34,7 +43,7 @@ Tojmpdoc/source.md                             未入库登记：路径 / 体积
 遍历源目录下的每个文件
   ├─ 路径命中 exclude 正则？
   │      → 跳过（第三方源码、浏览器 profile、运行时日志、离线安装包）
-  ├─ 扩展名不在 TEXT_EXTS / ARCHIVE_EXTS？
+  ├─ 扩展名不在 TEXT_EXTS / ARCHIVE_EXTS，且没有命中该工程的 extra_exts？
   │      → 跳过（模型权重、图片、二进制）
   ├─ 体积超上限（文本 512 KB，压缩包 2 MB）？
   │      → 记进 source.md 的「超限」表，不复制
@@ -80,6 +89,7 @@ Tojmpdoc/source.md                             未入库登记：路径 / 体积
 以及「另有 git 远端、未并入」的外部仓库。
 
 `main()`：入口，串起「扫描 → 复制 → 写索引与登记表」，并打印每个日期收了多少文件。
+`--date` 只过滤要复制的记录和要重写的日期索引，`source.md` 仍保留全工程的超限登记。
 
 ## 怎么改
 
@@ -90,7 +100,10 @@ Tojmpdoc/source.md                             未入库登记：路径 / 体积
 某个目录时间戳不可信      在该工程的 date_rules 里加一条 (正则, "MMDD")
 体积大的东西要登记        改 UNTRACKED，加一条 (工程 key, 相对路径, 原因)
 新增扩展名                改 TEXT_EXTS 或 ARCHIVE_EXTS
+某个工程只放行少量图片/XML 改该工程的 extra_exts（正则白名单，避免全局收图）
 ```
+
+当前只有 `手机部署` 工程配置了 `extra_exts`，用于收录 `research/mnn-20261019/termux*.png` 和 `termux*.xml` 这类 MNN 部署过程证据。其他目录的图片仍然不入库。
 
 ## 已验证与未验证
 

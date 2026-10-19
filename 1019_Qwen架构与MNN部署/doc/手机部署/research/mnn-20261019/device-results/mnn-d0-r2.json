@@ -1,0 +1,1 @@
+{"model":"Qwen3.5-0.8B-MNN","modelSize":0.43807794712483885,"backend":"CPU","threads":4,"useMmap":false,"precision":2,"memory":2,"power":0,"quantKv":0,"flashAttention":1,"results":[{"type":"decode","generate_len":64,"tps":49.7763528229258,"std":0.28723913769489647}]}

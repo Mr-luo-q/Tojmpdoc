@@ -61,7 +61,7 @@ DATE_NOTES = {
     "1013": "端侧前缀缓存测评方案与实测数据；树莓派有线直连排障手册",
     "1014": "端侧方案 B（房间信息前置）与交接包；手机提速调研、复现手册与真机实测结果",
     "1015": "三台设备（氛围灯 / 美的温湿度计 / 涂鸦 Zigbee）接入情况；手机端五模型同场测速与答案质量排名（Redmi K70E）",
-    "1019": "Qwen3-0.6B 前向架构详解：GQA、QK-Norm、SwiGLU、RMSNorm 与 KV Cache",
+    "1019": "Qwen3-0.6B 前向架构详解；K70E 上的 MNN 3.6.1 CPU 部署、端到端生成与同机 llama.cpp 对照",
 }
 
 # 目录名用的短标题：日期在前、主要内容在后，例如 1012_MQTT与设备接入实测。
@@ -80,7 +80,7 @@ DATE_TITLES = {
     "1013": "端侧缓存测评与树莓派排障",
     "1014": "端侧方案B与手机提速",
     "1015": "三设备接入与五模型测速",
-    "1019": "Qwen3-0.6B前向架构详解",
+    "1019": "Qwen架构与MNN部署",
 }
 
 # 外部仓库指针：不在本仓库内，单独有 git 远端
@@ -141,8 +141,24 @@ PROJECTS = [
             r"^\.memorax-code/",
             r"^\.docs-html/",               # 由 md 生成的手机端 HTML，内容重复
             r"^tools/platform-tools/",      # Android 官方工具二进制
+            r"^publish/",                   # 本次发布用的临时 clone，不能递归归档
+            r"^research/mnn-20261019/build/",
+            r"^research/mnn-20261019/build-direct-test/",
+            r"^research/mnn-20261019/tmp/",
+            r"^research/mnn-20261019/toolchain/",
+            r"^research/mnn-20261019/src/extracted/",
+            r"^research/mnn-20261019/llama-cpp/",
+            r"^research/mnn-20261019/release-3.6.1/",
+            r"^research/mnn-20261019/test\.o$",
+            r"^README\.md$",                # 根说明已在仓库总览维护，不重复归档
+            r"^手机小模型提速调研与复现\.md$",
+            r"^手机小模型提速复现操作手册\.md$",
+            r"^部署总结\.md$",
+            r"^research/speed-20261014/验证记录\.md$",
             r"__pycache__/",
         ],
+        # MNN 的截图和 UI dump 是这次部署的过程证据，只放行这个子目录。
+        "extra_exts": [r"^research/mnn-20261019/termux.*\.(png|xml)$"],
         "date_rules": [],
     },
     {
@@ -196,6 +212,17 @@ UNTRACKED = [
     ("树莓派", r"树莓派配置记录.md", "含树莓派与热点口令，文档自身要求不入 git"),
     ("手机部署", r".docs-html", "由 markdown 生成的手机端 HTML，内容与 md 重复"),
     ("手机部署", r"tools\platform-tools", "Android 官方 platform-tools 二进制"),
+    ("手机部署", r"research\mnn-20261019\mnn_chat_0_8_3.apk", "MNN Chat 官方 APK，HyperOS 安装受限，可重新下载"),
+    ("手机部署", r"research\mnn-20261019\toolchain", "Android NDK r28b 压缩包与解压目录，体积大"),
+    ("手机部署", r"research\mnn-20261019\src\extracted", "MNN 3.6.1 解压源码，构建时可重新生成"),
+    ("手机部署", r"research\mnn-20261019\build", "Android 编译产物，可重新编译"),
+    ("手机部署", r"research\mnn-20261019\tmp", "编译临时目录"),
+    ("手机部署", r"research\mnn-20261019\llama-cpp", "llama.cpp Android 预编译包下载未完成，仅用于对照尝试"),
+    ("手机部署", r"research\mnn-20261019\test.o", "编译测试临时对象"),
+    ("手机部署", r"research\mnn-20261019\model\Qwen3.5-0.8B-MNN\llm.mnn", "MNN LLM 计算图，可重新下载"),
+    ("手机部署", r"research\mnn-20261019\model\Qwen3.5-0.8B-MNN\llm.mnn.weight", "MNN 4-bit 主权重，约 470 MB，可重新下载"),
+    ("手机部署", r"research\mnn-20261019\model\Qwen3.5-0.8B-MNN\visual.mnn", "MNN 视觉编码器计算图，可重新下载"),
+    ("手机部署", r"research\mnn-20261019\model\Qwen3.5-0.8B-MNN\visual.mnn.weight", "MNN 视觉编码器权重，约 60 MB"),
     ("小模型研究", r"models", "Qwen3-0.6B 原权重与导出模型，体积大，可重新下载/导出"),
     ("小模型研究", r"toolchains", "Android NDK 等工具链，体积大，可重新下载"),
 ]
@@ -262,7 +289,8 @@ def scan_project(project: dict) -> tuple[list[dict], list[dict]]:
             if is_excluded(rel, project["exclude"]):
                 continue
             ext = src.suffix.lower()
-            if ext not in TEXT_EXTS and ext not in ARCHIVE_EXTS:
+            extra = any(re.search(pattern, rel) for pattern in project.get("extra_exts", []))
+            if ext not in TEXT_EXTS and ext not in ARCHIVE_EXTS and not extra:
                 continue
             stat = src.stat()
             record = {
@@ -458,6 +486,8 @@ def main() -> int:
     sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="按日期归档文档到 Tojmpdoc")
     parser.add_argument("--dry-run", action="store_true", help="只打印动作，不写文件")
+    parser.add_argument("--date", action="append", dest="dates",
+                        help="只归档指定 MMDD；可重复传入，例如 --date 1019")
     args = parser.parse_args()
 
     records: list[dict] = []
@@ -469,9 +499,18 @@ def main() -> int:
         picked, over = scan_project(project)
         for record in picked:
             record["date"] = pick_date(project, record["rel"], record["mtime"])
+        for record in over:
+            record["date"] = pick_date(project, record["rel"], record["mtime"])
         records.extend(picked)
         oversized.extend(over)
         print(f"[scan] {project['key']}: 收录 {len(picked)}，跳过超限 {len(over)}")
+
+    # --date 用于只归档当天产出；source.md 仍保留全工程的超限登记。
+    all_oversized = list(oversized)
+    if args.dates:
+        wanted = set(args.dates)
+        records = [record for record in records if record["date"] in wanted]
+        oversized = [record for record in oversized if record["date"] in wanted]
 
     # 两遍脱敏：新复制的副本，以及仓库里早先留下的快照
     redact_hits = copy_all(records, args.dry_run) + redact_repo(args.dry_run)
@@ -482,10 +521,15 @@ def main() -> int:
     for record in records:
         by_date.setdefault(record["date"], []).append(record)
     # 索引按目录里的实际文件生成，这样文件后来改到别的日期时，旧目录的清单仍然准确
-    for dir_name in sorted(p.name for p in REPO_ROOT.iterdir()
-                           if p.is_dir() and re.fullmatch(r"\d{4}_.+", p.name)):
-        write_date_readme(dir_name, args.dry_run)
-    write_source_md(oversized, redact_hits, args.dry_run)
+    if args.dates:
+        date_dirs = [date_dir(date) for date in sorted(set(args.dates))]
+    else:
+        date_dirs = sorted(p.name for p in REPO_ROOT.iterdir()
+                           if p.is_dir() and re.fullmatch(r"\d{4}_.+", p.name))
+    for dir_name in date_dirs:
+        if (REPO_ROOT / dir_name).exists():
+            write_date_readme(dir_name, args.dry_run)
+    write_source_md(all_oversized, redact_hits, args.dry_run)
 
     for date in sorted(by_date):
         if date not in DATE_TITLES:
