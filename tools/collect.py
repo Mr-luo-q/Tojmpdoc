@@ -3,7 +3,7 @@
 """collect.py —— 按产出日期归档：把各工程里的文档与配套脚本收进 Tojmpdoc。
 
 输入：
-    PROJECTS 表里声明的本机源工程目录（D:\\项目\\simuhome-ljb、D:\\项目\\树莓派、D:\\项目\\手机部署）。
+    PROJECTS 表里声明的本机源工程目录（D:\\项目\\simuhome-ljb、D:\\项目\\树莓派、D:\\项目\\手机部署、D:\\项目\\小模型研究）。
 输出：
     Tojmpdoc/<MMDD>/doc/<工程>/<原相对路径>   复制过来的文件（保留原始修改时间）
     Tojmpdoc/<MMDD>/README.md                 当天索引（含文件清单）
@@ -61,6 +61,7 @@ DATE_NOTES = {
     "1013": "端侧前缀缓存测评方案与实测数据；树莓派有线直连排障手册",
     "1014": "端侧方案 B（房间信息前置）与交接包；手机提速调研、复现手册与真机实测结果",
     "1015": "三台设备（氛围灯 / 美的温湿度计 / 涂鸦 Zigbee）接入情况；手机端五模型同场测速与答案质量排名（Redmi K70E）",
+    "1019": "Qwen3-0.6B 前向架构详解：GQA、QK-Norm、SwiGLU、RMSNorm 与 KV Cache",
 }
 
 # 目录名用的短标题：日期在前、主要内容在后，例如 1012_MQTT与设备接入实测。
@@ -79,6 +80,7 @@ DATE_TITLES = {
     "1013": "端侧缓存测评与树莓派排障",
     "1014": "端侧方案B与手机提速",
     "1015": "三设备接入与五模型测速",
+    "1019": "Qwen3-0.6B前向架构详解",
 }
 
 # 外部仓库指针：不在本仓库内，单独有 git 远端
@@ -87,6 +89,8 @@ EXTERNAL_REPOS = [
      "科研主线文档仓库（训练数据、接口交接、UbiComp 讨论等），文件时间戳被 git 检出覆盖，无法按日期归档，未并入"),
     (r"D:\项目\simuhome-ljb", "https://github.com/Mr-luo-q/simuhome-ljb.git",
      "智能家居工程本体：代码、部署脚本、MQTT/MCP 工程、论文资料。本仓库只镜像它的文档"),
+    (r"D:\项目\小模型研究\MNN", "https://github.com/Mr-luo-q/MNN.git",
+     "MNN 源码与构建工程；本仓库只归档 1019.md 架构文档"),
 ]
 
 # 源工程表
@@ -141,6 +145,21 @@ PROJECTS = [
         ],
         "date_rules": [],
     },
+    {
+        "key": "小模型研究",
+        "root": Path(r"D:\项目\小模型研究"),
+        "scan": ["."],
+        "exclude": [
+            r"^\.memorax-code/",
+            r"^MNN/",                       # MNN 源码与构建目录，按文档单独维护
+            r"^models/",                    # 模型权重，不属于文档归档
+            r"^toolchains/",                # Android NDK 等工具链
+            r"^clone-mnn\.ps1$",
+            r"^list\.txt$",
+            r"__pycache__/",
+        ],
+        "date_rules": [],
+    },
 ]
 
 # 入库前脱敏表：本机设备口令会被顺手写进文档里，归档副本按下面的规则统一替换，本机原件不动。
@@ -177,6 +196,8 @@ UNTRACKED = [
     ("树莓派", r"树莓派配置记录.md", "含树莓派与热点口令，文档自身要求不入 git"),
     ("手机部署", r".docs-html", "由 markdown 生成的手机端 HTML，内容与 md 重复"),
     ("手机部署", r"tools\platform-tools", "Android 官方 platform-tools 二进制"),
+    ("小模型研究", r"models", "Qwen3-0.6B 原权重与导出模型，体积大，可重新下载/导出"),
+    ("小模型研究", r"toolchains", "Android NDK 等工具链，体积大，可重新下载"),
 ]
 
 
