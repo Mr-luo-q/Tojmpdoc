@@ -1,0 +1,27 @@
+{
+    "max_new_tokens": 8192,
+    "llm_model": "llm.mnn",
+    "llm_weight": "llm.mnn.weight",
+    "backend_type": "cpu",
+    "thread_num": 4,
+    "precision": "low",
+    "memory": "low",
+    "sampler_type": "greedy",
+    "mllm": {
+        "backend_type": "cpu",
+        "thread_num": 4,
+        "precision": "normal",
+        "memory": "low"
+    },
+    "jinja": {
+        "context": {
+            "enable_thinking": false
+        }
+    },
+    "speculative_type": "lookahead",
+    "draft_predict_length": 8,
+    "draft_match_strictness": "low",
+    "draft_selection_rule": "freqxlen",
+    "ngram_match_maxlen": 4,
+    "ngram_update": true
+}

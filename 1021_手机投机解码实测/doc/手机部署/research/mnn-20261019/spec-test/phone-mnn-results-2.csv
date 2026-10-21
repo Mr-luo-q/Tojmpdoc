@@ -1,0 +1,13 @@
+﻿model,prompt,mode,run,prefill,decode,tokens
+Qwen3-0.6B-MNN,repeat,lookahead8,1,231.20,129.93,51
+Qwen3-0.6B-MNN,repeat,lookahead12,1,inf,nan,0
+Qwen3-0.6B-MNN,repeat,lookahead16,1,inf,nan,0
+Qwen3.5-2B-MNN,repeat,lookahead8,1,79.08,45.93,48
+Qwen3.5-2B-MNN,repeat,lookahead12,1,nan,inf,1
+Qwen3.5-2B-MNN,natural,lookahead8,1,90.92,18.85,30
+Qwen3-0.6B-MNN,repeat,lookahead8,2,228.48,128.66,51
+Qwen3-0.6B-MNN,repeat,lookahead12,2,inf,nan,0
+Qwen3-0.6B-MNN,repeat,lookahead16,2,inf,nan,0
+Qwen3.5-2B-MNN,repeat,lookahead8,2,78.99,45.18,48
+Qwen3.5-2B-MNN,repeat,lookahead12,2,nan,inf,1
+Qwen3.5-2B-MNN,natural,lookahead8,2,92.19,18.96,30
