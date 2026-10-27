@@ -1,0 +1,102 @@
+# 沙盒用的 MCP server 配置。
+#
+# 为什么不放在 ha_mcp_universal\config.yaml：那会往源目录里写文件。
+# 这里放在 _work\ 下，和仓库原有的 config.example.yaml 分开，改动不混在一起。
+# 用法：把工作目录设为 _work\mcp，然后 --config 指向本文件。
+# 注意：配置里的相对路径（./data/...）以运行时的当前目录为基准，
+#       所以记忆文件、别名表、预约库都会落在 _work\mcp\data\ 下。
+#
+# 内容与 ha_mcp_universal\config.example.yaml 等价，只改了注释。
+
+ha:
+  base_url: http://localhost:8123
+  token: ${HA_TOKEN}
+  timeout_s: 25
+
+rooms:
+  living_room: living_room
+  kitchen: kitchen
+  utility_room: utility_room
+
+room_env: {}
+devices: {}
+doors: []
+
+# 认领规则：决定"哪些实体属于 MCP"
+claim:
+  - name: sandbox
+    platforms: [mqtt]
+    unique_id_prefix: simuhome_
+    id_source: identifier
+    kind_by_suffix:
+      _switch: switch
+      _climate: climate
+      _fan: fan
+  - name: xiaomi
+    platforms: [xiaomi_home]
+    domains: [switch, light, climate, fan, cover, number, select, sensor]
+    id_source: device_name
+    exclude_category: [config, diagnostic]
+    exclude_entities: ["button.*", "update.*", "*_reset_*"]
+  - name: local                 # 本机自己用 MQTT discovery 报的设备
+    platforms: [mqtt]           # 目前是 _work\bt_speaker 那座蓝牙音箱桥
+    unique_id_prefix: bt_       # unique_id = bt_speaker_switch
+    id_source: identifier       # 设备标识 bt_speaker → 逻辑 id speaker
+    kind_by_suffix:
+      _switch: switch
+  - name: zigbee                # ZB-GW04 + Z2M 接进来的 Zigbee 设备
+    platforms: [mqtt]           # Z2M 走 MQTT discovery，平台仍是 mqtt
+    unique_id_prefix: "0x"      # Z2M 的 unique_id 形如 0xa4c138..._temperature_zigbee2mqtt
+    domains: [sensor]           # 目前只收传感器；以后接插座/门磁时把域补上
+    id_source: device_name      # 设备名（已改成 th01）→ 逻辑 id th01
+
+areas:
+  # 小米集成会把米家账号里的"家"和"房间"也建成 HA 的 area，
+  # 于是 observe_home 里会多出 2646196763de_jia、ke_ting、chu_fang、wo_shi 这些。
+  # 前三个是米家那边没放设备的空房间，用 hide_empty 隐掉；
+  # 米家的"家"用 alias 改成一个能看懂的名字。
+  alias:
+    2646196763de_jia: 米家
+  hide_empty: true
+
+aliases:
+  file: ./data/device_aliases.yaml
+
+execution:
+  verify_after_action: true
+  verify_delay_ms: 800
+  verify_attempts: 4
+
+events:
+  exclude_entities:
+    - sensor.simuhome_virtual_time
+
+memory:
+  file: ./data/memory.yaml
+  max_write_tokens: 200
+  max_read_tokens: 300
+
+time:
+  timezone: Asia/Shanghai
+  db: ./data/schedules.db
+  max_horizon_days: 7
+  max_steps: 8
+
+tools:
+  expose:
+    - observe_home
+    - inspect_room
+    - inspect_device
+    - execute_action
+    - finish
+    - inspect_time
+    - time_control
+    - memory
+
+server:
+  transport: stdio
+  # 走 stdio，用不到 HTTP 段。想开 HTTP 模式时再加回来，并设置 MCP_TOKEN 环境变量：
+  # http:
+  #   host: 127.0.0.1
+  #   port: 8765
+  #   auth_token: ${MCP_TOKEN}
